@@ -18,7 +18,8 @@ From the book "Learn Objective-C on the Mac" by Mark Dalrymple and Scott Knaster
 
 >"The .m extension originally stood for "**m**essages" when Objective-C was first introduced, referring to a central feature of Objective-C [...]"
 
-Reference:[http://stackoverflow.com/questions/652186/why-do-objective-c-files-use-the-m-extension](http://stackoverflow.com/questions/652186/why-do-objective-c-files-use-the-m-extension)
+Reference:  
+[http://stackoverflow.com/questions/652186/why-do-objective-c-files-use-the-m-extension](http://stackoverflow.com/questions/652186/why-do-objective-c-files-use-the-m-extension)
 
 ####3.How to solve the problem that when we add .gitignore file after you have already commited,or you have modified the .gitignore file while .gitignore file has no effect? 
 
@@ -36,7 +37,8 @@ A:In the Git code management,when we have REMOVED some files,directories or kind
 
 >`git commit -m "Refresh removing *.* from .gitignore file."`
 
-Reference:[http://www.ifeegoo.com/git-code-management-dot-gitignore-file-has-no-effect-solution.html](http://www.ifeegoo.com/git-code-management-dot-gitignore-file-has-no-effect-solution.html)
+Reference:  
+[http://www.ifeegoo.com/git-code-management-dot-gitignore-file-has-no-effect-solution.html](http://www.ifeegoo.com/git-code-management-dot-gitignore-file-has-no-effect-solution.html)
 
 ####4.Programming Font
 
@@ -47,8 +49,7 @@ Programming Font have the following features:
 
 >3.Support extension charset.
 
-Here is a programming fonts collection git repository on Github collected by ifeegoo:
-
+Here is a programming fonts collection git repository on Github collected by ifeegoo:  
 [https://github.com/ifeegoo/ifeegoo-programming-fonts-collection](https://github.com/ifeegoo/ifeegoo-programming-fonts-collection)
 
 ***
