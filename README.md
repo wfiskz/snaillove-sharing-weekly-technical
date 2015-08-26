@@ -52,10 +52,23 @@ Programming Font have the following features:
 Here is a programming fonts collection git repository on Github collected by ifeegoo:  
 [https://github.com/ifeegoo/ifeegoo-programming-fonts-collection](https://github.com/ifeegoo/ifeegoo-programming-fonts-collection)
 
-####5.Computer Robot
+***
+
+[@chenyunxuan](https://github.com/chenyunxuan)
+
+####5.Computer crawl
 
 Web crawler (also known as Web Spider, Web robot, in the middle of the FOAF community, more often referred to as page Chaser), is in accordance with certain rules, programs or scripts that automatically crawl the world wide web of information.Other less frequently used names are ants, automatic indexing, simulation program, or worm.
 
 Here is the open source project's address
 
 ***
+
+[@misparking](https://github.com/misparking)
+
+####6.Supporting Multiple Screens
+
+Considerating of  the Android screen fragmentation serious , each Android smartphone  screen has a fixed initial density, these Numbers are 120, 160, 240, 320, 480. We can known as the "density" system.Android to zoom ratio of interface elements on the basis of density is system, not the actual density.So we just try to fit the density, can be in most of the normal operation of the smartphone.
+
+Reference:  
+[http://www.misparking.com/android-multiple-screens-support.html](http://www.misparking.com/android-multiple-screens-support.html)
