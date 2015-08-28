@@ -1,10 +1,57 @@
 # snaillove-weekly-technical-sharing
 This is the weekly technical sharing in the company.
 
-### #2 2015-08-28(Fri)
+### #3 2015-08-28(Fri)
 
 ***
 
+[@ifeegoo](http://github.com/ifeegoo)
+
+####1.A summary of writing Android Javadoc documentation.
+
+It's very important for you to master the writing of Android Javadoc documentation,especially when you are developing a SDK.
+
+Reference:
+[http://www.ifeegoo.com/android-writing-javadoc-documentation-summary.html](http://www.ifeegoo.com/android-writing-javadoc-documentation-summary.html)
+
+####2.Alexa Rank
+
+Alexa Rank is a global website ranking system.
+
+Global Top 10 websites:
+10.[http://google.co.in](http://google.co.in)
+9.[http://www.twitter.com](http://www.twitter.com)
+8.[http://www.qq.com](http://www.qq.com)
+7.[http://www.wikipedia.org](http://www.wikipedia.org)
+6.[http://www.amazon.com](http://www.amazon.com)
+5.[http://www.yahoo.com](http://www.yahoo.com)
+4.[http://www.baidu.com](http://www.baidu.com)
+3.[http://www.youtube.com](http://www.youtube.com)
+2.[http://www.facebook.com](http://www.facebook.com)
+1.[http://www.google.com](http://www.google.com)
+
+[http://www.stackoverflow.com](http://www.stackoverflow.com)
+Alexa Rank:56
+
+[http://www.github.com](http://www.github.com)
+Alexa Rank:90
+
+Reference:
+[http://www.alexa.com](http://www.alexa.com)
+[http://alexa.chinaz.com/](http://alexa.chinaz.com/)
+
+####3.Github Rank
+
+Github Rank is an interesting rank for you to know that who contributes most and who has the largest followers,and who has the longest streak and so on.
+
+Reference:
+[Github Official Rank](https://gist.github.com/paulmillr/2657075)
+[OutOfMemory Github Rank](http://outofmemory.cn/github/)
+[Github Rank](http://githubrank.com/)
+
+####4.Mobile Internet Community
+
+Now we have more and more professional and the exact area community for the mobile internet.For example,[稀土](https://xitu.io/) and [程序员客栈](http://www.proginn.com/) for you to find the excellent people int the area of mobile internet.
 ***
 
 ### #2 2015-08-21(Fri)
