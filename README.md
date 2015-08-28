@@ -1,8 +1,13 @@
 # snaillove-weekly-technical-sharing
 This is the weekly technical sharing in the company.
 
+### #2 2015-08-28(Fri)
 
-### #1 2015-08-21(Fri)
+***
+
+***
+
+### #2 2015-08-21(Fri)
 
 ***
 
@@ -72,3 +77,19 @@ Considerating of  the Android screen fragmentation serious , each Android smartp
 
 Reference:  
 [http://www.misparking.com/android-multiple-screens-support.html](http://www.misparking.com/android-multiple-screens-support.html)
+
+***
+
+### #1 2015-08-14(Fri)
+
+***
+
+[@chenyunxuan](https://github.com/chenyunxuan)
+
+####1.Computer crawl
+
+Web crawler (also known as Web Spider, Web robot, in the middle of the FOAF community, more often referred to as page Chaser), is in accordance with certain rules, programs or scripts that automatically crawl the world wide web of information.Other less frequently used names are ants, automatic indexing, simulation program, or worm.
+
+Here is the open source project's address
+
+***
