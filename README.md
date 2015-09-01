@@ -54,6 +54,11 @@ Reference:
 Now we have more and more professional and the exact area community for the mobile internet.For example,[稀土](https://xitu.io/) and [程序员客栈](http://www.proginn.com/) for you to find the excellent people int the area of mobile internet.
 ***
 
+####5.Use GitHub to create a blog
+
+This is the article I wrote about it.[利用github创建自己的博客](http://fiskz.com/share/2015/08/29/crete-github-pages.html).
+***
+
 ### #2 2015-08-21(Fri)
 
 ***
