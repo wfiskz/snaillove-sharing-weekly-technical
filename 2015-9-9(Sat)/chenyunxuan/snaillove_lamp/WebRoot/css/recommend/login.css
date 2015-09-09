@@ -1,0 +1,18 @@
+/*login*/
+#login{width:100%;min-width:1004px;height:100%;min-height:600px;position:absolute;top:0;left:0;background:url(../images/login_bg.png) #e4eff4 0 0 repeat;overflow:hidden;}
+#login .box{width:554px;height:168px;position:absolute;top:50%;left:50%;margin:-84px 0 0 -277px;background:url(../images/separator.png) 243px center no-repeat;}
+#login .logo{width:250px;height:86px;margin-top:28px;text-align:center;}
+#login .login-box{width:290px;}
+#login .log-content{width:280px;height:116px;margin:20px auto;overflow:hidden;}
+#login .log-content .form-row{height:34px;}
+#login .log-content .form-row .label{color:#999;font-family:"Microsoft YaHei","STSong";font-weight:normal;display:inline-block;line-height:34px;font-size:14px;text-align:center;width:66px;}
+#login .log-content .form-row .input{border:0;color:#5a5959;height:20px;line-height:20px;margin:7px;width:184px;color:#284c6a;font-size:14px;font-family:"Microsoft YaHei","STSong";font-weight:normal;}
+#login .log-content .form-row .input:hover{background-color:#f7f7ec;}
+#login .log-content .form-row .input:focus{background-color:#f7f7ec;}
+#login .log-content .form-row .input-bg{width:198px;height:34px;display:inline;background:url(../images/input.png) no-repeat;overflow:hidden;}
+#login .log-content .form-row_2{line-height:16px;padding-left:68px;padding-bottom:1px;}
+#login .log-content .form-row_3{ width:130px;height:20px;line-height:20px;padding-left:66px;padding-top:5px;clear:both;float:left;}
+#login .log-content .form-row_3 .mar{vertical-align:sub;}
+#login .log-content .form-row_3 .checkbox{margin:4px 0 0 0;vertical-align:top;overflow:hidden;}
+#login .log-content .btn{ display:inline; float:left; padding-top:5px;}
+#login .log-content .btn .to-login{width:67px;height:24px;background:url(../images/login_btn.png) no-repeat;border:0 none;cursor:pointer;}

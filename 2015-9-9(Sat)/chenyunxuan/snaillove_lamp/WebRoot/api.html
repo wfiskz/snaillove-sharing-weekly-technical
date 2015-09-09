@@ -1,0 +1,2450 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 5px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+  a {
+  	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  	box-shadow:inset 0px 1px 0px 0px #ffffff;
+  	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+  	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+  	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+  	background-color:#ededed;
+  	-moz-border-radius:6px;
+  	-webkit-border-radius:6px;
+  	border-radius:6px;
+  	border:1px solid #dcdcdc;
+  	display:inline-block;
+  	color:#777777;
+  	font-family:arial;
+  	font-size:15px;
+  	font-weight:bold;
+  	padding:4px 14px;
+  	text-decoration:none;
+  	text-shadow:1px 1px 0px #ffffff;
+  }
+  a:hover {
+  	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+  	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+  	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+  	background-color:#dfdfdf;
+  }
+  a:active {
+  	position:relative;
+  	top:1px;
+  }
+
+/*a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+*/
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0; }
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+ul :last-child, ol :last-child {
+  margin-bottom: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+</style>
+<title>Web端接口访问</title>
+
+</head>
+<body>
+<h2>Phone端接口地址</h2>
+请求地址:url=http://192.168.1.18:44466/rabbit/interface.action
+
+<h2>请求必须带上的请求参数</h2>
+?method=getBannerList
+
+
+
+
+<h3>网络接口</h3>
+<ol>
+ <li>
+  <h3>获得banner列表</h3>
+<p>  获得banner列表</p>
+<p> <strong>路径</strong>：</p>
+<p>?method=getBannerList</p>
+<p> <strong>方式</strong>：</p>
+<p> get</p>
+<p> <strong>上行参数</strong>：</p>
+<table>
+<thead>
+<tr>
+<th width="90"> 名称        </th>
+<th align="center" width="70"> 类型           </th>
+<th align="right" width="86">是否可空</th>
+<th align="right" width="71">默认值</th>
+<th align="right" width="80">说明</th>
+</tr>
+</thead>
+<tbody>
+
+</tbody>
+</table>
+<p> <strong>下行数据</strong>：</p>
+<pre><code>
+{
+    "content": {
+        "bannerList": [
+            {
+                "id": 57,
+                "link": "50",
+                "linktype": "2",
+                "path": "http://resource.alilo.com.cn/Upload/Image/2013/11/26/18/52947e1eaa8bc.png"
+            },
+            {
+                "id": 53,
+                "link": "7",
+                "linktype": "3",
+                "path": "http://resource.alilo.com.cn/Upload/Image/2014/03/10/10/531d26e580117.png"
+            },
+            {
+                "id": 49,
+                "link": "5",
+                "linktype": "1",
+                "path": "http://resource.alilo.com.cn/Upload/Image/2013/11/27/11/5295620e1ad85.png"
+            },
+            {
+                "id": 5,
+                "link": "http://www.alilo.com.cn/?app=shop&action=detail&id=29",
+                "linktype": "4",
+                "path": "http://resource.alilo.com.cn/Upload/Image/2014/11/04/13/5458664885298.png"
+            }
+        ],
+        "status": {
+            "msg": "ok",
+            "ret": 1
+        }
+    }
+}
+</code></pre>
+<p> <strong>测试地址:</strong></p>
+<a href="http://localhost:8080/rabbit/interface.action?method=getBannerList">http://localhost:8080/rabbit/interface.action?method=getBannerList</a>
+<p>&nbsp;</p>
+</li>
+ <li>
+  <h3>获得专家推荐专题列表</h3>
+<p>  获得专家推荐专题列表</p>
+<p> <strong>路径</strong>：</p>
+<p>?method=getRecommendList</p>
+<p> <strong>方式</strong>：</p>
+<p> get</p>
+<p> <strong>上行参数</strong>：</p>
+<table>
+<thead>
+<tr>
+<th width="90"> 名称        </th>
+<th align="center" width="70"> 类型           </th>
+<th align="right" width="86">是否可空</th>
+<th align="right" width="71">默认值</th>
+<th align="right" width="80">说明</th>
+</tr>
+</thead>
+<tbody>
+
+</tbody>
+</table>
+<p> <strong>下行数据</strong>：</p>
+<pre><code>
+{
+    "content": {
+        "recommend": [
+            {
+                "agesection_id": 10,
+                "class_id": 58,
+                "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/05/16/14/5375ac021c891.png",
+                "description": "",
+                "id": 44,
+                "music_ids": "0",
+                "special_ids": "0,272,274,288,289,290,291,292,293,294,295,296,297,298,299,300,301,427",
+                "status": 1,
+                "title": "一千零一夜",
+                "type": 2
+            },
+            {
+                "agesection_id": 12,
+                "class_id": 54,
+                "coverpath": "http://resource.alilo.com.cn/Upload/Image/2013/12/02/14/529c2aa240ce7.jpg",
+                "description": "《三字经》是中华民族珍贵的文化遗产，它短小精悍、琅琅上口，千百年来，家喻户晓。其内容涵盖了历史、天文、地理、道德以及一些民间传说，所谓“熟读《三字经》，可知千古事”。",
+                "id": 15,
+                "music_ids": "0,10884,10885,10886,10887,10888,10889,10890,10891,10892,10893,10894,10895,10896,10897,10898,10899,10900,10901,10902,10903",
+                "special_ids": "0",
+                "status": 1,
+                "title": "论语",
+                "type": 1
+            },
+            {
+                "agesection_id": 10,
+                "class_id": 53,
+                "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/04/03/13/533cf3038a461.png",
+                "description": "想法产生行动，行动养成习惯，习惯变成性格，性格决定命运。",
+                "id": 13,
+                "music_ids": "0,2,603,605,608,609,610",
+                "special_ids": "0",
+                "status": 1,
+                "title": "懂得尊重",
+                "type": 1
+            },
+            {
+                "agesection_id": 10,
+                "class_id": 49,
+                "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/03/05/15/5316d376cd352.png",
+                "description": "音乐，创作，玩耍！",
+                "id": 12,
+                "music_ids": "0,12936,12937,12938,12941",
+                "special_ids": "0",
+                "status": 1,
+                "title": "儿歌大全",
+                "type": 1
+            },
+            {
+                "agesection_id": 10,
+                "class_id": 47,
+                "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/03/04/18/5315ae3d59bfb.png",
+                "description": "听音乐!",
+                "id": 10,
+                "music_ids": "0,11945,11948,11987,11991,11992,11996,11997,11999,12000,12002,12003",
+                "special_ids": "0",
+                "status": 1,
+                "title": "婴童儿歌",
+                "type": 1
+            },
+            {
+                "agesection_id": 5,
+                "class_id": 9,
+                "coverpath": "http://resource.alilo.com.cn/Upload/Image/2013/11/14/16/52848edbd1c80.jpg",
+                "description": "test",
+                "id": 9,
+                "music_ids": "62390148,62390149,62390150",
+                "special_ids": "",
+                "status": 1,
+                "title": "推荐1",
+                "type": 1
+            },
+            {
+                "agesection_id": 11,
+                "class_id": 54,
+                "coverpath": "http://resource.alilo.com.cn/Upload/Image/2013/11/26/18/529473d98e5fc.png",
+                "description": "唐诗宋词！",
+                "id": 8,
+                "music_ids": "0,9269,9270,9271,9272,9274,9275,9276,9277,9278,9279,9280,9281,9282,9283,9284,9285,9286,9287,9288,9289,9290,9291,9292,9293,9294,9295,9296,9297,9298,9299,9300,9301,9302,9303,9304,9305,9306,9307,9308,9309,9310,9311,9314,9315,9316,9317,9318,9319,9321,9323",
+                "special_ids": "0",
+                "status": 1,
+                "title": "唐诗宋词",
+                "type": 1
+            },
+            {
+                "agesection_id": 12,
+                "class_id": 54,
+                "coverpath": "http://resource.alilo.com.cn/Upload/Image/2013/11/26/18/529473e729db8.png",
+                "description": "弟子规",
+                "id": 7,
+                "music_ids": "0,8934,8935,8936,8937,8938,8939,8940,8941",
+                "special_ids": "0",
+                "status": 1,
+                "title": "弟子规",
+                "type": 1
+            },
+            {
+                "agesection_id": 9,
+                "class_id": 9,
+                "coverpath": "http://resource.alilo.com.cn/Upload/Image/2013/11/14/16/52848cdb144bb.jpg",
+                "description": "",
+                "id": 5,
+                "music_ids": "62002660,62002666,62002667,62195621,62195629,62195631,62195632,62567956",
+                "special_ids": "",
+                "status": 0,
+                "title": "外国",
+                "type": 1
+            },
+            {
+                "agesection_id": 9,
+                "class_id": 10,
+                "coverpath": "http://resource.alilo.com.cn/Upload/Image/2013/1030/5270d3123c3e6.jpg",
+                "description": "描述描述描述",
+                "id": 4,
+                "music_ids": "62002656,62002660,62002663,62002666,62002667,62002669,62002670,62195821,62195823",
+                "special_ids": "",
+                "status": 0,
+                "title": "六一儿童节11",
+                "type": 1
+            }
+        ],
+        "status": {
+            "msg": "ok",
+            "ret": 1
+        }
+    }
+}
+</code></pre>
+<p> <strong>测试地址:</strong></p>
+<a href="http://localhost:8080/rabbit/interface.action?method=getRecommendList">http://localhost:8080/rabbit/interface.action?method=getRecommendList</a>
+<p>&nbsp;</p>
+</li>
+  <li>
+  <h3>获得banner的单曲列表 type=1</h3>
+<p>  获得banner的单曲列表 type=1</p>
+<p> <strong>路径</strong>：</p>
+<p>?method=getOneMusic&type=1&link=5</p>
+<p> <strong>方式</strong>：</p>
+<p> get</p>
+<p> <strong>上行参数</strong>：</p>
+<table>
+<thead>
+<tr>
+<th width="90"> 名称        </th>
+<th align="center" width="70"> 类型           </th>
+<th align="right" width="86">是否可空</th>
+<th align="right" width="71">默认值</th>
+<th align="right" width="80">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>code</td>
+<td align="center">string</td>
+<td align="right">不可空</td>
+<td align="right">null</td>
+<td align="right">类目编码</td>
+</tr>
+<tr><td>page</td>
+<td align="center">integer</td>
+<td align="right">可空</td>
+<td align="right">1</td>
+<td align="right">当前页码</td>
+</tr>
+<tr>
+  <td>limit</td>
+  <td align="center">integer</td>
+  <td align="right">可空</td>
+  <td align="right">3</td>
+  <td align="right">获取记录数</td>
+</tr>
+</tbody>
+</table>
+<p> <strong>下行数据</strong>：</p>
+<pre><code>
+{
+    "content": {
+        "music": {
+            "area": "",
+            "comment": 0,
+            "compose": "",
+            "coverpath": "http://resource.alilo.com.cn/Upload/Image/2013/11/28/15/5296eec1ae21e.png",
+            "description": "",
+            "download": 1628,
+            "filepath": [
+                {
+                    "frequency": 192,
+                    "id": 1103,
+                    "music_id": 5,
+                    "path": "http://localhost/rabbit/www/Public/Uploads/file_server_storage/Audio//2013/11/26/20/62194293.mp3",
+                    "type": "mp3"
+                }
+            ],
+            "id": 5,
+            "language": "",
+            "name": "左手钢琴协奏曲",
+            "name_en": "The Drums of Agahu",
+            "quality": "",
+            "reader": "",
+            "sid": 62194293,
+            "songwordpath": "http://resource.alilo.com.cn/Upload/Image/null",
+            "sort": 5,
+            "tag": "",
+            "timelength": 480,
+            "words": ""
+        },
+        "status": {
+            "msg": "ok",
+            "ret": 1
+        }
+    }
+}
+</code></pre>
+<p> <strong>测试地址:</strong></p>
+<a href="http://localhost:8080/rabbit/interface.action?method=getOneMusic&type=1&link=5">http://localhost:8080/rabbit/interface.action?method=getOneMusic&type=1&link=5</a>
+<p>&nbsp;</p>
+</li>  
+    
+ 
+
+<li><h3>获得banner专辑下的单曲列表  type=2</h3>
+<p> 获得banner专辑下的单曲列表  type=2</p>
+<p> <strong>路径</strong>：</p>
+<p>?method=getOneMusic&type=2&link=272</p>
+<p> <strong>方式</strong>：</p>
+<p> GET</p>
+<p> <strong>上行参数</strong>：</p>
+<table>
+<thead>
+<tr>
+<th> 名称        </th>
+<th align="center"> 类型           </th>
+<th align="right">是否可空</th>
+<th align="right">默认值</th>
+<th align="right">说明</th>
+</tr>
+<tr>
+<td>special_id</td>
+<td align="center">integer</td>
+<td align="right">不可空</td>
+<td align="right">null</td>
+<td align="right">专辑 id</td>
+</tr>
+<tr>
+<td>page</td>
+<td align="center">integer</td>
+<td align="right">可空</td>
+<td align="right">1</td>
+<td align="right">当前页码</td>
+</tr>
+<tr>
+  <td>limit</td>
+  <td align="center">integer</td>
+  <td align="right">可空</td>
+  <td align="right">10</td>
+  <td align="right">获取记录数</td>
+</tr>
+
+<tr>
+  <td>type</td>
+  <td align="center">integer</td>
+  <td align="right">不可空</td>
+  <td align="right">1</td>
+  <td align="right">来源</td>
+</tr>
+</thead>
+<tbody>
+</tbody></table>
+<p> <strong>下行数据</strong>：</p>
+<pre><code>
+{
+    "content": {
+        "musicList": [
+            {
+                "area": "",
+                "comment": 0,
+                "compose": "",
+                "coverpath": "",
+                "description": "",
+                "download": 10057,
+                "filepath": [
+                    {
+                        "frequency": 64,
+                        "id": 9029,
+                        "music_id": 5747,
+                        "path": "http://localhost/rabbit/www/Public/Uploads/file_server_storage/Audio//2013/11/28/50/68077116-64K.mp3",
+                        "type": "mp3"
+                    }
+                ],
+                "id": 5747,
+                "language": "中文",
+                "name": "《一千零一夜》之《渔夫和熊人鱼》_01",
+                "name_en": "",
+                "quality": "",
+                "reader": "佚名",
+                "sid": 68077116,
+                "sort": 0,
+                "tag": "民间故事",
+                "timelength": 733,
+                "words": ""
+            },
+            {
+                "area": "",
+                "comment": 0,
+                "compose": "",
+                "coverpath": "",
+                "description": "",
+                "download": 2396,
+                "filepath": [
+                    {
+                        "frequency": 64,
+                        "id": 9030,
+                        "music_id": 5748,
+                        "path": "http://localhost/rabbit/www/Public/Uploads/file_server_storage/Audio//2013/11/28/50/68077117-64K.mp3",
+                        "type": "mp3"
+                    }
+                ],
+                "id": 5748,
+                "language": "中文",
+                "name": "《一千零一夜》之《渔夫和熊人鱼》_02",
+                "name_en": "",
+                "quality": "",
+                "reader": "佚名",
+                "sid": 68077117,
+                "sort": 0,
+                "tag": "民间故事",
+                "timelength": 723,
+                "words": ""
+            },
+            {
+                "area": "",
+                "comment": 0,
+                "compose": "",
+                "coverpath": "",
+                "description": "",
+                "download": 2301,
+                "filepath": [
+                    {
+                        "frequency": 64,
+                        "id": 9031,
+                        "music_id": 5749,
+                        "path": "http://localhost/rabbit/www/Public/Uploads/file_server_storage/Audio//2013/11/28/50/68077118-64K.mp3",
+                        "type": "mp3"
+                    }
+                ],
+                "id": 5749,
+                "language": "中文",
+                "name": "《一千零一夜》之《渔夫和熊人鱼》_03",
+                "name_en": "",
+                "quality": "",
+                "reader": "佚名",
+                "sid": 68077118,
+                "sort": 0,
+                "tag": "民间故事",
+                "timelength": 727,
+                "words": ""
+            },
+            {
+                "area": "",
+                "comment": 0,
+                "compose": "",
+                "coverpath": "",
+                "description": "",
+                "download": 2223,
+                "filepath": [
+                    {
+                        "frequency": 64,
+                        "id": 9032,
+                        "music_id": 5750,
+                        "path": "http://localhost/rabbit/www/Public/Uploads/file_server_storage/Audio//2013/11/28/50/68077119-64K.mp3",
+                        "type": "mp3"
+                    }
+                ],
+                "id": 5750,
+                "language": "中文",
+                "name": "《一千零一夜》之《渔夫和熊人鱼》_04",
+                "name_en": "",
+                "quality": "",
+                "reader": "佚名",
+                "sid": 68077119,
+                "sort": 0,
+                "tag": "民间故事",
+                "timelength": 757,
+                "words": ""
+            },
+            {
+                "area": "",
+                "comment": 0,
+                "compose": "",
+                "coverpath": "",
+                "description": "",
+                "download": 2153,
+                "filepath": [
+                    {
+                        "frequency": 64,
+                        "id": 9033,
+                        "music_id": 5751,
+                        "path": "http://localhost/rabbit/www/Public/Uploads/file_server_storage/Audio//2013/11/28/50/68077120-64K.mp3",
+                        "type": "mp3"
+                    }
+                ],
+                "id": 5751,
+                "language": "中文",
+                "name": "《一千零一夜》之《渔夫和熊人鱼》_05",
+                "name_en": "",
+                "quality": "",
+                "reader": "佚名",
+                "sid": 68077120,
+                "sort": 0,
+                "tag": "民间故事",
+                "timelength": 751,
+                "words": ""
+            },
+            {
+                "area": "",
+                "comment": 0,
+                "compose": "",
+                "coverpath": "",
+                "description": "",
+                "download": 2303,
+                "filepath": [
+                    {
+                        "frequency": 64,
+                        "id": 9034,
+                        "music_id": 5752,
+                        "path": "http://localhost/rabbit/www/Public/Uploads/file_server_storage/Audio//2013/11/28/50/68077121-64K.mp3",
+                        "type": "mp3"
+                    }
+                ],
+                "id": 5752,
+                "language": "中文",
+                "name": "《一千零一夜》之《渔夫和熊人鱼》_06",
+                "name_en": "",
+                "quality": "",
+                "reader": "佚名",
+                "sid": 68077121,
+                "sort": 0,
+                "tag": "民间故事",
+                "timelength": 755,
+                "words": ""
+            }
+        ],
+        "status": {
+            "msg": "ok",
+            "ret": 1
+        }
+    }
+}
+</code></pre>
+<p> <strong>测试地址:</strong></p>
+<a href="http://localhost:8080/rabbit/interface.action?method=getOneMusic&type=2&link=272">http://localhost:8080/rabbit/interface.action?method=getOneMusic&type=2&link=272</a>
+<p>&nbsp;</p>
+</li>
+<li><h3>banner 对应的专题下的单曲列表--->type=3 </h3>
+<p>banner 对应的专题下的单曲列表--->type=3</p>
+<p> <strong>路径</strong>：</p>
+<p> /interface.action?method=getOneMusic&type=3&link=25</p>
+<p> <strong>方式</strong>：</p>
+<p> GET</p>
+<p> <strong>上行参数</strong>：</p>
+<table>
+<thead>
+<tr>
+<th> 名称        </th>
+<th align="center"> 类型           </th>
+<th align="right">是否可空</th>
+<th align="right">默认值</th>
+<th align="right">说明</th>
+</tr>
+<tr>
+<td>name</td>
+<td align="center">string</td>
+<td align="right">不可空</td>
+<td align="right">null</td>
+<td align="right">音频名称</td>
+</tr>
+<tr>
+<td>page</td>
+<td align="center">integer</td>
+<td align="right">可空</td>
+<td align="right">1</td>
+<td align="right">当前页码</td>
+</tr>
+<tr>
+  <td>limit</td>
+  <td align="center">integer</td>
+  <td align="right">可空</td>
+  <td align="right">10</td>
+  <td align="right">获取记录数</td>
+</tr>
+
+<tr>
+  <td>type</td>
+  <td align="center">integer</td>
+  <td align="right">不可空</td>
+  <td align="right">1</td>
+  <td align="right">平台标示</td>
+</tr>
+</thead>
+<tbody>
+</tbody></table>
+<p> <strong>下行数据</strong>：</p>
+<pre><code>
+{
+    "content": {
+        "recommend": [
+            {
+                "agesection_id": 11,
+                "class_id": 50,
+                "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/10/09/53bde804911e3.png",
+                "description": "爸爸，妈妈和我",
+                "id": 25,
+                "special_ids": "0",
+                "status": 1,
+                "title": "好宝宝爱学习",
+                "type": 1,
+                "music_ids": "0,2,101,102,103,604,606,608,609,610",
+                "music_list": [
+                    {
+                        "area": "中国",
+                        "comment": 0,
+                        "compose": "",
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2013/11/27/18/5295cd2668a94.png",
+                        "description": "",
+                        "download": 38214,
+                        "filepath": [
+                            {
+                                "frequency": 192,
+                                "id": 4154,
+                                "music_id": 2,
+                                "path": "http://localhost/rabbit/www/Public/Uploads/file_server_storage/Audio//2013/11/26/50/62688144.mp3",
+                                "type": "mp3"
+                            }
+                        ],
+                        "id": 2,
+                        "language": "中文",
+                        "name": "做早操",
+                        "name_en": "",
+                        "quality": "",
+                        "reader": "佚名",
+                        "sid": 62688144,
+                        "songwordpath": "2014/03/13/17/532173da55d19.lrc",
+                        "sort": 11332,
+                        "tag": "儿歌童谣",
+                        "timelength": 163,
+                        "words": "22"
+                    },
+                    {
+                        "area": "大陆",
+                        "comment": 0,
+                        "compose": "",
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/",
+                        "description": "",
+                        "download": 34910,
+                        "filepath": [
+                            {
+                                "frequency": 192,
+                                "id": 4043,
+                                "music_id": 101,
+                                "path": "http://localhost/rabbit/www/Public/Uploads/file_server_storage/Audio//2013/11/26/49/62688026.mp3",
+                                "type": "mp3"
+                            }
+                        ],
+                        "id": 101,
+                        "language": "中文",
+                        "name": "早起做操身体好",
+                        "name_en": "",
+                        "quality": "",
+                        "reader": "佚名",
+                        "sid": 62688026,
+                        "sort": 17,
+                        "tag": "儿歌童谣",
+                        "timelength": 36,
+                        "words": ""
+                    },
+                    {
+                        "area": "大陆",
+                        "comment": 0,
+                        "compose": "",
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/",
+                        "description": "",
+                        "download": 1952,
+                        "filepath": [
+                            {
+                                "frequency": 192,
+                                "id": 258,
+                                "music_id": 102,
+                                "path": "http://localhost/rabbit/www/Public/Uploads/file_server_storage/Audio//2013/11/26/11/62185894.mp3",
+                                "type": "mp3"
+                            }
+                        ],
+                        "id": 102,
+                        "language": "华语",
+                        "name": "早课",
+                        "name_en": "",
+                        "quality": "",
+                        "reader": "成功儿童合唱团",
+                        "sid": 62185894,
+                        "sort": 0,
+                        "tag": "",
+                        "timelength": 243,
+                        "words": ""
+                    },
+                    {
+                        "area": "中国",
+                        "comment": 0,
+                        "compose": "",
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/",
+                        "description": "",
+                        "download": 24011,
+                        "filepath": [
+                            {
+                                "frequency": 192,
+                                "id": 4132,
+                                "music_id": 103,
+                                "path": "http://localhost/rabbit/www/Public/Uploads/file_server_storage/Audio//2013/11/26/50/62688122.mp3",
+                                "type": "mp3"
+                            }
+                        ],
+                        "id": 103,
+                        "language": "中文",
+                        "name": "早晨的祈祷",
+                        "name_en": "",
+                        "quality": "",
+                        "reader": "佚名",
+                        "sid": 62688122,
+                        "sort": 2,
+                        "tag": "儿歌童谣",
+                        "timelength": 156,
+                        "words": ""
+                    },
+                    {
+                        "area": "欧美",
+                        "comment": 0,
+                        "compose": "",
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/",
+                        "description": "",
+                        "download": 12630,
+                        "filepath": [
+                            {
+                                "frequency": 192,
+                                "id": 3870,
+                                "music_id": 604,
+                                "path": "http://localhost/rabbit/www/Public/Uploads/file_server_storage/Audio//2013/11/26/47/62567971.mp3",
+                                "type": "mp3"
+                            }
+                        ],
+                        "id": 604,
+                        "language": "英语",
+                        "name": "洗洗刷_洗洗刷",
+                        "name_en": "",
+                        "quality": "",
+                        "reader": "",
+                        "sid": 62567971,
+                        "sort": 83,
+                        "tag": "儿歌童谣,早教,童年,益智",
+                        "timelength": 58,
+                        "words": ""
+                    },
+                    {
+                        "area": "",
+                        "comment": 0,
+                        "compose": "",
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/",
+                        "description": "",
+                        "download": 431,
+                        "filepath": [
+                            {
+                                "frequency": 192,
+                                "id": 1799,
+                                "music_id": 606,
+                                "path": "http://localhost/rabbit/www/Public/Uploads/file_server_storage/Audio//2013/11/26/27/62194989.mp3",
+                                "type": "mp3"
+                            }
+                        ],
+                        "id": 606,
+                        "language": "",
+                        "name": "洗刷刷 三个人在浴缸里",
+                        "name_en": "",
+                        "quality": "",
+                        "reader": "",
+                        "sid": 62194989,
+                        "sort": 15,
+                        "tag": "",
+                        "timelength": 59,
+                        "words": ""
+                    },
+                    {
+                        "area": "大陆",
+                        "comment": 0,
+                        "compose": "",
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/",
+                        "description": "",
+                        "download": 33000,
+                        "filepath": [
+                            {
+                                "frequency": 192,
+                                "id": 4034,
+                                "music_id": 608,
+                                "path": "http://localhost/rabbit/www/Public/Uploads/file_server_storage/Audio//2013/11/26/49/62688017.mp3",
+                                "type": "mp3"
+                            }
+                        ],
+                        "id": 608,
+                        "language": "中文",
+                        "name": "洗手娟",
+                        "name_en": "",
+                        "quality": "",
+                        "reader": "佚名",
+                        "sid": 62688017,
+                        "sort": 8,
+                        "tag": "儿歌童谣",
+                        "timelength": 42,
+                        "words": ""
+                    },
+                    {
+                        "area": "大陆",
+                        "comment": 0,
+                        "compose": "",
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/",
+                        "description": "",
+                        "download": 28734,
+                        "filepath": [
+                            {
+                                "frequency": 192,
+                                "id": 4052,
+                                "music_id": 609,
+                                "path": "http://localhost/rabbit/www/Public/Uploads/file_server_storage/Audio//2013/11/26/49/62688035.mp3",
+                                "type": "mp3"
+                            }
+                        ],
+                        "id": 609,
+                        "language": "中文",
+                        "name": "洗脚",
+                        "name_en": "",
+                        "quality": "",
+                        "reader": "佚名",
+                        "sid": 62688035,
+                        "sort": 26,
+                        "tag": "儿歌童谣",
+                        "timelength": 33,
+                        "words": ""
+                    },
+                    {
+                        "area": "",
+                        "comment": 0,
+                        "compose": "N.Whitfield",
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/",
+                        "description": "",
+                        "download": 383,
+                        "filepath": [
+                            {
+                                "frequency": 192,
+                                "id": 2312,
+                                "music_id": 610,
+                                "path": "http://localhost/rabbit/www/Public/Uploads/file_server_storage/Audio//2013/11/26/32/62195502.mp3",
+                                "type": "mp3"
+                            }
+                        ],
+                        "id": 610,
+                        "language": "",
+                        "name": "洗车",
+                        "name_en": "",
+                        "quality": "",
+                        "reader": "",
+                        "sid": 62195502,
+                        "sort": 9,
+                        "tag": "",
+                        "timelength": 199,
+                        "words": ""
+                    }
+                ]
+            }
+        ],
+        "status": {
+            "msg": "ok",
+            "ret": 1
+        }
+    }
+}
+</code></pre>
+<p> <strong>测试地址:</strong></p>
+<a href="http://localhost:8080/rabbit/interface.action?method=getOneMusic&type=3&link=25">http://localhost:8080/rabbit/interface.action?method=getOneMusic&type=3&link=25</a>
+<p>&nbsp;</p>
+</li>
+<li><h3>banner 对应的专题下的专辑列表--->type=3 </h3>
+<p>banner 对应的专题下的单曲列表--->type=3</p>
+<p> <strong>路径</strong>：</p>
+<p> /interface.action?method=getOneMusic&type=3&link=44</p>
+<p> <strong>方式</strong>：</p>
+<p> GET</p>
+<p> <strong>上行参数</strong>：</p>
+<table>
+<thead>
+<tr>
+<th> 名称        </th>
+<th align="center"> 类型           </th>
+<th align="right">是否可空</th>
+<th align="right">默认值</th>
+<th align="right">说明</th>
+</tr>
+<tr>
+<td>name</td>
+<td align="center">string</td>
+<td align="right">不可空</td>
+<td align="right">null</td>
+<td align="right">音频名称</td>
+</tr>
+<tr>
+<td>page</td>
+<td align="center">integer</td>
+<td align="right">可空</td>
+<td align="right">1</td>
+<td align="right">当前页码</td>
+</tr>
+<tr>
+  <td>limit</td>
+  <td align="center">integer</td>
+  <td align="right">可空</td>
+  <td align="right">10</td>
+  <td align="right">获取记录数</td>
+</tr>
+
+<tr>
+  <td>type</td>
+  <td align="center">integer</td>
+  <td align="right">不可空</td>
+  <td align="right">1</td>
+  <td align="right">平台标示</td>
+</tr>
+</thead>
+<tbody>
+</tbody></table>
+<p> <strong>下行数据</strong>：</p>
+<pre><code>
+{
+    "content": {
+        "recommend": [
+            {
+                "agesection_id": 10,
+                "class_id": 58,
+                "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/05/16/14/5375ac021c891.png",
+                "description": "",
+                "id": 44,
+                "status": 1,
+                "title": "一千零一夜",
+                "type": 2,
+                "music_ids": "0",
+                "special_ids": "0,272,274,288,289,290,291,292,293,294,295,296,297,298,299,300,301,427",
+                "special_list": [
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e7e572066.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 272,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《渔夫和雄人鱼》",
+                        "name_en": "",
+                        "reader": "佚名",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e811c270a.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 274,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《瞎眼僧人》",
+                        "name_en": "",
+                        "reader": "佚名",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e80664c9c.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 288,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《撒谎者贝浩图》",
+                        "name_en": "",
+                        "reader": "佚名",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e7f7bdca1.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 289,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《洗染匠和理发师》",
+                        "name_en": "",
+                        "reader": "佚名",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e7b53339e.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 290,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《阿卜杜拉·法兹里和两个哥哥的故事》",
+                        "name_en": "",
+                        "reader": "董浩，治华，班闯，满超，刘曼斯等",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e7aa661ad.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 291,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《巴士拉银匠哈桑的故事》",
+                        "name_en": "",
+                        "reader": "董浩，治华，班闯，满超，刘曼斯等",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "中国",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image//2013/11/25/10/61002129.jpg",
+                        "description": "                《一千零一夜》是阿拉伯民间故事集，又名天方夜谭。内容丰富，规模宏大，高尔基誉之为世界民间文学史上“最壮丽的一座纪念碑”。在古阿拉伯的海岛上，有一个萨桑王国，国王山鲁亚尔生性残暴嫉妒，因王后行为不端，将其杀死，此后每日娶一少女，翌日晨即杀掉，以示报复。宰相的女儿山鲁佐德为拯救无辜的女子，自愿嫁给国王，用讲述故事方法吸引国王，每夜讲到最精彩处，天刚好亮了，使国王爱不忍杀，允她下一夜继续讲。她的故事一直讲了一千零一夜，国王终于被感动了。",
+                        "download": 0,
+                        "id": 292,
+                        "language": "中文",
+                        "name": "补鞋匠迈尔鲁夫的故事",
+                        "name_en": "",
+                        "reader": "董浩，治华，班闯，满超，刘曼斯等",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e78ebc0ca.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 293,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《哈曼丁的故事》",
+                        "name_en": "",
+                        "reader": "董浩，治华，班闯，满超，刘曼斯等",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e77e14b79.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 294,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《海姑娘和他儿子的故事》",
+                        "name_en": "",
+                        "reader": "董浩，治华，班闯，满超，刘曼斯等",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e77097742.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 295,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《懒汉克辽尼和铜城的故事》",
+                        "name_en": "",
+                        "reader": "董浩，治华，班闯，满超，刘曼斯等",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e762e5b41.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 296,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《麦伦沙迈追求漂亮女人的故事》",
+                        "name_en": "",
+                        "reader": "董浩，治华，班闯，满超，刘曼斯等",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e754d0588.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 297,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《女王祖白绿和糖饭桌子的故事》",
+                        "name_en": "",
+                        "reader": "董浩，治华，班闯，满超，刘曼斯等",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e748d6118.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 298,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《太子阿特士和公主哈娅图芙丝之梦的故事》",
+                        "name_en": "",
+                        "reader": "董浩，治华，班闯，满超，刘曼斯等",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e737e36c7.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 299,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《驼背的故事》",
+                        "name_en": "",
+                        "reader": "董浩，治华，班闯，满超，刘曼斯等",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e72066201.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 300,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《睡着的国王》",
+                        "name_en": "",
+                        "reader": "佚名",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e70d11d3d.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 301,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《蠢汉、驴子和骗子》",
+                        "name_en": "",
+                        "reader": "佚名",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "北京",
+                        "classid": 11005,
+                        "classid2": 11005,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/05/06/11/53685b06d806e.jpg",
+                        "description": "",
+                        "download": 0,
+                        "id": 427,
+                        "language": "中文",
+                        "name": "曹灿爷爷一千零一夜",
+                        "name_en": "",
+                        "reader": "曹灿",
+                        "tag": "经典,故事",
+                        "timelength": 1
+                    }
+                ]
+            }
+        ],
+        "status": {
+            "msg": "ok",
+            "ret": 1
+        }
+    }
+}
+</code></pre>
+<p> <strong>测试地址:</strong></p>
+<a href="http://localhost:8080/rabbit/interface.action?method=getOneMusic&type=3&link=44">http://localhost:8080/rabbit/interface.action?method=getOneMusic&type=3&link=44</a>
+<p>&nbsp;</p>
+</li>
+
+
+
+
+
+
+
+   
+
+<li><h3>获取专辑下的单曲列表</h3>
+<p>获取专辑下的单曲列表</p>
+<p> <strong>路径</strong>：</p>
+<p>?method=getSpecial&id=290</p>
+<p> <strong>方式</strong>：</p>
+<p> GET</p>
+<p> <strong>上行参数</strong>:</p>
+<table>
+<thead>
+<tr>
+<th> 名称        </th>
+<th align="center"> 类型           </th>
+<th align="right">是否可空</th>
+<th align="right">默认值</th>
+<th align="right">说明</th>
+</tr>
+<tr>
+<td>name</td>
+<td align="center">string</td>
+<td align="right">不可空</td>
+<td align="right">null</td>
+<td align="right">音频名称</td>
+</tr>
+<tr>
+<td>page</td>
+<td align="center">integer</td>
+<td align="right">可空</td>
+<td align="right">1</td>
+<td align="right">当前页码</td>
+</tr>
+<tr>
+  <td>limit</td>
+  <td align="center">integer</td>
+  <td align="right">可空</td>
+  <td align="right">3</td>
+  <td align="right">获取记录数</td>
+</tr>
+<tr>
+  <td>type</td>
+  <td align="center">integer</td>
+  <td align="right">不可空</td>
+  <td align="right">1</td>
+  <td align="right">音乐来源</td>
+</tr>
+</thead>
+<tbody>
+</tbody></table>
+<p> <strong>下行数据</strong>：</p>
+<pre><code>
+{
+    "content": {
+        "musicList": [
+            {
+                "area": "",
+                "comment": 0,
+                "compose": "",
+                "coverpath": "",
+                "description": "",
+                "download": 2542,
+                "filepath": [
+                    {
+                        "frequency": 64,
+                        "id": 8972,
+                        "music_id": 5793,
+                        "path": "http://localhost/rabbit/www/Public/Uploads/file_server_storage/Audio//2013/11/28/50/68077059-64K.mp3",
+                        "type": "mp3"
+                    }
+                ],
+                "id": 5793,
+                "language": "中文",
+                "name": "《一千零一夜》之《阿卜杜拉·法兹里和两个哥哥的故事》_01",
+                "name_en": "",
+                "quality": "",
+                "reader": "董浩，治华，班闯，满超，刘曼斯等",
+                "sid": 68077059,
+                "sort": 0,
+                "tag": "民间故事",
+                "timelength": 772,
+                "words": ""
+            },
+            {
+                "area": "",
+                "comment": 0,
+                "compose": "",
+                "coverpath": "",
+                "description": "",
+                "download": 1728,
+                "filepath": [
+                    {
+                        "frequency": 64,
+                        "id": 8973,
+                        "music_id": 5794,
+                        "path": "http://localhost/rabbit/www/Public/Uploads/file_server_storage/Audio//2013/11/28/50/68077060-64K.mp3",
+                        "type": "mp3"
+                    }
+                ],
+                "id": 5794,
+                "language": "中文",
+                "name": "《一千零一夜》之《阿卜杜拉·法兹里和两个哥哥的故事》_02",
+                "name_en": "",
+                "quality": "",
+                "reader": "董浩，治华，班闯，满超，刘曼斯等",
+                "sid": 68077060,
+                "sort": 0,
+                "tag": "民间故事",
+                "timelength": 763,
+                "words": ""
+            },
+            {
+                "area": "",
+                "comment": 0,
+                "compose": "",
+                "coverpath": "",
+                "description": "",
+                "download": 1468,
+                "filepath": [
+                    {
+                        "frequency": 64,
+                        "id": 8974,
+                        "music_id": 5795,
+                        "path": "http://localhost/rabbit/www/Public/Uploads/file_server_storage/Audio//2013/11/28/50/68077061-64K.mp3",
+                        "type": "mp3"
+                    }
+                ],
+                "id": 5795,
+                "language": "中文",
+                "name": "《一千零一夜》之《阿卜杜拉·法兹里和两个哥哥的故事》_03",
+                "name_en": "",
+                "quality": "",
+                "reader": "董浩，治华，班闯，满超，刘曼斯等",
+                "sid": 68077061,
+                "sort": 0,
+                "tag": "民间故事",
+                "timelength": 749,
+                "words": ""
+            },
+            {
+                "area": "",
+                "comment": 0,
+                "compose": "",
+                "coverpath": "",
+                "description": "",
+                "download": 1625,
+                "filepath": [
+                    {
+                        "frequency": 64,
+                        "id": 8975,
+                        "music_id": 5796,
+                        "path": "http://localhost/rabbit/www/Public/Uploads/file_server_storage/Audio//2013/11/28/50/68077062-64K.mp3",
+                        "type": "mp3"
+                    }
+                ],
+                "id": 5796,
+                "language": "中文",
+                "name": "《一千零一夜》之《阿卜杜拉·法兹里和两个哥哥的故事》_04",
+                "name_en": "",
+                "quality": "",
+                "reader": "董浩，治华，班闯，满超，刘曼斯等",
+                "sid": 68077062,
+                "sort": 0,
+                "tag": "民间故事",
+                "timelength": 794,
+                "words": ""
+            }
+        ],
+        "status": {
+            "msg": "ok",
+            "ret": 1
+        }
+    }
+}
+</code></pre>
+<p> <strong>测试地址:</strong></p>
+<a http://localhost:8080/rabbit/interface.action?method=getSpecial&id=290">http://localhost:8080/rabbit/interface.action?method=getSpecial&id=290</a>
+<p>&nbsp;</p>
+</li>
+
+
+<li>
+<h3>获取专题下的专辑列表</h3>
+<p>获取专题下的专辑列表</p>
+<p> <strong>路径</strong>：</p>
+<p> ?method=getProject&id=44</p>
+<p> <strong>方式</strong>：</p>
+<p> PSOT</p>
+<p> <strong>上行参数</strong>：</p>
+<table>
+<thead>
+<tr>
+<th width="116"> 名称        </th>
+<th align="center" width="96"> 类型           </th>
+<th align="right" width="112">是否可空</th>
+<th align="right" width="90">默认值</th>
+<th align="right" width="142">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>username</td>
+  <td align="center">String</td>
+  <td align="right">不可空</td>
+  <td align="right">0</td>
+  <td align="right">用户名</td>
+</tr>
+<tr>
+  <td>user_id</td>
+  <td align="center">String</td>
+  <td align="right">不可空</td>
+  <td align="right">0</td>
+  <td align="right">用户ID</td>
+</tr>
+<tr>
+  <td>time</td>
+  <td align="center">Date</td>
+  <td align="right">不可空</td>
+  <td align="right">2014-11-10</td>
+  <td align="right">时间</td>
+</tr>
+<tr>
+  <td>curr_searchnum</td>
+  <td align="center">Integer</td>
+  <td align="right">不可空</td>
+  <td align="right">10</td>
+  <td align="right">找寻次数</td>
+</tr>
+<tr>
+  <td>searchcount_num</td>
+  <td align="center">Integer</td>
+  <td align="right">不可空</td>
+  <td align="right">100</td>
+  <td align="right">找寻总次数</td>
+</tr>
+</tbody>
+</table>
+<p> <strong>下行数据</strong>：</p>
+<pre><code>
+{
+    "content": {
+        "recommend": [
+            {
+                "agesection_id": 10,
+                "class_id": 58,
+                "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/05/16/14/5375ac021c891.png",
+                "description": "",
+                "id": 44,
+                "music_ids": "0",
+                "special_ids": "0,272,274,288,289,290,291,292,293,294,295,296,297,298,299,300,301,427",
+                "special_list": [
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e7e572066.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 272,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《渔夫和雄人鱼》",
+                        "name_en": "",
+                        "reader": "佚名",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e811c270a.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 274,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《瞎眼僧人》",
+                        "name_en": "",
+                        "reader": "佚名",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e80664c9c.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 288,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《撒谎者贝浩图》",
+                        "name_en": "",
+                        "reader": "佚名",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e7f7bdca1.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 289,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《洗染匠和理发师》",
+                        "name_en": "",
+                        "reader": "佚名",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e7b53339e.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 290,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《阿卜杜拉·法兹里和两个哥哥的故事》",
+                        "name_en": "",
+                        "reader": "董浩，治华，班闯，满超，刘曼斯等",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e7aa661ad.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 291,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《巴士拉银匠哈桑的故事》",
+                        "name_en": "",
+                        "reader": "董浩，治华，班闯，满超，刘曼斯等",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "中国",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image//2013/11/25/10/61002129.jpg",
+                        "description": "                《一千零一夜》是阿拉伯民间故事集，又名天方夜谭。内容丰富，规模宏大，高尔基誉之为世界民间文学史上“最壮丽的一座纪念碑”。在古阿拉伯的海岛上，有一个萨桑王国，国王山鲁亚尔生性残暴嫉妒，因王后行为不端，将其杀死，此后每日娶一少女，翌日晨即杀掉，以示报复。宰相的女儿山鲁佐德为拯救无辜的女子，自愿嫁给国王，用讲述故事方法吸引国王，每夜讲到最精彩处，天刚好亮了，使国王爱不忍杀，允她下一夜继续讲。她的故事一直讲了一千零一夜，国王终于被感动了。",
+                        "download": 0,
+                        "id": 292,
+                        "language": "中文",
+                        "name": "补鞋匠迈尔鲁夫的故事",
+                        "name_en": "",
+                        "reader": "董浩，治华，班闯，满超，刘曼斯等",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e78ebc0ca.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 293,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《哈曼丁的故事》",
+                        "name_en": "",
+                        "reader": "董浩，治华，班闯，满超，刘曼斯等",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e77e14b79.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 294,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《海姑娘和他儿子的故事》",
+                        "name_en": "",
+                        "reader": "董浩，治华，班闯，满超，刘曼斯等",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e77097742.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 295,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《懒汉克辽尼和铜城的故事》",
+                        "name_en": "",
+                        "reader": "董浩，治华，班闯，满超，刘曼斯等",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e762e5b41.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 296,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《麦伦沙迈追求漂亮女人的故事》",
+                        "name_en": "",
+                        "reader": "董浩，治华，班闯，满超，刘曼斯等",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e754d0588.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 297,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《女王祖白绿和糖饭桌子的故事》",
+                        "name_en": "",
+                        "reader": "董浩，治华，班闯，满超，刘曼斯等",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e748d6118.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 298,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《太子阿特士和公主哈娅图芙丝之梦的故事》",
+                        "name_en": "",
+                        "reader": "董浩，治华，班闯，满超，刘曼斯等",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e737e36c7.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 299,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《驼背的故事》",
+                        "name_en": "",
+                        "reader": "董浩，治华，班闯，满超，刘曼斯等",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e72066201.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 300,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《睡着的国王》",
+                        "name_en": "",
+                        "reader": "佚名",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "",
+                        "classid": 11005,
+                        "classid2": 0,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/07/31/14/53d9e70d11d3d.png",
+                        "description": "",
+                        "download": 0,
+                        "id": 301,
+                        "language": "中文",
+                        "name": "《一千零一夜》之《蠢汉、驴子和骗子》",
+                        "name_en": "",
+                        "reader": "佚名",
+                        "tag": "民间故事",
+                        "timelength": 0
+                    },
+                    {
+                        "area": "北京",
+                        "classid": 11005,
+                        "classid2": 11005,
+                        "coverpath": "http://resource.alilo.com.cn/Upload/Image/2014/05/06/11/53685b06d806e.jpg",
+                        "description": "",
+                        "download": 0,
+                        "id": 427,
+                        "language": "中文",
+                        "name": "曹灿爷爷一千零一夜",
+                        "name_en": "",
+                        "reader": "曹灿",
+                        "tag": "经典,故事",
+                        "timelength": 1
+                    }
+                ],
+                "status": 1,
+                "title": "一千零一夜",
+                "type": 2
+            }
+        ],
+        "status": {
+            "msg": "ok",
+            "ret": 1
+        }
+    }
+}
+</code>
+</pre>
+<p> <strong>测试地址:</strong></p>
+<a href="http://localhost:8080/rabbit/interface.action?method=getProject&id=44">http://localhost:8080/rabbit/interface.action?method=getProject&id=44
+</a>
+<p>&nbsp;</p>
+</li>
+
+<!--
+<li><h3>获得应用列表</h3>
+<p> 获得应用列表</p>
+<p> <strong>路径</strong>：</p>
+<p> /interface.action?method=Top10Application&currentPage=1&pageSize=10&keyword=</p>
+<p> <strong>方式</strong>：</p>
+<p> GET</p>
+<p> <strong>上行参数</strong>：</p>
+<table>
+<thead>
+<tr>
+<th> 名称        </th>
+<th align="center"> 类型           </th>
+<th align="right">是否可空</th>
+<th align="right">默认值</th>
+<th align="right">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>page</td>
+<td align="center">integer</td>
+<td align="right">不可空</td>
+<td align="right">1</td>
+<td align="right">当前页码</td>
+</tr>
+<tr>
+  <td>limit</td>
+  <td align="center">integer</td>
+  <td align="right">不可空</td>
+  <td align="right">10</td>
+  <td align="right">获取记录数</td>
+</tr>
+<tr>
+  <td>keyword</td>
+  <td align="center">String</td>
+  <td align="right">可空</td>
+  <td align="right"></td>
+  <td align="right">搜索关键字</td>
+</tr>
+</tbody>
+</table>
+<p> <strong>下行数据</strong>：</p>
+<pre><code>{
+    "content": {
+        "status": {
+            "ret": 1,
+            "msg": "ok"
+        },
+        list:  [
+                 {
+                id: "296",
+                name: "bb",
+                versions: "bb",
+                coverpath: "http://localhost/rabbit/www/Public/Uploads/file_server_storage/Image/2014/05/11/17/536f47dd2ac85.jpg"
+                },
+                 {
+                id: "297",
+                name: "cc",
+                versions: "cc",
+                coverpath: "http://localhost/rabbit/www/Public/Uploads/file_server_storage/Image/2014/05/11/17/536f47e50edb7.jpg"
+                }
+                ],
+        "page": 1,
+        "countPage": 1,
+        "limit": 10,
+        "count": "9"
+    }
+}</code></pre>
+<p> <strong>测试地址:</strong></p>
+<a href="http://localhost:8080/music/interface.action?method=Top10Application&page=1&limit=10&keyword=">http://localhost:8080/music/interface.action?method=Top10Application&page=1&limit=10&keyword=</a>
+<p>&nbsp;</p>
+</li>
+<hr>
+<hr>
+<hr>
+
+<li><h3>获得厂商关联对应的分类</h3>
+<p> 获得厂商关联分类列表</p>
+<p> <strong>路径</strong>：</p>
+<p> /interface.action?method=?method=findAllContentProviderBycode&code=changshangcode1</p>
+<p> <strong>方式</strong>：</p>
+<p> GET</p>
+<p> <strong>上行参数</strong>：</p>
+<table>
+<thead>
+<tr>
+<th> 名称        </th>
+<th align="center"> 类型           </th>
+<th align="right">是否可空</th>
+<th align="right">默认值</th>
+<th align="right">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>changshangcode1</td>
+<td align="center">String</td>
+<td align="right">不可空</td>
+<td align="right">1</td>
+<td align="right">公司唯一标识</td>
+</tr>
+
+</tbody>
+</table>
+<p> <strong>下行数据</strong>：</p>
+<pre><code>{
+
+    "content": {
+        "list": [
+            {
+                "code": "yule",
+                "id": 46,
+                "name": "娱乐",
+                "order": 0,
+                "type": 1
+            },
+            {
+                "code": "xiangsheng",
+                "id": 41,
+                "name": "相声",
+                "order": 0,
+                "type": 1
+            },
+            {
+                "code": "baijiajiangtan",
+                "id": 47,
+                "name": "百家讲坛",
+                "order": 1,
+                "type": 1
+            }
+        ],
+        "status": {
+            "msg": "ok",
+            "ret": 1
+        }
+    }
+
+}</code></pre>
+<p> <strong>测试地址:</strong></p>
+<a href="http://localhost:8080/music/interface.action?method=findAllContentProviderBycode&code=changshangcode1">http://localhost:8080/music/interface.action?method=findAllContentProviderBycode&code=changshangcode1</a>
+<p>&nbsp;</p>
+</li>
+
+<hr>
+<hr>
+
+<li><h3>防丢统计接口</h3>
+<p> 防丢统计</p>
+<p> <strong>路径</strong>：</p>
+<p> /interface.action?method=addLost&user_id=xxxx&time=2014-11-26 10:49&curr_searchnum=1&username=xiaohe</p>
+<p> <strong>方式</strong>：</p>
+<p> GET</p>
+<p> <strong>上行参数</strong>：</p>
+<table>
+<thead>
+<tr>
+<th> 名称        </th>
+<th align="center"> 类型           </th>
+<th align="right">是否可空</th>
+<th align="right">默认值</th>
+<th align="right">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>user_id</td>
+<td align="center">String</td>
+<td align="right">不可空</td>
+<td align="right">xxxx</td>
+<td align="right">用户名ID</td>
+</tr>
+<tr>
+<td>time</td>
+<td align="center">String</td>
+<td align="right">不可空</td>
+<td align="right">2014-11-26 10:49</td>
+<td align="right">时间</td>
+</tr>
+<tr>
+<td>curr_searchnum</td>
+<td align="center">int</td>
+<td align="right">不可空</td>
+<td align="right">1</td>
+<td align="right">当前找寻次数</td>
+</tr>
+<tr>
+<td>username</td>
+<td align="center">String</td>
+<td align="right">不可空</td>
+<td align="right">xiaoming</td>
+<td align="right">用户名</td>
+</tr>
+
+
+</tbody>
+</table>
+<p> <strong>下行数据</strong>：</p>
+<pre><code>{
+
+    "content": {
+        "status": {
+            "msg": "SUCCESS",
+            "ret": 1
+        }
+    }
+
+}</code></pre>
+<p> <strong>测试地址:</strong></p>
+<a href="http://localhost:8080/music//interface.action?method=addLost&user_id=xxxx&time=2014-11-26%2010:49&curr_searchnum=1&username=xiaohe">http://localhost:8080/music//interface.action?method=addLost&user_id=xxxx&time=2014-11-26%2010:49&curr_searchnum=1&username=xiaohe</a>
+<p>&nbsp;</p>
+</li>
+
+
+
+<hr>
+
+<li><h3>用户反馈接口</h3>
+<p> 用户反馈接口</p>
+<p> <strong>路径</strong>：</p>
+<p> /interface.action??method=Feedback&username=xiaoming&appname=%E5%AE%9D%E5%AE%9D%E5%90%AC%E5%90%AC&softcode=babylistener&vendorcode=aliluo&content=%E9%97%AA%E9%80%80bug</p>
+<p> <strong>方式</strong>：</p>
+<p> GET</p>
+<p> <strong>上行参数</strong>：</p>
+<table>
+<thead>
+<tr>
+<th> 名称        </th>
+<th align="center"> 类型           </th>
+<th align="right">是否可空</th>
+<th align="right">默认值</th>
+<th align="right">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>username</td>
+<td align="center">String</td>
+<td align="right">不可空</td>
+<td align="right">xiaoming</td>
+<td align="right">用户名</td>
+</tr>
+<tr>
+<td>appname</td>
+<td align="center">String</td>
+<td align="right">不可空</td>
+<td align="right">宝宝听听</td>
+<td align="right">应用名称</td>
+</tr>
+<tr>
+<td>softcode</td>
+<td align="center">String</td>
+<td align="right">不可空</td>
+<td align="right">baby</td>
+<td align="right">软件标识</td>
+</tr>
+<tr>
+<td>vendorcode</td>
+<td align="center">String</td>
+<td align="right">不可空</td>
+<td align="right">xxxx</td>
+<td align="right">厂商标识</td>
+</tr>
+<tr>
+<td>content</td>
+<td align="center">String</td>
+<td align="right">不可空</td>
+<td align="right">有bug</td>
+<td align="right">反馈信息</td>
+</tr>
+
+
+</tbody>
+</table>
+<p> <strong>下行数据</strong>：</p>
+<pre><code>{
+
+    "content": {
+        "status": {
+            "msg": "SUCCESS",
+            "ret": 1
+        }
+    }
+
+}</code></pre>
+<p> <strong>测试地址:</strong></p>
+<a href="http://localhost:8080/music/interface.action?method=Feedback&username=xiaoming&appname=%E5%AE%9D%E5%AE%9D%E5%90%AC%E5%90%AC&softcode=babylistener&vendorcode=aliluo&content=%E9%97%AA%E9%80%80bug">
+http://localhost:8080/music/interface.action?method=Feedback&username=xiaoming&appname=%E5%AE%9D%E5%AE%9D%E5%90%AC%E5%90%AC&softcode=babylistener&vendorcode=aliluo&content=%E9%97%AA%E9%80%80bug
+</a>
+<p>&nbsp;</p>
+</li>
+
+
+<li>
+  <h3>软件更新</h3>
+<p>  软件更新</p>
+<p> <strong>路径</strong>：</p>
+<p> /Phone/getVersion</p>
+<p> <strong>方式</strong>：</p>
+<p> GET</p>
+<p> <strong>上行参数</strong>：</p>
+<table>
+<thead>
+<tr>
+<th width="90"> 名称        </th>
+<th align="center" width="70"> 类型           </th>
+<th align="right" width="86">是否可空</th>
+<th align="right" width="71">默认值</th>
+<th align="right" width="80">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>type</td>
+<td align="center">string</td>
+<td align="right">不可空</td>
+<td align="right">null</td>
+<td align="right">平台类型 pc/android/ios</td>
+</tr>
+<tr>
+<td>equtype</td>
+<td align="center">string</td>
+<td align="right">不可空</td>
+<td align="right">null</td>
+<td align="right">设备类型 /phone/pad</td>
+</tr>
+<tr>
+<td>softwaretype</td>
+<td align="center">string</td>
+<td align="right">不可空</td>
+<td align="right">null</td>
+<td align="right">软件标识babyshow(宝宝秀)shop(应用商店)anime(动画片)padmain(主程序)</td>
+</tr>
+<tr>
+<td>onlysign</td>
+<td align="center">string</td>
+<td align="right">不可空</td>
+<td align="right">null</td>
+<td align="right">客户端唯一标记</td>
+</tr>
+<tr>
+  <td>versionnumber</td>
+  <td align="center">float</td>
+  <td align="right">不可空</td>
+  <td align="right">0</td>
+  <td align="right">当前版本</td>
+</tr>
+</tbody>
+</table>
+<p> <strong>下行数据</strong>：</p>
+<pre><code>
+{
+  content: {
+    status: {
+      ret: 1,
+      msg: "ok"
+    },
+    info: {
+      id: "2",
+      type: "pc",
+      title: "版本1.2",
+      description: "版本1.2",
+      url: "www.baidu.com",
+      versionnumber: "1.1"
+      compeltype:1 是否强制更新 0 是n，1 是y
+    }
+  }
+}</code></pre>
+<p> <strong>测试地址:</strong></p>
+<a href="http://121.199.167.212/chipsguide/www/Api/Phone/getVersion">http://121.199.167.212/chipsguide/www/Api/Phone/getVersion</a>
+<p>&nbsp;</p>
+</li>
+-->
+
+
+</ol>
+
+</body></html>

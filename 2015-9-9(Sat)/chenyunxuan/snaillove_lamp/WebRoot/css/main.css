@@ -1,0 +1,54 @@
+#warp{background:url(../images/foot_tbg.png) center bottom no-repeat;}
+#warp .wel{width:325px;margin:68px auto 50px auto;text-align:center;overflow:hidden;}
+#warp .wel p{font-family:"Microsoft YaHei",Arial,sans-serif;line-height:26px;color:#000;letter-spacing:1px;}
+#warp .permissions{width:400px;margin:50px auto 150px auto;overflow:hidden;}
+#warp .permissions li{width:145px;height:45px;float:left;display:inline;margin:34px 27px 34px 27px;background:url(../images/btn_shadow.png) 8px bottom no-repeat;cursor:pointer;overflow:hidden;}
+#warp .permissions li:hover{background:url(../images/btn_shadow_hover.png) 8px bottom no-repeat;}
+#warp .permissions li .btn{width:145px;height:34px;border:0;background:url(../images/btn_bg.png) no-repeat;font:12px "SimSun";color:#4b5154;cursor:pointer;overflow:hidden;}
+#warp .permissions li .btn:hover{background:url(../images/btn_bg_hover.png) no-repeat;}
+#warp .content{width:980px;margin:20px auto;padding-bottom:35px;overflow:hidden;}
+#warp .content .rounded{border-radius:10px 10px 10px 10px;box-shadow:0 0 1px #3381a6;border:#3381a6 solid 2px;}
+#warp .content .menu-box{width:166px;min-height:332px;background-color:#e2f7fe;}
+#warp .content .right-box{width:800px;min-height:332px;position:relative;overflow:hidden;}
+#warp .content .right-box .form-row{height:26px;margin:10px 10px 10px 2px;}
+#warp .content .right-box .form-row1{height:26px;margin:10px 10px 10px 2px;float:right;}
+#warp .content .right-box .label{color:#010101;font-family:"Microsoft YaHei","STSong";font-weight:normal;line-height:26px;display:inline-block;font-size:12px;text-align:right;width:58px;margin-right:5px;overflow:hidden;vertical-align:top;}
+#warp .content .right-box .label1{color:#010101;font-family:"Microsoft YaHei","STSong";font-weight:normal;line-height:26px;display:inline-block;font-size:12px;text-align:right;width:65px;margin-right:0px;overflow:hidden;vertical-align:top;}
+#warp .content .right-box .input{border:#b5d8e9 solid 1px;color:#5a5959;height:22px;line-height:22px;width:96px;color:#284c6a;font-size:12px;font-family:"Microsoft YaHei","STSong";font-weight:normal;overflow:hidden;vertical-align:top;}
+#warp .content .right-box .input:hover{border:1px solid #b5d8e9;box-shadow:0px 0px 2px #007eff;}
+#warp .content .right-box .input:focus{background-color:#f7f7ec;height:20px;border:1px solid #b5d8e9;box-shadow:0px 0px 2px #007eff;}
+#warp .content .right-box .to-select{width:86px;height:26px;line-height:26px;margin-left:5px;background:url(../images/org_btn.png) no-repeat;border:0 none;color:#fff;cursor:pointer;}
+#warp .content .right-box .to-del{width:90px;height:26px;line-height:26px;background:url(../images/gray_btn.png) no-repeat;border:0 none;cursor:pointer;}
+#warp .content .right-box .tb-box{width:790px;margin:5px auto;overflow:hidden;}
+#warp .content .right-box .tb-box .tb{width:790px;text-align:center;border:1px #b5d8e9 solid;border-collapse:collpase;color:#010101;}
+#warp .content .right-box .tb-box .tb td{height:40px;border-top:1px #b5d8e9 solid;border-right:1px #b5d8e9 solid;border-bottom:1px #b5d8e9 solid;border-left:1px #b5d8e9 solid;}
+#warp .content .right-box .tb-box .tit-bg{background-color:#e2e2e2;}
+#warp .content .right-box .tb-box .pa{padding-left:3px;padding-right:3px;}
+#warp .content .right-box .tb-box .vd{padding:10px;}
+#warp .content .right-box .tb-box p{line-height:20px;text-align:left;}
+#warp .mupload-box{width:320px;margin:50px auto;}
+#warp .mupload-box p{line-height:24px;padding:10px;overflow:hidden;}
+#warp .mupload-box select{font-size:12px;vertical-align:middle;}
+#warp .mupload-box select option{padding:0 3px;}
+.mupload-box input{line-height:24px;vertical-align:middle;}
+#warp .content .right-box .mupload-box .label{width:68px;text-align:left;line-height:24px;}
+#warp .mupload-box .ts{padding-left:78px;margin-top:-10px;color:#666;}
+/*tabs*/
+#slidingBlock .tabs{width:600px; float:left;display:inline;height:25px; margin:5px 0 0 3px;}
+#slidingBlock span{width:112px;height:31px;margin-right:20px;display:block;float:left;text-align:center;font-size:15px;font-weight:bold;font-family:"Microsoft YaHei";overflow:hidden;}
+#slidingBlock .menuOn{background:url(../images/uparrow.png) 0px bottom no-repeat;color:#236E92; cursor:pointer;}
+#slidingBlock .menuNo{color:#999;}
+#slidingBlock .slidingList_none{display:none}
+.pageinfo{ float:left; height:auto; width:auto;}
+.pages { float: right; height: 20px; overflow: hidden; font-size: 12px; padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; list-style-type: none; }
+.pages LI { padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; line-height: 12px; overflow-x: visible; width: auto; white-space: nowrap; float: left; margin-left: 7px; _width: 10px; }
+.pages .dotted { color: #1f3a87; font-weight: bold; }
+.pages .beginEnd { padding-bottom: 0px; padding-left: 1em; padding-right: 1em; padding-top: 0px; }
+.pages A { text-decoration: none;  border-bottom: #ccc 1px solid; border-left: #ccc 1px solid; padding-bottom: 0px; line-height: 18px; padding-left: 0.4em; padding-right: 0.4em; display: block; background: #fff; height: 18px; border-top: #ccc 1px solid; border-right: #ccc 1px solid; padding-top: 0px; }
+.pages SPAN { border-bottom: #ccc 1px solid; border-left: #ccc 1px solid; padding-bottom: 0px; line-height: 18px; padding-left: 0.4em; padding-right: 0.4em; display: block; background: #fff; height: 18px; border-top: #ccc 1px solid; border-right: #ccc 1px solid; padding-top: 0px; }
+.pages A { color: #1f3a87; text-decoration: none; }
+.pages A:visited { color: #1f3a87; }
+.pages A:hover { background: #1f3a87; color: #fff; text-decoration: none; }
+.pages .current { background: #1f3a87; color: #fff; text-decoration: none; }
+.pages .current { line-height: 16px; font-weight: bold; }
+.pages SPAN { color: #ccc; }

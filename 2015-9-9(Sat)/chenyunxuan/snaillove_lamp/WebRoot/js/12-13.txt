@@ -1,0 +1,42 @@
+   <span>
+                            &#12288;<select name="linktype"  id="linktype" class='input' onchange="pcColumn.link()">
+                                <volist name="linkType" id="vo" key='i'>
+                                    <option value="<{$i}>" ><{$vo}></option> 
+                                </volist>
+                            </select>
+                            <span id="class">
+                                <select id="_rid"  onchange="Class.change()" class="input" >
+                                    <option value='0' level="0" <eq name="_rid" value="0">selected="selected"</eq>>全部</option>
+                                    <foreach name="topList" item="vo">   
+                                    <option value="<{$vo.info.id}>" level="<{$vo.info.level}>" ><{$vo.info.title}></option>
+                                    <foreach name="vo.list" item="v">
+                                    <option value="<{$v.id}>" level="<{$v.level}>">&nbsp;&nbsp;&nbsp;&nbsp;<{$v.title}></option>
+                                    </foreach>
+                                    </foreach>
+                            </select>&nbsp;&nbsp;&nbsp;&nbsp;<span id="threeClass">    
+                            </span>
+                            <span id='bun'></span>
+
+                            </span>
+                        </span>
+
+
+                  $('#bun').html("<input type='button' id='bunok1' value='确定' />");
+
+                       $('#bunok1').click(function() {
+                    var html = '';
+                    var pecialid = $('#threeClassId').val();
+                    var url = Basic.path + "/SysMusic/musicByclass.html";
+                    $.get(url, {pecialid: pecialid}, function(msg) {
+                        if (msg) {
+                            html += " &#12288;<select id='link' name='link' class='input' >";
+                            $(msg).each(function(i, item) {
+                                html += '<option value="' + item.id + '">' + item.name + '</option>';
+                            })
+                            html += "</select>";
+                        } else {
+                            alert('没有相应的音频');
+                        }
+                        $('#bannerlinktype').html(html);
+                    }, 'json')
+                })
