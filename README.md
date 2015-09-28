@@ -1,6 +1,20 @@
 # snaillove-weekly-technical-sharing
 This is the weekly technical sharing in the company.
 
+### #5 2015-09-25(Fri)
+
+***
+[@fiskz](http://github.com/wfiskz)
+
+####1.Android Studio Live Templates 
+
+If better for faster programming？it is Android Studio Live Templates.
+
+Network address：[http://fiskz.com/share/2015/09/25/android-studio-live-templates.html](http://fiskz.com/share/2015/09/25/android-studio-live-templates.html)
+
+
+***
+
 ### #4 2015-09-09(Fri)
 
 ***
