@@ -12,6 +12,12 @@ If better for faster programming？it is Android Studio Live Templates.
 
 Network address：[http://fiskz.com/share/2015/09/25/android-studio-live-templates.html](http://fiskz.com/share/2015/09/25/android-studio-live-templates.html)
 
+####2.Algorithm 
+
+Interesting algorithm。
+
+Algorithm address:[http://fiskz.com/share/2015/09/28/algorithm.html](http://fiskz.com/share/2015/09/28/algorithm.html)
+
 
 ***
 
