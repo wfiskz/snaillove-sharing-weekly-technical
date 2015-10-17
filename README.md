@@ -12,13 +12,11 @@ This is the weekly technical sharing in the company.
 
 Not only the Reverse analysis is a technology,but also is an art.Android reverse also can be subdivided into the application layer framework APK reverse, android devices, such as the kernel driver reverse, based on the android hardware products.
 
-Reference: 
-[http://blog.csdn.net/androidsecurity/article/details/8815175](http://blog.csdn.net/androidsecurity/article/details/8815175)
+Reference:  [http://blog.csdn.net/androidsecurity/article/details/8815175](http://blog.csdn.net/androidsecurity/article/details/8815175)
 
 ###2.Wifi Library for Android 
 
-Reference:
-[https://github.com/SmartCodeUnited/smart-code-united-wifi-android](https://github.com/SmartCodeUnited/smart-code-united-wifi-android)
+Reference:  [https://github.com/SmartCodeUnited/smart-code-united-wifi-android](https://github.com/SmartCodeUnited/smart-code-united-wifi-android)
 
 ***
 
