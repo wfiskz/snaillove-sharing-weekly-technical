@@ -182,3 +182,21 @@ Web crawler (also known as Web Spider, Web robot, in the middle of the FOAF comm
 Here is the open source project's address
 
 ***
+
+### #1 2015-10-16(Fri)
+
+***
+
+[@misparking](https://github.com/misparking)
+
+####1.Android reverse analysis tools
+
+Not only the Reverse analysis is a technology,but also is an art.Android reverse also can be subdivided into the application layer framework APK reverse, android devices, such as the kernel driver reverse, based on the android hardware products.
+Reference: 
+[http://blog.csdn.net/androidsecurity/article/details/8815175](http://blog.csdn.net/androidsecurity/article/details/8815175)
+
+###2.Wifi Library for Android 
+Reference:
+[https://github.com/SmartCodeUnited/smart-code-united-wifi-android](https://github.com/SmartCodeUnited/smart-code-united-wifi-android)
+
+***
