@@ -1,5 +1,5 @@
-# snaillove-weekly-technical-sharing
-This is the weekly technical sharing in the company.
+# snaillove-sharing-weekly-technical
+This is the  sharing weekly technical in the company.
 
 
 ### #1 2015-10-16(Fri)
