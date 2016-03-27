@@ -23,8 +23,8 @@ Reference:(contain Effect Picture and Demo)[https://github.com/LhyPro/MMPlaceHol
 ####3.a pragrammer requisite helper:Dash-a powerful API reader
 As a coder,Dash will be you best helper for your coding, It's not only an API Documentation Browser,but also a Code Snippet Manager.but it can only support Mac system, the vision for windows system will be pushed soon. For windows user recommend Velocity.
 
-About Dash's the detailed function can refer to:[http://blog.csdn.net/meegomeego/article/details/8798665](http://blog.csdn.net/meegomeego/article/details/8798665)
-You can download Dash at App Store:[https://kapeli.com/dash](https://kapeli.com/dash)
+About Dash's the detailed function can refer to:[http://blog.csdn.net/meegomeego/article/details/8798665](http://blog.csdn.net/meegomeego/article/details/8798665)    
+You can download Dash at App Store:[https://kapeli.com/dash](https://kapeli.com/dash)    
 Velocity download adress:[http://velocity.silverlakesoftware.com/](http://velocity.silverlakesoftware.com/)
 
 ####4.a simple tool named LICEcap can recording GIF document.
