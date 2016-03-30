@@ -9,12 +9,12 @@ This is the  sharing weekly technical in the company.
     1).AVAudioSessionCategoryOptionMixWithOthers   
     2).AVAudioSessionCategoryPlayback   
     3).AVAudioSessionCategoryOptionDefaultToSpeaker   
-    4).AVAudioSessionCategorySoloAmbient   
-  [@arrfu :http://www.arrfu.com/blog/2016/03/24/iOS-background-alarm.html](http://www.arrfu.com/blog/2016/03/24/iOS-background-alarm.html)
+    4).AVAudioSessionCategorySoloAmbient    
+[@arrfu :http://www.arrfu.com/blog/2016/03/24/iOS-background-alarm.html](http://www.arrfu.com/blog/2016/03/24/iOS-background-alarm.html)
 
-####2.iOS:getting the picture color demo   
-  - (UIColor*)getPixelColorAtLocation:(CGPoint)point inImage:(UIImage *)image formImageRect:(CGRect)Rect;   
-  [@arrfu :https://github.com/arrfu/JFGetImageColor](https://github.com/arrfu/JFGetImageColor)
+####2.iOS:getting the picture color demo    
+- (UIColor*)getPixelColorAtLocation:(CGPoint)point inImage:(UIImage *)image formImageRect:(CGRect)Rect;    
+[@arrfu :https://github.com/arrfu/JFGetImageColor](https://github.com/arrfu/JFGetImageColor)
 
 ### #2 2016-03-27(Sun)
 
