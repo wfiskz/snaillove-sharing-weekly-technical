@@ -7,9 +7,10 @@ This is the  sharing weekly technical in the company.
 ***
 [@iOnesmile](https://github.com/iOnesmile)   
 
-####1.Android:Custom EQ view
-    **Github Repositories：**  [https://github.com/iOnesmile/CustomEQView](https://github.com/iOnesmile/CustomEQView)
-    **Blog article：**  [http://www.ionesmile.com/android/view-equalizer](http://www.ionesmile.com/android/view-equalizer)
+####Android:Custom EQ view  
+
+**Github Repositories：**  [https://github.com/iOnesmile/CustomEQView](https://github.com/iOnesmile/CustomEQView)      
+**Blog article：**  [http://www.ionesmile.com/android/view-equalizer](http://www.ionesmile.com/android/view-equalizer)
 
 ***
 [@arrfu](https://github.com/arrfu)   
