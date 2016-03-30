@@ -5,7 +5,7 @@ This is the  sharing weekly technical in the company.
 
 ### #2 2016-03-30(Wed)
 ***
-[@arrfu]   
+[@arrfu](https://github.com/arrfu)   
 
 ####1.iOS:the options of AVAudioSession   
     1).AVAudioSessionCategoryOptionMixWithOthers   
