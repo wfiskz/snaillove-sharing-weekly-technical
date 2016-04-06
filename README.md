@@ -11,7 +11,9 @@ This is the weekly technical sharing in the company.
 Here is a brief introduction of the ant algorithm and code.
 
 Reference:
-[https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/%E8%9A%82%E8%9A%81%E7%AE%97%E6%B3%95.rar)
+[Aco][https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/Aco.java)
+[Ant][https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/Ant.java)
+[Main][https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/Main.java)
 
 
 
