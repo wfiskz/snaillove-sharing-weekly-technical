@@ -2,6 +2,19 @@
 This is the weekly technical sharing in the company.
 
 
+### #1 2016-04-01(Fri)
+
+***
+
+[@JackWaiting](https://github.com/jackwaiting)
+
+Here is a brief introduction of the ant algorithm and code.
+
+Reference:
+[https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/%E8%9A%82%E8%9A%81%E7%AE%97%E6%B3%95.rar)
+
+
+
 ### #1 2015-10-16(Fri)
 
 ***
