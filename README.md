@@ -15,8 +15,8 @@ This is the  sharing weekly technical in the company.
 
 ####1.Android:DL frame work
 
-Can start APK not running android.  
-** Reference address：** [http://blog.csdn.net/singwhatiwanna/article/details/40283117](http://blog.csdn.net/singwhatiwanna/article/details/40283117) 
+The DL framework can run without being installed on the APK。    
+**Reference address：**[http://blog.csdn.net/singwhatiwanna/article/details/40283117](http://blog.csdn.net/singwhatiwanna/article/details/40283117) 
 
 ####2.React Native
 
