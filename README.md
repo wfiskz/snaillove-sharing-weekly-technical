@@ -2,6 +2,20 @@
 This is the  sharing weekly technical in the company.
 
 ***
+### #10 2016-04-01(Fri)
+***
+[@fiskz](https://github.com/wfiskz)
+
+####1.Android:DL frame work
+
+Can start APK not running android.  
+** Reference address：** [http://blog.csdn.net/singwhatiwanna/article/details/40283117](http://blog.csdn.net/singwhatiwanna/article/details/40283117) 
+
+####2.React Native
+
+React Native combines the advantages of Web applications and Native applications,Can use JavaScript to develop iOS and Android native applications.Use JavaScript to develop Can iOS and Android native applications.In JavaScript with React Abstract operating system native UI components, instead of DOM elements to render, etc.. React Native Facebook in a number of application products.  
+**Official documents：** [http://facebook.github.io/react-native/docs/getting-started.html](http://facebook.github.io/react-native/docs/getting-started.html)    
+**wiki documents：** [http://wiki.jikexueyuan.com/project/react-native](http://wiki.jikexueyuan.com/project/react-native)
 
 ### #2 2016-03-30(Wed)
 ***
