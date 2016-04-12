@@ -9,6 +9,17 @@ This is the  sharing weekly technical in the company.
 1.[22个值得收藏的android开源代码-UI篇](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/1020/1808.html)    
 
 ***
+
+[@ifeegoo](https://github.com/ifeegoo)
+
+1.Less Baidu,More Google.Less Baidu Baike,More Wikipedia.
+
+2.Recommend you using [AUTHY](https://www.authy.com/) to deal with your Github two-factor security.
+
+3.Don’t call yourself Android/iOS/Java Programmer,because you are Programmer!
+
+***
+
 ### #10 2016-04-01(Fri)
 ***
 [@fiskz](https://github.com/wfiskz)
