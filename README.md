@@ -6,9 +6,11 @@ This is the  sharing weekly technical in the company.
 ***
 [@misparking](https://github.com/misparking)
 
-1.[Android open source code UI](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/1020/1808.html)    
-There are twenty-two recommended collection of Android open source code.
+1.[Android open source code-UI](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/1020/1808.html)    
+There are twenty-two recommended collection of Android open source code.    
 
+2.[ViewDemos-SwitchButton](https://github.com/misparking/ViewDemos)    
+This project provides you a convenient way to use and customise a SwitchButton widget in Android.
 ***
 
 [@ifeegoo](https://github.com/ifeegoo)
