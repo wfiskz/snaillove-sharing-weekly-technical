@@ -1,6 +1,13 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
 ***
+### #10 2014-04-15(Fri)
+
+***
+[@lanjay](https://github.com/lanjay)
+1.[RecyclerView 侧滑拖拽](http://m.blog.csdn.net/article/details?id=50505210)
+2.[Android Studio 所有插件](https://plugins.jetbrains.com/plugin/7595?pr=)
+***
 ### #10 2016-04-08(Fri)
 
 ***
