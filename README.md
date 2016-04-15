@@ -6,7 +6,8 @@ This is the  sharing weekly technical in the company.
 ***
 [@misparking](https://github.com/misparking)
 
-1.[22个值得收藏的android开源代码-UI篇](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/1020/1808.html)    
+1.[Android open source code UI](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/1020/1808.html)    
+There are twenty-two recommended collection of Android open source code.
 
 ***
 
