@@ -1,5 +1,19 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
+
+***
+### #10 2016-04-22(Fri)
+
+[@ifeegoo](https://github.com/ifeegoo)
+
+1.[GitHub 中国区前 100 名到底是什么样的人？](http://diycode.cc/topics/23)
+
+2.[如何提高程序员的影响力](https://www.phodal.com/blog/how-to-improve-impact/)
+
+3.[Github漫游](https://github.com/phodal/github-roam)
+
+***
+
 ***
 ### #10 2016-04-08(Fri)
 
