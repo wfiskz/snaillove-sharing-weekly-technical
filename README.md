@@ -9,6 +9,12 @@ This is the  sharing weekly technical in the company.
 1.About Github,just wait me to update my blog to give you full of it.
 
 ***
+### #10 2016-04-29(Fri)
+
+
+1.About database lock
+
+***
 ### #10 2016-04-22(Fri)
 
 [@ifeegoo](https://github.com/ifeegoo)
