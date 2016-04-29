@@ -13,11 +13,11 @@ This is the  sharing weekly technical in the company.
 
 [@ifeegoo](https://github.com/ifeegoo)
 
-1.[GitHub 中国区前 100 名到底是什么样的人？](http://diycode.cc/topics/23)
+1.[who's the 100 users of Github？](http://diycode.cc/topics/23)
 
-2.[如何提高程序员的影响力](https://www.phodal.com/blog/how-to-improve-impact/)
+2.[How to improve the programmer's impact?](https://www.phodal.com/blog/how-to-improve-impact/)
 
-3.[Github漫游](https://github.com/phodal/github-roam)
+3.[Github roaming!](https://github.com/phodal/github-roam)
 
 ***
 
