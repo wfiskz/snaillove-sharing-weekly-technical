@@ -1,6 +1,13 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
 
+
+### #10 2016-04-29(Fri)
+
+[@ifeegoo](https://github.com/ifeegoo)
+
+1.About Github,just wait me to update my blog to give you full of it.
+
 ***
 ### #10 2016-04-22(Fri)
 
