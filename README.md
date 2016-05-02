@@ -2,6 +2,19 @@
 This is the  sharing weekly technical in the company.
 
 
+### #10 2016-05-02(Tues)
+
+That's a summary about  CocoaPods, CocoaPods is a very powerful tool to manager third part classlib in an iOS Project.
+The summary contains two parts about CocoaPods:
+
+1.How to use CocoaPods to manager third part classlib in your iOS Project.
+
+2.How to make you own pravite classlib by CocoaPods.
+
+For the detailed content, you can download the "iSO-Summary about CocoaPods" to look up.
+
+***
+
 ### #10 2016-04-29(Fri)
 
 [@ifeegoo](https://github.com/ifeegoo)
