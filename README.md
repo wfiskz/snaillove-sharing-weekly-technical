@@ -8,7 +8,7 @@ This is the  sharing weekly technical in the company.
 
 1. The API of CoreBluetooth  developing
 
-demo:[babyBluetooch](https://github.com/coolnameismy/BabyBluetooth)
+demo:[babyBluetooch:https://github.com/coolnameismy/BabyBluetooth](https://github.com/coolnameismy/BabyBluetooth)
 
 this demo is about the CoreBluetooth library
  
