@@ -1,6 +1,20 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
 
+***
+### #10 2016-05-06(Fri)
+
+[@arrfu](www.arrfu.com)
+
+1. The API of CoreBluetooth  developing
+
+demo:[babyBluetooch:https://github.com/coolnameismy/BabyBluetooth](https://github.com/coolnameismy/BabyBluetooth)
+
+this demo is about the CoreBluetooth library
+ 
+
+
+***
 
 ### #10 2016-05-02(Tues)
 
