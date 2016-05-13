@@ -1,6 +1,19 @@
 # snaillove-weekly-technical-sharing
 This is the weekly technical sharing in the company.
 
+### #1 2016-05-13(Fri)
+
+***
+
+[@JackWaiting](https://github.com/jackwaiting)
+
+Here is the use of log and Alipay use source code.
+
+Reference:
+[Log][https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/Log日志的使用方法.docx)
+[Alipay][https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/Alipay.java)
+[MainActivity][https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/MainActivity.java)
+
 
 ### #1 2016-04-01(Fri)
 
