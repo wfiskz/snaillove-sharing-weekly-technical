@@ -2,9 +2,30 @@
 This is the  sharing weekly technical in the company.
 
 ***
+### #18 2016-05-13(Fri)
+
+[@fiskz](https://github.com/wfiskz)
+
+  1.hsv
+
+[Magical hsv](https://zh.wikipedia.org/wiki/HSL%E5%92%8CHSV%E8%89%B2%E5%BD%A9%E7%A9%BA%E9%97%B4)
+
+  2.The is iOS Warning summary:[Warning summary](http://fiskz.com/ios/2016/05/18/ios-warning-summary.html)
+
+  3.android and iOS about Suggestions on Internationalization。
+  
+  1.Do not add unique character information，Make another system can't be recognized as an international.
+  
+  2.iOS image Internationalization add to key value
+  
+  3.Android and iOS need to be effective.
+
+ 
+
+***
 ### #10 2016-05-06(Fri)
 
-[@arrfu](www.arrfu.com)
+[@arrfu](www.arrfu.com)  
 
 1. The API of CoreBluetooth  developing
 
