@@ -38,7 +38,20 @@ This is the  sharing weekly technical in the company.
 
 demo:[babyBluetooch:https://github.com/coolnameismy/BabyBluetooth](https://github.com/coolnameismy/BabyBluetooth)
 
-this demo is about the CoreBluetooth library
+this demo is about the CoreBluetooth library   
+
+[@iOnesmile](www.iOnesmile.com)   
+
+1, The colour disk    
+
+blog:[http://www.ionesmile.com/android/view-color-plate-1](http://www.ionesmile.com/android/view-color-plate-1)  
+
+this demo is about the colour disk,About HSV, Shader and so on knowledge    
+
+
+2, Eclipse JAD plug-in installed   
+
+blog:[http://www.ionesmile.com/java/eclipse_jad_install](http://www.ionesmile.com/java/eclipse_jad_install)   
  
 
 
