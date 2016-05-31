@@ -1,5 +1,12 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
+***
+### #18 2016-05-17(Fri)
+
+[@luyonghe](https://github.com/luyonghe/2016-5-27.git)
+
+  1.iOS memory management
+
 
 ***
 ### #18 2016-05-13(Fri)
