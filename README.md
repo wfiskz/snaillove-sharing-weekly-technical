@@ -54,6 +54,19 @@ this demo is about the colour disk,About HSV, Shader and so on knowledge
 blog:[http://www.ionesmile.com/java/eclipse_jad_install](http://www.ionesmile.com/java/eclipse_jad_install)   
  
 
+### #1 2016-05-13(Fri)
+
+***
+
+[@JackWaiting](https://github.com/jackwaiting)
+
+Here is the use of log and Alipay use source code.
+
+Reference:
+[Log][https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/Log日志的使用方法.docx)
+[Alipay][https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/Alipay.java)
+[MainActivity][https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/MainActivity.java)
+
 
 ***
 
