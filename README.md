@@ -1,15 +1,19 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
+
 ***
-### #18 2016-05-17(Fri)
+
+### #17 2016-05-17(Fri)
 
 [@luyonghe](https://github.com/luyonghe/2016-5-27.git)
 
-  1.iOS memory management
-
+  1.iOS memory management    
+[@misparking](https://github.com/misparking)    
+1.[Google I/O 2016 视频中文字幕版](http://vku.youku.com/live/play?id=201)    
+2.[Google I/O 2016 Summary](http://www.misparking.com/google-io-2016.html)    
 
 ***
-### #18 2016-05-13(Fri)
+### #16 2016-05-13(Fri)
 
 [@fiskz](https://github.com/wfiskz)
 
@@ -25,12 +29,20 @@ This is the  sharing weekly technical in the company.
   
   2.iOS image Internationalization add to key value
   
-  3.Android and iOS need to be effective.
+  3.Android and iOS need to be effective.    
+  
+[@JackWaiting](https://github.com/jackwaiting)
 
+Here is the use of log and Alipay use source code.
+
+Reference:
+[Log][https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/Log日志的使用方法.docx)
+[Alipay][https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/Alipay.java)
+[MainActivity][https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/MainActivity.java)
  
 
 ***
-### #10 2016-05-06(Fri)
+### #15 2016-05-06(Fri)
 
 [@arrfu](www.arrfu.com)  
 
@@ -54,23 +66,9 @@ this demo is about the colour disk,About HSV, Shader and so on knowledge
 blog:[http://www.ionesmile.com/java/eclipse_jad_install](http://www.ionesmile.com/java/eclipse_jad_install)   
  
 
-### #1 2016-05-13(Fri)
-
 ***
 
-[@JackWaiting](https://github.com/jackwaiting)
-
-Here is the use of log and Alipay use source code.
-
-Reference:
-[Log][https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/Log日志的使用方法.docx)
-[Alipay][https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/Alipay.java)
-[MainActivity][https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/MainActivity.java)
-
-
-***
-
-### #10 2016-05-02(Tues)
+### #14 2016-05-02(Tues)
 
 That's a summary about  CocoaPods, CocoaPods is a very powerful tool to manager third part classlib in an iOS Project.
 The summary contains two parts about CocoaPods:
@@ -83,7 +81,7 @@ For the detailed content, you can download the "iSO-Summary about CocoaPods" to 
 
 ***
 
-### #10 2016-04-29(Fri)
+### #13 2016-04-29(Fri)
 
 [@ifeegoo](https://github.com/ifeegoo)
 
@@ -96,7 +94,7 @@ For the detailed content, you can download the "iSO-Summary about CocoaPods" to 
 1.About database lock
 
 ***
-### #10 2016-04-22(Fri)
+### #12 2016-04-22(Fri)
 
 [@ifeegoo](https://github.com/ifeegoo)
 
@@ -109,7 +107,7 @@ For the detailed content, you can download the "iSO-Summary about CocoaPods" to 
 ***
 
 ***
-### #10 2014-04-15(Fri)
+### #11 2014-04-15(Fri)
 
 ***
 [@lanjay](https://github.com/lanjay)
@@ -138,7 +136,7 @@ This project provides you a convenient way to use and customise a SwitchButton w
 
 ***
 
-### #10 2016-04-01(Fri)
+### #9 2016-04-01(Fri)
 ***
 [@fiskz](https://github.com/wfiskz)
 
@@ -153,7 +151,7 @@ React Native combines the advantages of Web applications and Native applications
 **Official documents：** [http://facebook.github.io/react-native/docs/getting-started.html](http://facebook.github.io/react-native/docs/getting-started.html)    
 **wiki documents：** [http://wiki.jikexueyuan.com/project/react-native](http://wiki.jikexueyuan.com/project/react-native)
 
-### #2 2016-03-30(Wed)
+### #8 2016-03-30(Wed)
 ***
 [@iOnesmile](https://github.com/iOnesmile)   
 
@@ -178,7 +176,7 @@ React Native combines the advantages of Web applications and Native applications
 
 [@arrfu demo:https://github.com/arrfu/JFGetImageColor](https://github.com/arrfu/JFGetImageColor)
 
-### #2 2016-03-27(Sun)
+### #7 2016-03-27(Sun)
 
 ***
 
@@ -212,7 +210,7 @@ download adress:[http://www.cockos.com/licecap/](http://www.cockos.com/licecap/)
 
 ***
 
-### #1 2016-04-01(Fri)
+### #6 2016-04-01(Fri)
 
 ***
 
@@ -227,7 +225,7 @@ Reference:
 
 
 
-### #1 2015-10-16(Fri)
+### #5 2015-10-16(Fri)
 
 ***
 
