@@ -1,7 +1,113 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
+
 ***
-### #10 2014-04-15(Fri)
+
+### #17 2016-05-17(Fri)
+
+[@luyonghe](https://github.com/luyonghe/2016-5-27.git)
+
+  1.iOS memory management    
+[@misparking](https://github.com/misparking)    
+1.[Google I/O 2016 视频中文字幕版](http://vku.youku.com/live/play?id=201)    
+2.[Google I/O 2016 Summary](http://www.misparking.com/google-io-2016.html)    
+
+***
+### #16 2016-05-13(Fri)
+
+[@fiskz](https://github.com/wfiskz)
+
+  1.hsv
+
+[Magical hsv](https://zh.wikipedia.org/wiki/HSL%E5%92%8CHSV%E8%89%B2%E5%BD%A9%E7%A9%BA%E9%97%B4)
+
+  2.The is iOS Warning summary:[Warning summary](http://fiskz.com/ios/2016/05/18/ios-warning-summary.html)
+
+  3.android and iOS about Suggestions on Internationalization。
+  
+  1.Do not add unique character information，Make another system can't be recognized as an international.
+  
+  2.iOS image Internationalization add to key value
+  
+  3.Android and iOS need to be effective.    
+  
+[@JackWaiting](https://github.com/jackwaiting)
+
+Here is the use of log and Alipay use source code.
+
+Reference:
+[Log][https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/Log日志的使用方法.docx)
+[Alipay][https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/Alipay.java)
+[MainActivity][https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/MainActivity.java)
+ 
+
+***
+### #15 2016-05-06(Fri)
+
+[@arrfu](www.arrfu.com)  
+
+1. The API of CoreBluetooth  developing
+
+demo:[babyBluetooch:https://github.com/coolnameismy/BabyBluetooth](https://github.com/coolnameismy/BabyBluetooth)
+
+this demo is about the CoreBluetooth library   
+
+[@iOnesmile](www.iOnesmile.com)   
+
+1, The colour disk    
+
+blog:[http://www.ionesmile.com/android/view-color-plate-1](http://www.ionesmile.com/android/view-color-plate-1)  
+
+this demo is about the colour disk,About HSV, Shader and so on knowledge    
+
+
+2, Eclipse JAD plug-in installed   
+
+blog:[http://www.ionesmile.com/java/eclipse_jad_install](http://www.ionesmile.com/java/eclipse_jad_install)   
+ 
+
+***
+
+### #14 2016-05-02(Tues)
+
+That's a summary about  CocoaPods, CocoaPods is a very powerful tool to manager third part classlib in an iOS Project.
+The summary contains two parts about CocoaPods:
+
+1.How to use CocoaPods to manager third part classlib in your iOS Project.
+
+2.How to make you own pravite classlib by CocoaPods.
+
+For the detailed content, you can download the "iSO-Summary about CocoaPods" to look up.
+
+***
+
+### #13 2016-04-29(Fri)
+
+[@ifeegoo](https://github.com/ifeegoo)
+
+1.About Github,just wait me to update my blog to give you full of it.
+
+***
+### #10 2016-04-29(Fri)
+
+
+1.About database lock
+
+***
+### #12 2016-04-22(Fri)
+
+[@ifeegoo](https://github.com/ifeegoo)
+
+1.[who's the 100 users of Github？](http://diycode.cc/topics/23)
+
+2.[How to improve the programmer's impact?](https://www.phodal.com/blog/how-to-improve-impact/)
+
+3.[Github roaming!](https://github.com/phodal/github-roam)
+
+***
+
+***
+### #11 2014-04-15(Fri)
 
 ***
 [@lanjay](https://github.com/lanjay)
@@ -30,7 +136,7 @@ This project provides you a convenient way to use and customise a SwitchButton w
 
 ***
 
-### #10 2016-04-01(Fri)
+### #9 2016-04-01(Fri)
 ***
 [@fiskz](https://github.com/wfiskz)
 
@@ -45,7 +151,7 @@ React Native combines the advantages of Web applications and Native applications
 **Official documents：** [http://facebook.github.io/react-native/docs/getting-started.html](http://facebook.github.io/react-native/docs/getting-started.html)    
 **wiki documents：** [http://wiki.jikexueyuan.com/project/react-native](http://wiki.jikexueyuan.com/project/react-native)
 
-### #2 2016-03-30(Wed)
+### #8 2016-03-30(Wed)
 ***
 [@iOnesmile](https://github.com/iOnesmile)   
 
@@ -70,7 +176,7 @@ React Native combines the advantages of Web applications and Native applications
 
 [@arrfu demo:https://github.com/arrfu/JFGetImageColor](https://github.com/arrfu/JFGetImageColor)
 
-### #2 2016-03-27(Sun)
+### #7 2016-03-27(Sun)
 
 ***
 
@@ -104,7 +210,7 @@ download adress:[http://www.cockos.com/licecap/](http://www.cockos.com/licecap/)
 
 ***
 
-### #1 2016-04-01(Fri)
+### #6 2016-04-01(Fri)
 
 ***
 
@@ -119,7 +225,7 @@ Reference:
 
 
 
-### #1 2015-10-16(Fri)
+### #5 2015-10-16(Fri)
 
 ***
 
