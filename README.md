@@ -2,6 +2,19 @@
 This is the  sharing weekly technical in the company.
 
 ***
+### #18 2016-06-03(Fri)
+
+[@jarylan](https://github.com/jarylan)
+
+1.photoshop cc install package and Crack(See attachments photoshop cc Crack)	
+	
+2.Make gif image 
+
+3.[美图实例](http://jingyan.baidu.com/article/00a07f3892f26982d128dc6d.html)
+
+4.[Mac版破解教程](http://www.52mac.com/soft/7157-1-1.html)
+
+***
 
 ### #17 2016-05-17(Fri)
 
@@ -110,7 +123,7 @@ For the detailed content, you can download the "iSO-Summary about CocoaPods" to 
 ### #11 2014-04-15(Fri)
 
 ***
-[@lanjay](https://github.com/lanjay)
+[@jarylan](https://github.com/jarylan)
 1.[RecyclerView Move and Swipe](http://m.blog.csdn.net/article/details?id=50505210)
 2.[Android Studio all plug](https://plugins.jetbrains.com/plugin/7595?pr=)
 ***
