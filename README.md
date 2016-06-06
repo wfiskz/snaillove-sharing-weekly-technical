@@ -1,6 +1,7 @@
-# snaillove-weekly-technical-sharing
-This is the weekly technical sharing in the company.
+# snaillove-sharing-weekly-technical
+This is the  sharing weekly technical in the company.
 
+<<<<<<< HEAD
 ### #1 2016-06-03(Fri)
 
 ***
@@ -13,9 +14,51 @@ Reference:
 [Blog][http://blog.csdn.net/zhanggang740/article/details/51569108)
 
 
+=======
+***
+### #18 2016-06-03(Fri)
+
+[@jarylan](https://github.com/jarylan)
+
+1.photoshop cc install package and Crack(See attachments photoshop cc Crack)	
+	
+2.Make gif image 
+
+3.[美图实例](http://jingyan.baidu.com/article/00a07f3892f26982d128dc6d.html)
+
+4.[Mac版破解教程](http://www.52mac.com/soft/7157-1-1.html)
+>>>>>>> main/master
 
 ***
 
+### #17 2016-05-17(Fri)
+
+[@luyonghe](https://github.com/luyonghe/2016-5-27.git)
+
+  1.iOS memory management    
+[@misparking](https://github.com/misparking)    
+1.[Google I/O 2016 视频中文字幕版](http://vku.youku.com/live/play?id=201)    
+2.[Google I/O 2016 Summary](http://www.misparking.com/google-io-2016.html)    
+
+***
+### #16 2016-05-13(Fri)
+
+[@fiskz](https://github.com/wfiskz)
+
+  1.hsv
+
+[Magical hsv](https://zh.wikipedia.org/wiki/HSL%E5%92%8CHSV%E8%89%B2%E5%BD%A9%E7%A9%BA%E9%97%B4)
+
+  2.The is iOS Warning summary:[Warning summary](http://fiskz.com/ios/2016/05/18/ios-warning-summary.html)
+
+  3.android and iOS about Suggestions on Internationalization。
+  
+  1.Do not add unique character information，Make another system can't be recognized as an international.
+  
+  2.iOS image Internationalization add to key value
+  
+  3.Android and iOS need to be effective.    
+  
 [@JackWaiting](https://github.com/jackwaiting)
 
 Here is the use of log and Alipay use source code.
@@ -24,9 +67,178 @@ Reference:
 [Log][https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/Log日志的使用方法.docx)
 [Alipay][https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/Alipay.java)
 [MainActivity][https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/MainActivity.java)
+ 
+
+***
+### #15 2016-05-06(Fri)
+
+[@arrfu](www.arrfu.com)  
+
+1. The API of CoreBluetooth  developing
+
+demo:[babyBluetooch:https://github.com/coolnameismy/BabyBluetooth](https://github.com/coolnameismy/BabyBluetooth)
+
+this demo is about the CoreBluetooth library   
+
+[@iOnesmile](www.iOnesmile.com)   
+
+1, The colour disk    
+
+blog:[http://www.ionesmile.com/android/view-color-plate-1](http://www.ionesmile.com/android/view-color-plate-1)  
+
+this demo is about the colour disk,About HSV, Shader and so on knowledge    
 
 
-### #1 2016-04-01(Fri)
+2, Eclipse JAD plug-in installed   
+
+blog:[http://www.ionesmile.com/java/eclipse_jad_install](http://www.ionesmile.com/java/eclipse_jad_install)   
+ 
+
+***
+
+### #14 2016-05-02(Tues)
+
+That's a summary about  CocoaPods, CocoaPods is a very powerful tool to manager third part classlib in an iOS Project.
+The summary contains two parts about CocoaPods:
+
+1.How to use CocoaPods to manager third part classlib in your iOS Project.
+
+2.How to make you own pravite classlib by CocoaPods.
+
+For the detailed content, you can download the "iSO-Summary about CocoaPods" to look up.
+
+***
+
+### #13 2016-04-29(Fri)
+
+[@ifeegoo](https://github.com/ifeegoo)
+
+1.About Github,just wait me to update my blog to give you full of it.
+
+***
+### #10 2016-04-29(Fri)
+
+
+1.About database lock
+
+***
+### #12 2016-04-22(Fri)
+
+[@ifeegoo](https://github.com/ifeegoo)
+
+1.[who's the 100 users of Github？](http://diycode.cc/topics/23)
+
+2.[How to improve the programmer's impact?](https://www.phodal.com/blog/how-to-improve-impact/)
+
+3.[Github roaming!](https://github.com/phodal/github-roam)
+
+***
+
+***
+### #11 2014-04-15(Fri)
+
+***
+[@jarylan](https://github.com/jarylan)
+1.[RecyclerView Move and Swipe](http://m.blog.csdn.net/article/details?id=50505210)
+2.[Android Studio all plug](https://plugins.jetbrains.com/plugin/7595?pr=)
+***
+### #10 2016-04-08(Fri)
+
+***
+[@misparking](https://github.com/misparking)
+
+1.[Android open source code-UI](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/1020/1808.html)    
+There are twenty-two recommended collection of Android open source code.    
+
+2.[ViewDemos-SwitchButton](https://github.com/misparking/ViewDemos)    
+This project provides you a convenient way to use and customise a SwitchButton widget in Android.
+***
+
+[@ifeegoo](https://github.com/ifeegoo)
+
+1.Less Baidu,More Google.Less Baidu Baike,More Wikipedia.
+
+2.Recommend you using [AUTHY](https://www.authy.com/) to deal with your Github two-factor security.
+
+3.Don’t call yourself Android/iOS/Java Programmer,because you are Programmer!
+
+***
+
+### #9 2016-04-01(Fri)
+***
+[@fiskz](https://github.com/wfiskz)
+
+####1.Android:DL frame work
+
+The DL framework can run without being installed on the APK。    
+**Reference address：**[http://blog.csdn.net/singwhatiwanna/article/details/40283117](http://blog.csdn.net/singwhatiwanna/article/details/40283117) 
+
+####2.React Native
+
+React Native combines the advantages of Web applications and Native applications,Can use JavaScript to develop iOS and Android native applications.Use JavaScript to develop Can iOS and Android native applications.In JavaScript with React Abstract operating system native UI components, instead of DOM elements to render, etc.. React Native Facebook in a number of application products.  
+**Official documents：** [http://facebook.github.io/react-native/docs/getting-started.html](http://facebook.github.io/react-native/docs/getting-started.html)    
+**wiki documents：** [http://wiki.jikexueyuan.com/project/react-native](http://wiki.jikexueyuan.com/project/react-native)
+
+### #8 2016-03-30(Wed)
+***
+[@iOnesmile](https://github.com/iOnesmile)   
+
+####Android:Custom EQ view  
+
+**Github Repositories：**  [https://github.com/iOnesmile/CustomEQView](https://github.com/iOnesmile/CustomEQView)      
+**Blog article：**  [http://www.ionesmile.com/android/view-equalizer](http://www.ionesmile.com/android/view-equalizer)
+
+***
+[@arrfu](https://github.com/arrfu)   
+
+####1.iOS:the options of AVAudioSession   
+    1).AVAudioSessionCategoryOptionMixWithOthers   
+    2).AVAudioSessionCategoryPlayback   
+    3).AVAudioSessionCategoryOptionDefaultToSpeaker   
+    4).AVAudioSessionCategorySoloAmbient    
+[@arrfu demo:http://www.arrfu.com/blog/2016/03/24/iOS-background-alarm.html](http://www.arrfu.com/blog/2016/03/24/iOS-background-alarm.html)
+
+####2.iOS:getting the picture color demo    
+- (UIColor*)getPixelColorAtLocation:(CGPoint)point inImage:(UIImage *)image formImageRect:(CGRect)Rect;   
+ 
+
+[@arrfu demo:https://github.com/arrfu/JFGetImageColor](https://github.com/arrfu/JFGetImageColor)
+
+### #7 2016-03-27(Sun)
+
+***
+
+####1.iOS:A summary of iOS APP read local audio resource.(three different situations)
+
+A iOS APP read local audio resource at three different situations follow:
+  1. The audio download by third-part Audio Player.
+  2. The audio download by third-part Apple Music.
+  3. The audio copied by USB from a computer.
+
+Here is the adress contains a detailed summary and a Demo:[https://github.com/LhyPro/iOS-GetAudioFromiPod](https://github.com/LhyPro/iOS-GetAudioFromiPod)
+
+####2.iOS:A convenient third-part named MMPlaceHolder.
+
+It can show a view's width and height intuitively，it's very convience for our programmer and it's very easy to use.
+
+Reference:(contain Effect Picture and Demo)[https://github.com/LhyPro/MMPlaceHolder](https://github.com/LhyPro/MMPlaceHolder)
+
+####3.a pragrammer requisite helper:Dash-a powerful API reader
+As a coder,Dash will be you best helper for your coding, It's not only an API Documentation Browser,but also a Code Snippet Manager.but it can only support Mac system, the vision for windows system will be pushed soon. For windows user recommend Velocity.
+
+About Dash's the detailed function can refer to:[http://blog.csdn.net/meegomeego/article/details/8798665](http://blog.csdn.net/meegomeego/article/details/8798665)    
+You can download Dash at App Store:[https://kapeli.com/dash](https://kapeli.com/dash)    
+Velocity download adress:[http://velocity.silverlakesoftware.com/](http://velocity.silverlakesoftware.com/)
+
+####4.a simple tool named LICEcap can recording GIF document.
+
+It can support both Mac system and Windows system.
+
+download adress:[http://www.cockos.com/licecap/](http://www.cockos.com/licecap/)
+
+***
+
+### #6 2016-04-01(Fri)
 
 ***
 
@@ -41,7 +253,7 @@ Reference:
 
 
 
-### #1 2015-10-16(Fri)
+### #5 2015-10-16(Fri)
 
 ***
 
