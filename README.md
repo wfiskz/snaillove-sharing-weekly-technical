@@ -7,6 +7,17 @@ This is the weekly technical sharing in the company.
 
 [@JackWaiting](https://github.com/jackwaiting)
 
+Retrofit+okhttp network framework introduction.
+
+Reference:
+[Blog][http://blog.csdn.net/zhanggang740/article/details/51569108)
+
+
+
+***
+
+[@JackWaiting](https://github.com/jackwaiting)
+
 Here is the use of log and Alipay use source code.
 
 Reference:
