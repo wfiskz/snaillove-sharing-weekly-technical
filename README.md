@@ -2,6 +2,37 @@
 This is the  sharing weekly technical in the company.
 
 <<<<<<< HEAD
+### #20 2016-06-07(Tues)
+
+***
+
+[@Lewanny](https://github.com/Lewanny)
+
+iSO:a summary about how to choosing a library of network requests 
+
+By comparing the most popular librarys recently, including ASIHTTPRequest, AFNetworking, MKNetworkKit and YTKNetwork, get the following conclusions:
+
+1.ASIHTTPRequest: (https://github.com/pokeb/asi-http-request)   
+    a classic network request frame. ASIHTTPRequest is packaged on the C' CFNetwork, so it's the most powerfulnetwork framework and
+have many considerable advantages.ASIHTTPRequest could meet any needs of function, but It hasn't been updated for a long time and cause lots of bug and compatibility Issues, so abandon it.
+
+2.AFNetworking: (https://github.com/AFNetworking/AFNetworking)   
+    The most popular network request frame, it has 25953 star on GitHub now. the difference to ASIHTTPRequest is AFNetworking
+ispackaged on the OC' NSURLSession and NSURLConnection. AFNetworking is not stronger than ASIHTTPRequest, but AFNetworking focus on network data transmission, network and multi-threaded processing and it is very simple to use.So is AFNetworking is recommended.
+
+3.MKNetworkKit: (https://github.com/luisobo/Nocilla)   
+    MKNetworkKit is very easy to use, but functional and powerful, it is a total iOS network programming code libraries, based on the
+ARC entirely. MKNetworkKit has only two classes, the goal of MKNetworkKit is to use like AFNetworking simply, but have powerful functions like ASIHTTPRequest.Although it have many advantages,but various CRASH,debugging useless and lack of datas is MKNetworkKit's fatal flaw.
+
+4.YTKNetwork: (https://github.com/yuantiku/YTKNetwork)   
+    YTKNetwork is a iOS network library packaged based AFNetworking by YTK iOS development team, it provides a set of High Level API
+and higher level of network access abstraction.Such as legitimacing by time or version number requested content caching network, check the returned JSON content, batch network request filter and plug-in mechanism and so so. So if you wanan do that's fountions, YTKNetwork is recommended.
+
+For a summary, AFNetworking and YTKNetwork are recommended for diffrient needs and their different functions.
+
+***
+
+
 ### #1 2016-06-03(Fri)
 
 ***
