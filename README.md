@@ -1,6 +1,20 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
 
+<<<<<<< HEAD
+### #1 2016-06-03(Fri)
+
+***
+
+[@JackWaiting](https://github.com/jackwaiting)
+
+Retrofit+okhttp network framework introduction.
+
+Reference:
+[Blog][http://blog.csdn.net/zhanggang740/article/details/51569108)
+
+
+=======
 ***
 ### #18 2016-06-03(Fri)
 
@@ -13,6 +27,7 @@ This is the  sharing weekly technical in the company.
 3.[美图实例](http://jingyan.baidu.com/article/00a07f3892f26982d128dc6d.html)
 
 4.[Mac版破解教程](http://www.52mac.com/soft/7157-1-1.html)
+>>>>>>> main/master
 
 ***
 
