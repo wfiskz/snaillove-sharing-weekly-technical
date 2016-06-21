@@ -2,6 +2,12 @@
 This is the  sharing weekly technical in the company.
 
 <<<<<<< HEAD
+### #17 2016-06-20(Mon)
+
+About java multi thread  
+
+***
+
 ### #20 2016-06-07(Tues)
 
 ***
