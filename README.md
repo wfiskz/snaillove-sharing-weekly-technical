@@ -1,8 +1,16 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
 
-<<<<<<< HEAD
-### #17 2016-06-20(Mon)
+### #22 2016-06-30(Thurs)
+Android :Retrofit source code analysis and the use of MVP framework package
+
+Reference:
+
+[Blog][http://blog.csdn.net/zhanggang740/article/details/51745402) 
+
+[Code][https://github.com/JackWaiting/Retrofit-MVP)
+
+### #21 2016-06-20(Mon)
 
 About java multi thread  
 
@@ -39,7 +47,7 @@ For a summary, AFNetworking and YTKNetwork are recommended for diffrient needs a
 ***
 
 
-### #1 2016-06-03(Fri)
+### #19 2016-06-03(Fri)
 
 ***
 
@@ -51,7 +59,6 @@ Reference:
 [Blog][http://blog.csdn.net/zhanggang740/article/details/51569108)
 
 
-=======
 ***
 ### #18 2016-06-03(Fri)
 
