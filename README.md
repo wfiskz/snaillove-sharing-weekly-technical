@@ -1,14 +1,28 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
 
+### #23 2016-07-15(Thurs)
+[@JackWaiting](https://github.com/jackwaiting)
+
+####Code
+ORMLite 
+
+[DatabaseHelper](https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/jackwaiting/ormlite/DatabaseHelper.java) 
+
+[User](https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/jackwaiting/ormlite/User.java)
+
+[UserDao](https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/jackwaiting/ormlite/UserDao.java)
+
 ### #22 2016-06-30(Thurs)
+[@JackWaiting](https://github.com/jackwaiting)
+
 Android :Retrofit source code analysis and the use of MVP framework package
 
 Reference:
 
-[Blog][http://blog.csdn.net/zhanggang740/article/details/51745402) 
+[Retrofit源码分析以及MVP框架封装使用](http://blog.csdn.net/zhanggang740/article/details/51745402) 
 
-[Code][https://github.com/JackWaiting/Retrofit-MVP)
+[代码地址：https://github.com/JackWaiting/Retrofit-MVP](https://github.com/JackWaiting/Retrofit-MVP)
 
 ### #21 2016-06-20(Mon)
 
@@ -56,7 +70,7 @@ For a summary, AFNetworking and YTKNetwork are recommended for diffrient needs a
 Retrofit+okhttp network framework introduction.
 
 Reference:
-[Blog][http://blog.csdn.net/zhanggang740/article/details/51569108)
+[http://blog.csdn.net/zhanggang740/article/details/51569108](http://blog.csdn.net/zhanggang740/article/details/51569108)
 
 
 ***
