@@ -1,6 +1,9 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
 
+
+
+
 ### #24 2016-07-15(Thurs)
 [@JackWaiting](https://github.com/jackwaiting)
 
@@ -11,6 +14,18 @@ Plug-in sharing
 [ECTranslation](https://github.com/Skykai521/ECTranslation)
 
 [GsonFormat](https://github.com/zzz40500/GsonFormat)
+
+[@fiskz](https://github.com/wfiskz)
+
+  1.Tool class	
+[TextColorFilterTool](https://github.com/wfiskz/TextColorFilterTool)
+
+  2.view	
+  Water animation	
+[SXWaveAnimate](https://github.com/dsxNiubility/SXWaveAnimate)
+
+  3.symbolicatecrash nalytical log  
+ [symbolicatecrash来解析错误日志](https://github.com/wfiskz/blog/blob/gh-pages/_posts/2016-07-18-crash-log.md)
 
 ### #23 2016-07-15(Thurs)
 [@JackWaiting](https://github.com/jackwaiting)
