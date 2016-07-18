@@ -1,6 +1,15 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
 
+### #24 2016-07-15(Thurs)
+Plug-in sharing
+
+[butterknife](https://github.com/avast/android-butterknife-zelezny)
+
+[ECTranslation](https://github.com/Skykai521/ECTranslation)
+
+[GsonFormat](https://github.com/zzz40500/GsonFormat)
+
 ### #23 2016-07-15(Thurs)
 [@JackWaiting](https://github.com/jackwaiting)
 
