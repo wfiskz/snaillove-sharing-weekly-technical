@@ -2,6 +2,8 @@
 This is the  sharing weekly technical in the company.
 
 ### #24 2016-07-15(Thurs)
+[@JackWaiting](https://github.com/jackwaiting)
+
 Plug-in sharing
 
 [butterknife](https://github.com/avast/android-butterknife-zelezny)
