@@ -54,6 +54,27 @@ Reference:
 
 About java multi thread  
 
+### #21 2016-06-20(Mon)
+
+***
+
+[@Lewanny](https://github.com/Lewanny)
+
+iSO:a summary of GCD's introduction and basic usage
+
+1.It's an profile about GCD, include it's advantage,core conceptsand, how to work, and the steps to use it.
+
+2.The datailed introduction about GCD' core conceptsand works.
+
+3.The datailed Uses of GCD. Include dispatch_after, dispatch_once, dispatch_group, Multi-threaded programming and dispatch_barrier_async.
+
+4.At last, a summary of some details and considerations of using GCD issues.
+
+For the detailed contents, You can visit my personal blog.
+
+[GCD](http://www.jianshu.com/p/de1e0c8dff09)
+
+
 ***
 
 ### #20 2016-06-07(Tues)
