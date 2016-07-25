@@ -6,7 +6,7 @@ This is the  sharing weekly technical in the company.
 
 ### #24 2016-07-25(Mon)   
 
-[@iOnesmile](www.iOnesmile.com)    
+[@iOnesmile](https://www.iOnesmile.com)    
 
 Android：[Spherical rolling progress bar](http://www.ionesmile.com/android/view_scroll_ball "Spherical rolling progress bar")
 
@@ -183,7 +183,7 @@ Reference:
 ***
 ### #15 2016-05-06(Fri)
 
-[@arrfu](www.arrfu.com)  
+[@arrfu](https://www.arrfu.com)  
 
 1. The API of CoreBluetooth  developing
 
@@ -191,7 +191,7 @@ demo:[babyBluetooch:https://github.com/coolnameismy/BabyBluetooth](https://githu
 
 this demo is about the CoreBluetooth library   
 
-[@iOnesmile](www.iOnesmile.com)   
+[@iOnesmile](https://www.iOnesmile.com)   
 
 1, The colour disk    
 
