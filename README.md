@@ -4,6 +4,12 @@ This is the  sharing weekly technical in the company.
 
 
 
+### #24 2016-07-25(Mon)   
+
+[@iOnesmile](www.iOnesmile.com)    
+
+Android：[Spherical rolling progress bar](http://www.ionesmile.com/android/view_scroll_ball "Spherical rolling progress bar")
+
 ### #24 2016-07-15(Thurs)
 [@JackWaiting](https://github.com/jackwaiting)
 
