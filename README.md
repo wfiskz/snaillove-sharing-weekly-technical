@@ -1,15 +1,152 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
+
+
+
+
+### #24 2016-07-15(Thurs)
+[@JackWaiting](https://github.com/jackwaiting)
+
+Plug-in sharing
+
+[butterknife](https://github.com/avast/android-butterknife-zelezny)
+
+[ECTranslation](https://github.com/Skykai521/ECTranslation)
+
+[GsonFormat](https://github.com/zzz40500/GsonFormat)
+
+[@fiskz](https://github.com/wfiskz)
+
+  1.Tool class	
+[TextColorFilterTool](https://github.com/wfiskz/TextColorFilterTool)
+
+  2.view	
+  Water animation	
+[SXWaveAnimate](https://github.com/dsxNiubility/SXWaveAnimate)
+
+  3.symbolicatecrash nalytical log  
+ [symbolicatecrash来解析错误日志](https://github.com/wfiskz/blog/blob/gh-pages/_posts/2016-07-18-crash-log.md)
+
+### #23 2016-07-15(Thurs)
+[@JackWaiting](https://github.com/jackwaiting)
+
+####Code
+ORMLite 
+
+[DatabaseHelper](https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/jackwaiting/ormlite/DatabaseHelper.java) 
+
+[User](https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/jackwaiting/ormlite/User.java)
+
+[UserDao](https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/jackwaiting/ormlite/UserDao.java)
+
+### #22 2016-06-30(Thurs)
+[@JackWaiting](https://github.com/jackwaiting)
+
+Android :Retrofit source code analysis and the use of MVP framework package
+
+Reference:
+
+[Retrofit源码分析以及MVP框架封装使用](http://blog.csdn.net/zhanggang740/article/details/51745402) 
+
+[代码地址：https://github.com/JackWaiting/Retrofit-MVP](https://github.com/JackWaiting/Retrofit-MVP)
+
+### #21 2016-06-20(Mon)
+
+About java multi thread  
+
+### #21 2016-06-20(Mon)
+
 ***
-### #18 2016-05-17(Fri)
+
+[@Lewanny](https://github.com/Lewanny)
+
+iSO:a summary of GCD's introduction and basic usage
+
+1.It's an profile about GCD, include it's advantage,core conceptsand, how to work, and the steps to use it.
+
+2.The datailed introduction about GCD' core conceptsand works.
+
+3.The datailed Uses of GCD. Include dispatch_after, dispatch_once, dispatch_group, Multi-threaded programming and dispatch_barrier_async.
+
+4.At last, a summary of some details and considerations of using GCD issues.
+
+For the detailed contents, You can visit my personal blog.
+
+[GCD](http://www.jianshu.com/p/de1e0c8dff09)
+
+
+***
+
+### #20 2016-06-07(Tues)
+
+***
+
+[@Lewanny](https://github.com/Lewanny)
+
+iSO:a summary about how to choosing a library of network requests 
+
+By comparing the most popular librarys recently, including ASIHTTPRequest, AFNetworking, MKNetworkKit and YTKNetwork, get the following conclusions:
+
+1.ASIHTTPRequest: (https://github.com/pokeb/asi-http-request)   
+    a classic network request frame. ASIHTTPRequest is packaged on the C' CFNetwork, so it's the most powerfulnetwork framework and
+have many considerable advantages.ASIHTTPRequest could meet any needs of function, but It hasn't been updated for a long time and cause lots of bug and compatibility Issues, so abandon it.
+
+2.AFNetworking: (https://github.com/AFNetworking/AFNetworking)   
+    The most popular network request frame, it has 25953 star on GitHub now. the difference to ASIHTTPRequest is AFNetworking
+ispackaged on the OC' NSURLSession and NSURLConnection. AFNetworking is not stronger than ASIHTTPRequest, but AFNetworking focus on network data transmission, network and multi-threaded processing and it is very simple to use.So is AFNetworking is recommended.
+
+3.MKNetworkKit: (https://github.com/luisobo/Nocilla)   
+    MKNetworkKit is very easy to use, but functional and powerful, it is a total iOS network programming code libraries, based on the
+ARC entirely. MKNetworkKit has only two classes, the goal of MKNetworkKit is to use like AFNetworking simply, but have powerful functions like ASIHTTPRequest.Although it have many advantages,but various CRASH,debugging useless and lack of datas is MKNetworkKit's fatal flaw.
+
+4.YTKNetwork: (https://github.com/yuantiku/YTKNetwork)   
+    YTKNetwork is a iOS network library packaged based AFNetworking by YTK iOS development team, it provides a set of High Level API
+and higher level of network access abstraction.Such as legitimacing by time or version number requested content caching network, check the returned JSON content, batch network request filter and plug-in mechanism and so so. So if you wanan do that's fountions, YTKNetwork is recommended.
+
+For a summary, AFNetworking and YTKNetwork are recommended for diffrient needs and their different functions.
+
+***
+
+
+### #19 2016-06-03(Fri)
+
+***
+
+[@JackWaiting](https://github.com/jackwaiting)
+
+Retrofit+okhttp network framework introduction.
+
+Reference:
+[http://blog.csdn.net/zhanggang740/article/details/51569108](http://blog.csdn.net/zhanggang740/article/details/51569108)
+
+
+***
+### #18 2016-06-03(Fri)
+
+[@jarylan](https://github.com/jarylan)
+
+1.photoshop cc install package and Crack(See attachments photoshop cc Crack)	
+	
+2.Make gif image 
+
+3.[美图实例](http://jingyan.baidu.com/article/00a07f3892f26982d128dc6d.html)
+
+4.[Mac版破解教程](http://www.52mac.com/soft/7157-1-1.html)
+>>>>>>> main/master
+
+***
+
+### #17 2016-05-17(Fri)
 
 [@luyonghe](https://github.com/luyonghe/2016-5-27.git)
 
-  1.iOS memory management
-
+  1.iOS memory management    
+[@misparking](https://github.com/misparking)    
+1.[Google I/O 2016 视频中文字幕版](http://vku.youku.com/live/play?id=201)    
+2.[Google I/O 2016 Summary](http://www.misparking.com/google-io-2016.html)    
 
 ***
-### #18 2016-05-13(Fri)
+### #16 2016-05-13(Fri)
 
 [@fiskz](https://github.com/wfiskz)
 
@@ -25,12 +162,20 @@ This is the  sharing weekly technical in the company.
   
   2.iOS image Internationalization add to key value
   
-  3.Android and iOS need to be effective.
+  3.Android and iOS need to be effective.    
+  
+[@JackWaiting](https://github.com/jackwaiting)
 
+Here is the use of log and Alipay use source code.
+
+Reference:
+[Log][https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/Log日志的使用方法.docx)
+[Alipay][https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/Alipay.java)
+[MainActivity][https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/master/MainActivity.java)
  
 
 ***
-### #10 2016-05-06(Fri)
+### #15 2016-05-06(Fri)
 
 [@arrfu](www.arrfu.com)  
 
@@ -54,10 +199,9 @@ this demo is about the colour disk,About HSV, Shader and so on knowledge
 blog:[http://www.ionesmile.com/java/eclipse_jad_install](http://www.ionesmile.com/java/eclipse_jad_install)   
  
 
-
 ***
 
-### #10 2016-05-02(Tues)
+### #14 2016-05-02(Tues)
 
 That's a summary about  CocoaPods, CocoaPods is a very powerful tool to manager third part classlib in an iOS Project.
 The summary contains two parts about CocoaPods:
@@ -70,7 +214,7 @@ For the detailed content, you can download the "iSO-Summary about CocoaPods" to 
 
 ***
 
-### #10 2016-04-29(Fri)
+### #13 2016-04-29(Fri)
 
 [@ifeegoo](https://github.com/ifeegoo)
 
@@ -83,7 +227,7 @@ For the detailed content, you can download the "iSO-Summary about CocoaPods" to 
 1.About database lock
 
 ***
-### #10 2016-04-22(Fri)
+### #12 2016-04-22(Fri)
 
 [@ifeegoo](https://github.com/ifeegoo)
 
@@ -96,10 +240,10 @@ For the detailed content, you can download the "iSO-Summary about CocoaPods" to 
 ***
 
 ***
-### #10 2014-04-15(Fri)
+### #11 2014-04-15(Fri)
 
 ***
-[@lanjay](https://github.com/lanjay)
+[@jarylan](https://github.com/jarylan)
 1.[RecyclerView Move and Swipe](http://m.blog.csdn.net/article/details?id=50505210)
 2.[Android Studio all plug](https://plugins.jetbrains.com/plugin/7595?pr=)
 ***
@@ -125,7 +269,7 @@ This project provides you a convenient way to use and customise a SwitchButton w
 
 ***
 
-### #10 2016-04-01(Fri)
+### #9 2016-04-01(Fri)
 ***
 [@fiskz](https://github.com/wfiskz)
 
@@ -140,7 +284,7 @@ React Native combines the advantages of Web applications and Native applications
 **Official documents：** [http://facebook.github.io/react-native/docs/getting-started.html](http://facebook.github.io/react-native/docs/getting-started.html)    
 **wiki documents：** [http://wiki.jikexueyuan.com/project/react-native](http://wiki.jikexueyuan.com/project/react-native)
 
-### #2 2016-03-30(Wed)
+### #8 2016-03-30(Wed)
 ***
 [@iOnesmile](https://github.com/iOnesmile)   
 
@@ -165,7 +309,7 @@ React Native combines the advantages of Web applications and Native applications
 
 [@arrfu demo:https://github.com/arrfu/JFGetImageColor](https://github.com/arrfu/JFGetImageColor)
 
-### #2 2016-03-27(Sun)
+### #7 2016-03-27(Sun)
 
 ***
 
@@ -199,7 +343,7 @@ download adress:[http://www.cockos.com/licecap/](http://www.cockos.com/licecap/)
 
 ***
 
-### #1 2016-04-01(Fri)
+### #6 2016-04-01(Fri)
 
 ***
 
@@ -214,7 +358,7 @@ Reference:
 
 
 
-### #1 2015-10-16(Fri)
+### #5 2015-10-16(Fri)
 
 ***
 
