@@ -1,8 +1,9 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
+### #24 2016-07-27(Wed)   
 
-
-
+[@luyonghe](https://github.com/luyonghe/2016-5-27)  
+ 1.iOS Knowledge summary  
 
 ### #24 2016-07-25(Mon)   
 
