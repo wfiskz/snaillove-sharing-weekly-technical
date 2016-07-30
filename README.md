@@ -1,6 +1,11 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
 
+### #24 2016-07-29(Sat)
+[@subvin](https://github.com/subvin)    
+
+iOS Third part database library comparing    
+
 ### #25 2016-07-29（Fri）
 [@jarylan](https://github.com/jarylan)
 
