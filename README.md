@@ -1,5 +1,11 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
+
+### #25 2016-07-29（Fri）
+[@jarylan](https://github.com/jarylan)
+
+1.[Android : Custom dynamic graph](https://github.com/jarylan/DynamicGraph)
+
 ### #24 2016-07-27(Wed)   
 
 [@luyonghe](https://github.com/luyonghe/2016-5-27)  
