@@ -1,28 +1,40 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
 
-### #24 2016-07-29(Sat)
+### #30 2016-07-22(Fri)    
+[@misparking](https://github.com/misparking)    
+
+1.[Android优质信息源推荐](https://github.com/misparking/misparking.github.io)        
+2.[干货集中营](http://gank.io/)    每日分享妹子图 和 技术干货，还有供大家中午休息的休闲视频。    
+3.[Android开发技术周报](http://www.androidweekly.cn/)    汇集互联网上每周Android开发相关的技术文章、开源项目、开发工具、视频教程、Android设计教程、设计资源等。    
+[Android Weekly](http://androidweekly.net/)    
+Android Weekly is a free newsletter that helps you to stay cutting-edge with your Android Development.    
+4.[LeanCloud](https://leancloud.cn/)    Build better apps, faster.    
+5.[devstore](http://www.devstore.cn/)    移动互联网企业运营解决方案整合平台。该平台从产品前期、设计、开发、运营到推广为创业公司提供一站式解决方案。    
+6.[SDK.cn](https://www.sdk.cn/)    为开发者提供最全面的API服务,汇集了国内外应用开发所需要的Android API/SDK,iOS SDK,WindowsPhone SDK,涉及设计开发,运维服务,云服务,市场推广,数据服务...
+
+
+### #29 2016-07-29（Fri）
 [@subvin](https://github.com/subvin)    
 
 iOS Third part database library comparing    
 
-### #25 2016-07-29（Fri）
 [@jarylan](https://github.com/jarylan)
 
 1.[Android : Custom dynamic graph](https://github.com/jarylan/DynamicGraph)
 
-### #24 2016-07-27(Wed)   
+### #28 2016-07-27(Wed)   
 
 [@luyonghe](https://github.com/luyonghe/2016-5-27)  
  1.iOS Knowledge summary  
 
-### #24 2016-07-25(Mon)   
+### #27 2016-07-25(Mon)   
 
 [@iOnesmile](http://www.iOnesmile.com)    
 
 Android：[Spherical rolling progress bar](http://www.ionesmile.com/android/view_scroll_ball "Spherical rolling progress bar")
 
-### #24 2016-07-15(Thurs)
+### #26 2016-07-15(Thurs)
 [@JackWaiting](https://github.com/jackwaiting)
 
 Plug-in sharing
@@ -45,7 +57,7 @@ Plug-in sharing
   3.symbolicatecrash nalytical log  
  [symbolicatecrash来解析错误日志](https://github.com/wfiskz/blog/blob/gh-pages/_posts/2016-07-18-crash-log.md)
 
-### #23 2016-07-15(Thurs)
+### #25 2016-07-15(Thurs)
 [@JackWaiting](https://github.com/jackwaiting)
 
 ####Code
@@ -57,7 +69,7 @@ ORMLite
 
 [UserDao](https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/jackwaiting/ormlite/UserDao.java)
 
-### #22 2016-06-30(Thurs)
+### #24 2016-06-30(Thurs)
 [@JackWaiting](https://github.com/jackwaiting)
 
 Android :Retrofit source code analysis and the use of MVP framework package
@@ -68,11 +80,11 @@ Reference:
 
 [代码地址：https://github.com/JackWaiting/Retrofit-MVP](https://github.com/JackWaiting/Retrofit-MVP)
 
-### #21 2016-06-20(Mon)
+### #23 2016-06-20(Mon)
 
 About java multi thread  
 
-### #21 2016-06-20(Mon)
+### #22 2016-06-20(Mon)
 
 ***
 
@@ -95,7 +107,7 @@ For the detailed contents, You can visit my personal blog.
 
 ***
 
-### #20 2016-06-07(Tues)
+### #21 2016-06-07(Tues)
 
 ***
 
@@ -126,7 +138,7 @@ For a summary, AFNetworking and YTKNetwork are recommended for diffrient needs a
 ***
 
 
-### #19 2016-06-03(Fri)
+### #20 2016-06-03(Fri)
 
 ***
 
@@ -139,7 +151,7 @@ Reference:
 
 
 ***
-### #18 2016-06-03(Fri)
+### #19 2016-06-03(Fri)
 
 [@jarylan](https://github.com/jarylan)
 
@@ -154,17 +166,19 @@ Reference:
 
 ***
 
-### #17 2016-05-17(Fri)
+### #18 2016-05-17(Fri)
 
 [@luyonghe](https://github.com/luyonghe/2016-5-27.git)
 
-  1.iOS memory management    
-[@misparking](https://github.com/misparking)    
+  1.iOS memory management        
+  
+[@misparking](https://github.com/misparking)       
+
 1.[Google I/O 2016 视频中文字幕版](http://vku.youku.com/live/play?id=201)    
 2.[Google I/O 2016 Summary](http://www.misparking.com/google-io-2016.html)    
 
 ***
-### #16 2016-05-13(Fri)
+### #17 2016-05-13(Fri)
 
 [@fiskz](https://github.com/wfiskz)
 
@@ -193,7 +207,7 @@ Reference:
  
 
 ***
-### #15 2016-05-06(Fri)
+### #16 2016-05-06(Fri)
 
 [@arrfu](http://www.arrfu.com)  
 
@@ -219,7 +233,7 @@ blog:[http://www.ionesmile.com/java/eclipse_jad_install](http://www.ionesmile.co
 
 ***
 
-### #14 2016-05-02(Tues)
+### #15 2016-05-02(Tues)
 
 That's a summary about  CocoaPods, CocoaPods is a very powerful tool to manager third part classlib in an iOS Project.
 The summary contains two parts about CocoaPods:
@@ -232,7 +246,7 @@ For the detailed content, you can download the "iSO-Summary about CocoaPods" to 
 
 ***
 
-### #13 2016-04-29(Fri)
+### #14 2016-04-29(Fri)
 
 [@ifeegoo](https://github.com/ifeegoo)
 
@@ -245,7 +259,7 @@ For the detailed content, you can download the "iSO-Summary about CocoaPods" to 
 1.About database lock
 
 ***
-### #12 2016-04-22(Fri)
+### #13 2016-04-22(Fri)
 
 [@ifeegoo](https://github.com/ifeegoo)
 
@@ -258,14 +272,14 @@ For the detailed content, you can download the "iSO-Summary about CocoaPods" to 
 ***
 
 ***
-### #11 2014-04-15(Fri)
+### #12 2014-04-15(Fri)
 
 ***
 [@jarylan](https://github.com/jarylan)
 1.[RecyclerView Move and Swipe](http://m.blog.csdn.net/article/details?id=50505210)
 2.[Android Studio all plug](https://plugins.jetbrains.com/plugin/7595?pr=)
 ***
-### #10 2016-04-08(Fri)
+### #11 2016-04-08(Fri)
 
 ***
 [@misparking](https://github.com/misparking)
@@ -287,7 +301,7 @@ This project provides you a convenient way to use and customise a SwitchButton w
 
 ***
 
-### #9 2016-04-01(Fri)
+### #10 2016-04-01(Fri)
 ***
 [@fiskz](https://github.com/wfiskz)
 
@@ -302,7 +316,7 @@ React Native combines the advantages of Web applications and Native applications
 **Official documents：** [http://facebook.github.io/react-native/docs/getting-started.html](http://facebook.github.io/react-native/docs/getting-started.html)    
 **wiki documents：** [http://wiki.jikexueyuan.com/project/react-native](http://wiki.jikexueyuan.com/project/react-native)
 
-### #8 2016-03-30(Wed)
+### #9 2016-03-30(Wed)
 ***
 [@iOnesmile](https://github.com/iOnesmile)   
 
@@ -327,7 +341,7 @@ React Native combines the advantages of Web applications and Native applications
 
 [@arrfu demo:https://github.com/arrfu/JFGetImageColor](https://github.com/arrfu/JFGetImageColor)
 
-### #7 2016-03-27(Sun)
+### #8 2016-03-27(Sun)
 
 ***
 
@@ -361,7 +375,7 @@ download adress:[http://www.cockos.com/licecap/](http://www.cockos.com/licecap/)
 
 ***
 
-### #6 2016-04-01(Fri)
+### #7 2016-04-01(Fri)
 
 ***
 
@@ -376,7 +390,7 @@ Reference:
 
 
 
-### #5 2015-10-16(Fri)
+### #6 2015-10-16(Fri)
 
 ***
 
