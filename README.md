@@ -8,11 +8,10 @@ This is the  sharing weekly technical in the company.
 
 2.[干货集中营](http://gank.io/)    
 每日分享妹子图 和 技术干货，还有供大家中午休息的休闲视频。    
-
 3.        
 [Android开发技术周报](http://www.androidweekly.cn/)        汇集互联网上每周Android开发相关的技术文章、开源项目、开发工具、视频教程、Android设计教程、设计资源等。    
 [Android Weekly](http://androidweekly.net/)        
-Android Weekly is a free newsletter that helps you to stay cutting-edge with your Android Development.    
+Android Weekly is a free newsletter that helps you to stay cutting-edge with your Android Development.   
 
 4.[LeanCloud](https://leancloud.cn/)        
 Build better apps, faster.    
