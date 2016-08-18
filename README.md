@@ -1,6 +1,37 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
 
+### #31 2016-08-18(Sat)    
+[@Lewanny](https://github.com/Lewanny)    
+
+A guide of very practical and convenient plug-ins for Xcode.
+
+[Alcatraz](https://github.com/alcatraz/Alcatraz)
+As a plug-ins management tools, Alcatraz is also a plug-in, you can install and unstall all plug-ins by Alcatraz.
+
+1.[CocoaPods](https://github.com/kattrali/cocoapods-xcode-plugin)   
+2.[KSImageNamed](https://github.com/ksuther/KSImageNamed-Xcode)  
+3.[Peckham](https://github.com/markohlebar/Peckham)  
+4.[XToDo](https://github.com/trawor/XToDo)  
+5.[VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode)  
+6.[SCXcodeMiniMap](https://github.com/stefanceriu/SCXcodeMiniMap)  
+7.[HOStringSense](https://github.com/holtwick/HOStringSense-for-Xcode)  
+8.[ColorSense](https://github.com/omz/ColorSense-for-Xcode)  
+9.[ActivatePowerMode](https://github.com/poboke/ActivatePowerMode)  
+10.[GitDiff](https://github.com/johnno1962/GitDiff)  
+11.[xvim](https://github.com/JugglerShu/XVim)  
+12.[XAlign](https://github.com/qfish/XAlign)  
+13.[SCXcodeSwitchExpander](https://github.com/stefanceriu/SCXcodeSwitchExpander)  
+14.[RTImageAssets](http://www.lwxshow.com/appdev/ios/ios-nimageset.html)  
+
+***
+
+1.[Android优质信息源推荐](https://github.com/misparking/misparking.github.io)    
+
+2.[干货集中营](http://gank.io/)    
+每日分享妹子图 和 技术干货，还有供大家中午休息的休闲视频。
+
+
 ### #30 2016-07-22(Fri)    
 [@misparking](https://github.com/misparking)    
 
