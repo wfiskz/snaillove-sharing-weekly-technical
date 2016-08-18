@@ -1,6 +1,38 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
 
+### #31 2016-08-18(Sat)    
+[@Lewanny](https://github.com/Lewanny)    
+
+
+A guide of very practical and convenient plug-ins for Xcode.
+
+[Alcatraz](https://github.com/alcatraz/Alcatraz)
+As a plug-ins management tools, Alcatraz is also a plug-in, you can install and unstall all plug-ins by Alcatraz.
+
+1.[CocoaPods](https://github.com/kattrali/cocoapods-xcode-plugin)
+1.[CocoaPods](https://github.com/kattrali/cocoapods-xcode-plugin)
+1.[CocoaPods](https://github.com/kattrali/cocoapods-xcode-plugin)
+1.[CocoaPods](https://github.com/kattrali/cocoapods-xcode-plugin)
+1.[CocoaPods](https://github.com/kattrali/cocoapods-xcode-plugin)
+1.[CocoaPods](https://github.com/kattrali/cocoapods-xcode-plugin)
+1.[CocoaPods](https://github.com/kattrali/cocoapods-xcode-plugin)
+1.[CocoaPods](https://github.com/kattrali/cocoapods-xcode-plugin)
+1.[CocoaPods](https://github.com/kattrali/cocoapods-xcode-plugin)
+1.[CocoaPods](https://github.com/kattrali/cocoapods-xcode-plugin)
+1.[CocoaPods](https://github.com/kattrali/cocoapods-xcode-plugin)
+1.[CocoaPods](https://github.com/kattrali/cocoapods-xcode-plugin)
+1.[CocoaPods](https://github.com/kattrali/cocoapods-xcode-plugin)
+
+
+***
+
+1.[Android优质信息源推荐](https://github.com/misparking/misparking.github.io)    
+
+2.[干货集中营](http://gank.io/)    
+每日分享妹子图 和 技术干货，还有供大家中午休息的休闲视频。
+
+
 ### #30 2016-07-22(Fri)    
 [@misparking](https://github.com/misparking)    
 
