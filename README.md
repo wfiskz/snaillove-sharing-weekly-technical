@@ -1,6 +1,30 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
 
+### #29 2016-08-29（Fri）   
+翻页效果解析:   
+主要代码：
+
+<pre>
+    //计算旋转角度angle,设定3D旋转
+    CGFloat newRatio = MIN(MAX(ratio, -1), 1);
+    //计算m34
+    CATransform3D transform = CATransform3DIdentity;
+    transform.m34 = 1.0 / - 2000; // m34表示透视效果，默认值是0（1/D），表示的是无穷远( D无穷大)。当D越小，也就是m34越接近1，透视效果越明显。
+    
+    CGFloat angle = 0.0f;
+    if (indexPath.item % 2 == 0) {
+        //中心线在左边
+        angle = (1 - newRatio) * (-M_PI_2);
+    } else if (indexPath.item % 2 == 1) {
+        angle = (1 + newRatio) * (M_PI_2);
+    }
+    angle += (indexPath.row % 2) / 1000;
+    
+    transform = CATransform3DRotate(transform, angle, 0, 1, 0);
+    
+</pre>
+
 ### #31 2016-08-18(Sat)    
 [@Lewanny](https://github.com/Lewanny)    
 
