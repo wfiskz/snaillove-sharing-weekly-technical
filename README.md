@@ -2,6 +2,12 @@
 This is the  sharing weekly technical in the company.
 
 <<<<<<< HEAD
+### #17 2016-08-20(Sat)
+
+About HUAWEI's agile development document 
+
+***
+
 ### #17 2016-06-20(Mon)
 
 About java multi thread  
