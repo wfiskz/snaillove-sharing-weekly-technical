@@ -1,6 +1,12 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
 
+### #32 2016-08-22(Mon)   
+
+[@iOnesmile](http://www.iOnesmile.com)    
+
+Java Annotation：[Java Annotation](http://www.ionesmile.com/java/java_annotation "Java Annotation")
+
 ### #31 2016-08-18(Sat)    
 [@Lewanny](https://github.com/Lewanny)    
 
