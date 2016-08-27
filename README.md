@@ -1,6 +1,16 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+### #17 2016-08-20(Sat)
+
+About HUAWEI's agile development document 
+
+***
+
+### #17 2016-06-20(Mon)
+=======
 ### #29 2016-08-29（Fri）   
 翻页效果解析:   
 主要代码：
@@ -145,6 +155,7 @@ Reference:
 [代码地址：https://github.com/JackWaiting/Retrofit-MVP](https://github.com/JackWaiting/Retrofit-MVP)
 
 ### #23 2016-06-20(Mon)
+>>>>>>> main/master
 
 About java multi thread  
 
