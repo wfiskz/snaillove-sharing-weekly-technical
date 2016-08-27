@@ -2,6 +2,7 @@
 This is the  sharing weekly technical in the company.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### #17 2016-08-20(Sat)
 
 About HUAWEI's agile development document 
@@ -9,12 +10,179 @@ About HUAWEI's agile development document
 ***
 
 ### #17 2016-06-20(Mon)
+=======
+### #29 2016-08-29（Fri）   
+翻页效果解析:   
+主要代码：
 
-About java multi thread  
+<pre>
+    //计算旋转角度angle,设定3D旋转
+    CGFloat newRatio = MIN(MAX(ratio, -1), 1);
+    //计算m34
+    CATransform3D transform = CATransform3DIdentity;
+    transform.m34 = 1.0 / - 2000; // m34表示透视效果，默认值是0（1/D），表示的是无穷远( D无穷大)。当D越小，也就是m34越接近1，透视效果越明显。
+    
+    CGFloat angle = 0.0f;
+    if (indexPath.item % 2 == 0) {
+        //中心线在左边
+        angle = (1 - newRatio) * (-M_PI_2);
+    } else if (indexPath.item % 2 == 1) {
+        angle = (1 + newRatio) * (M_PI_2);
+    }
+    angle += (indexPath.row % 2) / 1000;
+    
+    transform = CATransform3DRotate(transform, angle, 0, 1, 0);
+    
+</pre>
+
+### #31 2016-08-18(Sat)    
+[@Lewanny](https://github.com/Lewanny)    
+
+A guide of very practical and convenient plug-ins for Xcode.
+
+[Alcatraz](https://github.com/alcatraz/Alcatraz)
+As a plug-ins management tools, Alcatraz is also a plug-in, you can install and unstall all plug-ins by Alcatraz.
+
+1.[CocoaPods](https://github.com/kattrali/cocoapods-xcode-plugin)   
+2.[KSImageNamed](https://github.com/ksuther/KSImageNamed-Xcode)  
+3.[Peckham](https://github.com/markohlebar/Peckham)  
+4.[XToDo](https://github.com/trawor/XToDo)  
+5.[VVDocumenter-Xcode](https://github.com/onevcat/VVDocumenter-Xcode)  
+6.[SCXcodeMiniMap](https://github.com/stefanceriu/SCXcodeMiniMap)  
+7.[HOStringSense](https://github.com/holtwick/HOStringSense-for-Xcode)  
+8.[ColorSense](https://github.com/omz/ColorSense-for-Xcode)  
+9.[ActivatePowerMode](https://github.com/poboke/ActivatePowerMode)  
+10.[GitDiff](https://github.com/johnno1962/GitDiff)  
+11.[xvim](https://github.com/JugglerShu/XVim)  
+12.[XAlign](https://github.com/qfish/XAlign)  
+13.[SCXcodeSwitchExpander](https://github.com/stefanceriu/SCXcodeSwitchExpander)  
+14.[RTImageAssets](http://www.lwxshow.com/appdev/ios/ios-nimageset.html)  
 
 ***
 
-### #20 2016-06-07(Tues)
+1.[Android优质信息源推荐](https://github.com/misparking/misparking.github.io)    
+
+2.[干货集中营](http://gank.io/)    
+每日分享妹子图 和 技术干货，还有供大家中午休息的休闲视频。
+
+
+### #30 2016-07-22(Fri)    
+[@misparking](https://github.com/misparking)    
+
+1.[Android优质信息源推荐](https://github.com/misparking/misparking.github.io)    
+
+2.[干货集中营](http://gank.io/)    
+每日分享妹子图 和 技术干货，还有供大家中午休息的休闲视频。    
+3.        
+[Android开发技术周报](http://www.androidweekly.cn/)        汇集互联网上每周Android开发相关的技术文章、开源项目、开发工具、视频教程、Android设计教程、设计资源等。    
+[Android Weekly](http://androidweekly.net/)        
+Android Weekly is a free newsletter that helps you to stay cutting-edge with your Android Development.   
+
+4.[LeanCloud](https://leancloud.cn/)        
+Build better apps, faster.    
+
+5.[devstore](http://www.devstore.cn/)    
+移动互联网企业运营解决方案整合平台。该平台从产品前期、设计、开发、运营到推广为创业公司提供一站式解决方案。    
+
+6.[SDK.cn](https://www.sdk.cn/)        
+为开发者提供最全面的API服务,汇集了国内外应用开发所需要的Android API/SDK,iOS SDK,WindowsPhone SDK,涉及设计开发,运维服务,云服务,市场推广,数据服务...
+
+
+### #29 2016-07-29（Fri）
+[@subvin](https://github.com/subvin)    
+
+iOS Third part database library comparing    
+
+[@jarylan](https://github.com/jarylan)
+
+1.[Android : Custom dynamic graph](https://github.com/jarylan/DynamicGraph)
+
+### #28 2016-07-27(Wed)   
+
+[@luyonghe](https://github.com/luyonghe/2016-5-27)  
+ 1.iOS Knowledge summary  
+
+### #27 2016-07-25(Mon)   
+
+[@iOnesmile](http://www.iOnesmile.com)    
+
+Android：[Spherical rolling progress bar](http://www.ionesmile.com/android/view_scroll_ball "Spherical rolling progress bar")
+
+### #26 2016-07-15(Thurs)
+[@JackWaiting](https://github.com/jackwaiting)
+
+Plug-in sharing
+
+[butterknife](https://github.com/avast/android-butterknife-zelezny)
+
+[ECTranslation](https://github.com/Skykai521/ECTranslation)
+
+[GsonFormat](https://github.com/zzz40500/GsonFormat)
+
+[@fiskz](https://github.com/wfiskz)
+
+  1.Tool class	
+[TextColorFilterTool](https://github.com/wfiskz/TextColorFilterTool)
+
+  2.view	
+  Water animation	
+[SXWaveAnimate](https://github.com/dsxNiubility/SXWaveAnimate)
+
+  3.symbolicatecrash nalytical log  
+ [symbolicatecrash来解析错误日志](https://github.com/wfiskz/blog/blob/gh-pages/_posts/2016-07-18-crash-log.md)
+
+### #25 2016-07-15(Thurs)
+[@JackWaiting](https://github.com/jackwaiting)
+
+####Code
+ORMLite 
+
+[DatabaseHelper](https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/jackwaiting/ormlite/DatabaseHelper.java) 
+
+[User](https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/jackwaiting/ormlite/User.java)
+
+[UserDao](https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/jackwaiting/ormlite/UserDao.java)
+
+### #24 2016-06-30(Thurs)
+[@JackWaiting](https://github.com/jackwaiting)
+
+Android :Retrofit source code analysis and the use of MVP framework package
+
+Reference:
+
+[Retrofit源码分析以及MVP框架封装使用](http://blog.csdn.net/zhanggang740/article/details/51745402) 
+
+[代码地址：https://github.com/JackWaiting/Retrofit-MVP](https://github.com/JackWaiting/Retrofit-MVP)
+
+### #23 2016-06-20(Mon)
+>>>>>>> main/master
+
+About java multi thread  
+
+### #22 2016-06-20(Mon)
+
+***
+
+[@Lewanny](https://github.com/Lewanny)
+
+iSO:a summary of GCD's introduction and basic usage
+
+1.It's an profile about GCD, include it's advantage,core conceptsand, how to work, and the steps to use it.
+
+2.The datailed introduction about GCD' core conceptsand works.
+
+3.The datailed Uses of GCD. Include dispatch_after, dispatch_once, dispatch_group, Multi-threaded programming and dispatch_barrier_async.
+
+4.At last, a summary of some details and considerations of using GCD issues.
+
+For the detailed contents, You can visit my personal blog.
+
+[GCD](http://www.jianshu.com/p/de1e0c8dff09)
+
+
+***
+
+### #21 2016-06-07(Tues)
 
 ***
 
@@ -45,7 +213,7 @@ For a summary, AFNetworking and YTKNetwork are recommended for diffrient needs a
 ***
 
 
-### #1 2016-06-03(Fri)
+### #20 2016-06-03(Fri)
 
 ***
 
@@ -54,12 +222,11 @@ For a summary, AFNetworking and YTKNetwork are recommended for diffrient needs a
 Retrofit+okhttp network framework introduction.
 
 Reference:
-[Blog][http://blog.csdn.net/zhanggang740/article/details/51569108)
+[http://blog.csdn.net/zhanggang740/article/details/51569108](http://blog.csdn.net/zhanggang740/article/details/51569108)
 
 
-=======
 ***
-### #18 2016-06-03(Fri)
+### #19 2016-06-03(Fri)
 
 [@jarylan](https://github.com/jarylan)
 
@@ -74,17 +241,19 @@ Reference:
 
 ***
 
-### #17 2016-05-17(Fri)
+### #18 2016-05-17(Fri)
 
 [@luyonghe](https://github.com/luyonghe/2016-5-27.git)
 
-  1.iOS memory management    
-[@misparking](https://github.com/misparking)    
+  1.iOS memory management        
+  
+[@misparking](https://github.com/misparking)       
+
 1.[Google I/O 2016 视频中文字幕版](http://vku.youku.com/live/play?id=201)    
 2.[Google I/O 2016 Summary](http://www.misparking.com/google-io-2016.html)    
 
 ***
-### #16 2016-05-13(Fri)
+### #17 2016-05-13(Fri)
 
 [@fiskz](https://github.com/wfiskz)
 
@@ -113,9 +282,9 @@ Reference:
  
 
 ***
-### #15 2016-05-06(Fri)
+### #16 2016-05-06(Fri)
 
-[@arrfu](www.arrfu.com)  
+[@arrfu](http://www.arrfu.com)  
 
 1. The API of CoreBluetooth  developing
 
@@ -123,7 +292,7 @@ demo:[babyBluetooch:https://github.com/coolnameismy/BabyBluetooth](https://githu
 
 this demo is about the CoreBluetooth library   
 
-[@iOnesmile](www.iOnesmile.com)   
+[@iOnesmile](http://www.iOnesmile.com)   
 
 1, The colour disk    
 
@@ -139,7 +308,7 @@ blog:[http://www.ionesmile.com/java/eclipse_jad_install](http://www.ionesmile.co
 
 ***
 
-### #14 2016-05-02(Tues)
+### #15 2016-05-02(Tues)
 
 That's a summary about  CocoaPods, CocoaPods is a very powerful tool to manager third part classlib in an iOS Project.
 The summary contains two parts about CocoaPods:
@@ -152,7 +321,7 @@ For the detailed content, you can download the "iSO-Summary about CocoaPods" to 
 
 ***
 
-### #13 2016-04-29(Fri)
+### #14 2016-04-29(Fri)
 
 [@ifeegoo](https://github.com/ifeegoo)
 
@@ -165,7 +334,7 @@ For the detailed content, you can download the "iSO-Summary about CocoaPods" to 
 1.About database lock
 
 ***
-### #12 2016-04-22(Fri)
+### #13 2016-04-22(Fri)
 
 [@ifeegoo](https://github.com/ifeegoo)
 
@@ -178,14 +347,14 @@ For the detailed content, you can download the "iSO-Summary about CocoaPods" to 
 ***
 
 ***
-### #11 2014-04-15(Fri)
+### #12 2014-04-15(Fri)
 
 ***
 [@jarylan](https://github.com/jarylan)
 1.[RecyclerView Move and Swipe](http://m.blog.csdn.net/article/details?id=50505210)
 2.[Android Studio all plug](https://plugins.jetbrains.com/plugin/7595?pr=)
 ***
-### #10 2016-04-08(Fri)
+### #11 2016-04-08(Fri)
 
 ***
 [@misparking](https://github.com/misparking)
@@ -207,7 +376,7 @@ This project provides you a convenient way to use and customise a SwitchButton w
 
 ***
 
-### #9 2016-04-01(Fri)
+### #10 2016-04-01(Fri)
 ***
 [@fiskz](https://github.com/wfiskz)
 
@@ -222,7 +391,7 @@ React Native combines the advantages of Web applications and Native applications
 **Official documents：** [http://facebook.github.io/react-native/docs/getting-started.html](http://facebook.github.io/react-native/docs/getting-started.html)    
 **wiki documents：** [http://wiki.jikexueyuan.com/project/react-native](http://wiki.jikexueyuan.com/project/react-native)
 
-### #8 2016-03-30(Wed)
+### #9 2016-03-30(Wed)
 ***
 [@iOnesmile](https://github.com/iOnesmile)   
 
@@ -247,7 +416,7 @@ React Native combines the advantages of Web applications and Native applications
 
 [@arrfu demo:https://github.com/arrfu/JFGetImageColor](https://github.com/arrfu/JFGetImageColor)
 
-### #7 2016-03-27(Sun)
+### #8 2016-03-27(Sun)
 
 ***
 
@@ -281,7 +450,7 @@ download adress:[http://www.cockos.com/licecap/](http://www.cockos.com/licecap/)
 
 ***
 
-### #6 2016-04-01(Fri)
+### #7 2016-04-01(Fri)
 
 ***
 
@@ -296,7 +465,7 @@ Reference:
 
 
 
-### #5 2015-10-16(Fri)
+### #6 2015-10-16(Fri)
 
 ***
 
