@@ -1,17 +1,15 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### #17 2016-08-20(Sat)
+### #34  2016-08-29(Mon)
+[Android数据库框架GreenDao&Realm实战分析](http://blog.csdn.net/zhanggang740/article/details/52164715)  
+
+### #33 2016-08-20(Sat)
 
 About HUAWEI's agile development document 
 
 ***
-
-### #17 2016-06-20(Mon)
-=======
-### #29 2016-08-29（Fri）   
+### #32 2016-08-29（Fri）   
 翻页效果解析:   
 主要代码：
 
