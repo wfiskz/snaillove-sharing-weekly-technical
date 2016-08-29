@@ -2,7 +2,9 @@
 This is the  sharing weekly technical in the company.
 ### #35  2016-08-29(Mon)
 Android中子线程真的不能刷新UI吗？
+
 Android 中try cath finally详解
+
 Android中如何去动态截取图片任意位置，使用任意的形状截取？
 关键代码：[RoundImageView](https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/jackwaiting/RoundImageView.java)
 
