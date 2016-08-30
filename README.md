@@ -1,5 +1,15 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
+### #36  2016-08-29(Mon)
+	
+1.[open-ios-projects](https://github.com/xn4545945/open-ios-projects)  
+2.[ConciseKit](https://github.com/petejkim/ConciseKit)  
+3.[MobileProject](https://github.com/wujunyang/MobileProject)  
+4.[博客总结](http://asteam.cc/index.php/archives/10/)  
+对比各大设计的体验中心。  
+5.[极客周刊](https://github.com/jikexueyuanwiki/geek-weekly-newsletter/blob/master/newsletter-twenty-one.md)      
+6.[Android Studio插件整理](https://ydmmocoo.github.io/2016/06/28/Android-Studio%E6%8F%92%E4%BB%B6%E6%95%B4%E7%90%86/) 
+
 ### #35  2016-08-29(Mon)
 Android中子线程真的不能刷新UI吗？
 
