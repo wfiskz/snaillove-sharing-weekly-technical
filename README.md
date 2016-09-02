@@ -1,5 +1,9 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
+### #37  2016-09-02(Fri)
+1.History of JavaScript.(https://github.com/gristar/technical/tree/master/history-of-javascript)
+2.Usage of nodejs.(https://github.com/gristar/technical/tree/master/node)
+
 ### #36  2016-08-29(Mon)
 	
 1.[open-ios-projects](https://github.com/xn4545945/open-ios-projects)  
