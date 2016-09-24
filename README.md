@@ -1,5 +1,12 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
+
+### #37  2016-09-24(Fri)
+1. Quick Search Tool [Everything](http://www.voidtools.com/)
+2. pAndroid Studio Color Themes](http://color-themes.com/?view=index)
+	
+Usage: Download, Import(File-->Import Setting-->) ,Select the downloaded jar package,OK,Restart;
+
 ### #36  2016-09-12(Mon)
 	
 1.[ReactiveCocoa](https://github.com/luyonghe/2016-5-27/blob/master/README.md)  
