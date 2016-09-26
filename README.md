@@ -2,6 +2,18 @@
 This is the  sharing weekly technical in the company.
 
 ### #37 2016-09-24（Fri）
+
+[@ifeegoo](https://github.com/ifeegoo)
+
+1.WeChat Web App Analysis
+
+[Part A](http://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652974082&idx=1&sn=47c7f672caf629cd846e315b8df2b1c5&scene=1&srcid=0923RZmIt0rRQkY89m71LTTe#rd)  
+[Part B](http://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652974093&idx=1&sn=0570a243304ea8bb7d1b636624886fb1&scene=1&srcid=0923zLF1ZvHFJSqjypKBDZdL#rd)  
+https://github.com/gavinkwoe/weapp-ide-crack
+
+2.[Cross Platform App Development](http://fex.baidu.com/blog/2015/05/cross-mobile/)
+
+### #37 2016-09-24（Fri）
 1、iOS 侧滑控件 [MMDrawerController](https://github.com/mutualmobile/MMDrawerController)   
 2、添加图片的多样式 Label的实现:
 <pre>
