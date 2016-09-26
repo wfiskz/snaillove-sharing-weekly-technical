@@ -14,28 +14,29 @@ https://github.com/gavinkwoe/weapp-ide-crack
 2.[Cross Platform App Development](http://fex.baidu.com/blog/2015/05/cross-mobile/)
 
 ### #37 2016-09-24（Fri）
-1、iOS 侧滑控件 [MMDrawerController](https://github.com/mutualmobile/MMDrawerController)   
-2、添加图片的多样式 Label的实现:
+1、iOS Slide Menu Widget[MMDrawerController](https://github.com/mutualmobile/MMDrawerController)   
+ 
+2、Multi-modality UILabel Effectuation Accompany with Image:
 <pre>
       NSMutableString *mString = [[NSMutableString alloc] initWithString:[NSString stringWithFormat:@"%@ <   %@>",model.baby_name,model.age]];
         NSMutableAttributedString *attributeString = [[NSMutableAttributedString alloc]initWithString:mString];
         NSString *nameString = [NSString stringWithFormat:@"%@ ",model.baby_name];
-        //  计算特定名字长度以及颜色
+        //  caculate the size of special words
         [attributeString addAttributes:@{NSFontAttributeName:SysFont(20),NSForegroundColorAttributeName:RGB(53, 98, 159)} range:NSMakeRange(0, nameString.length)];
         [attributeString addAttributes:@{NSFontAttributeName:SysFont(12),NSForegroundColorAttributeName:RGB(53, 98, 159)} range:NSMakeRange(nameString.length, 1)];
         NSString *babyBirthString = [NSString stringWithFormat:@" %@>",model.age];
         [attributeString addAttributes:@{NSFontAttributeName:SysFont(12),NSForegroundColorAttributeName:RGB(53, 98, 159)} range:NSMakeRange(mString.length -babyBirthString.length, babyBirthString.length)];
-        //计算图片的位置
+        //caculate the image location
         CGSize size = [[NSString stringWithFormat:@"%@<",nameString] sizeWithWidth:300 withFont:20 fontName:FontName];
         UIImageView *sexImageView = [[UIImageView alloc] initWithFrame:CGRectMake(size.width - 5, 8, 10, 14)];
         NSString *sexImgString = [NSString stringWithFormat:@"%@",[model.baby_sex isEqualToString:@"f"]?@"ic_home_profile_female":@"ic_home_profile_male"];
         [sexImageView setImage:[UIImage imageNamed:sexImgString]];
-        // 将图片动态置于该位置上。
+        // locate the image in director location。
         [_nameLabel addSubview:sexImageView];
         _nameLabel.attributedText = attributeString;
 </pre>
 
-3、按钮飞开旋转动画:
+3、Flip-Rotation Menu Effection :   
 <pre>
 		[self.subviews enumerateObjectsUsingBlock:^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         if ([obj isKindOfClass:[UIButton class]] && obj.tag >= 100) {
@@ -56,8 +57,7 @@ https://github.com/gavinkwoe/weapp-ide-crack
     }];
 </pre>
 
-4、项目细节讨论。
-
+4、Communicated Project Detail 。
 ### #37  2016-09-24(Fri)
 1. Quick Search Tool [Everything](http://www.voidtools.com/)
 2. pAndroid Studio Color Themes](http://color-themes.com/?view=index)
