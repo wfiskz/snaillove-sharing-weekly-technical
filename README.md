@@ -2,51 +2,61 @@
 This is the  sharing weekly technical in the company.
 
 ### #37 2016-09-24（Fri）
-1、iOS Slide Menu Widget[MMDrawerController](https://github.com/mutualmobile/MMDrawerController)   
- 
-2、Multi-modality UILabel Effectuation Accompany with Image:
+
+[@ifeegoo](https://github.com/ifeegoo)
+
+1.WeChat Web App Analysis
+
+[Part A](http://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652974082&idx=1&sn=47c7f672caf629cd846e315b8df2b1c5&scene=1&srcid=0923RZmIt0rRQkY89m71LTTe#rd)  
+[Part B](http://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652974093&idx=1&sn=0570a243304ea8bb7d1b636624886fb1&scene=1&srcid=0923zLF1ZvHFJSqjypKBDZdL#rd)  
+https://github.com/gavinkwoe/weapp-ide-crack
+
+2.[Cross Platform App Development](http://fex.baidu.com/blog/2015/05/cross-mobile/)
+
+### #37 2016-09-24（Fri）
+1、iOS 侧滑控件 [MMDrawerController](https://github.com/mutualmobile/MMDrawerController)   
+2、添加图片的多样式 Label的实现:
 <pre>
-	 Core code
       NSMutableString *mString = [[NSMutableString alloc] initWithString:[NSString stringWithFormat:@"%@ <   %@>",model.baby_name,model.age]];
         NSMutableAttributedString *attributeString = [[NSMutableAttributedString alloc]initWithString:mString];
         NSString *nameString = [NSString stringWithFormat:@"%@ ",model.baby_name];
-        //  caculate the size of special words
+        //  计算特定名字长度以及颜色
         [attributeString addAttributes:@{NSFontAttributeName:SysFont(20),NSForegroundColorAttributeName:RGB(53, 98, 159)} range:NSMakeRange(0, nameString.length)];
         [attributeString addAttributes:@{NSFontAttributeName:SysFont(12),NSForegroundColorAttributeName:RGB(53, 98, 159)} range:NSMakeRange(nameString.length, 1)];
         NSString *babyBirthString = [NSString stringWithFormat:@" %@>",model.age];
         [attributeString addAttributes:@{NSFontAttributeName:SysFont(12),NSForegroundColorAttributeName:RGB(53, 98, 159)} range:NSMakeRange(mString.length -babyBirthString.length, babyBirthString.length)];
-        // caculate the image location
+        //计算图片的位置
         CGSize size = [[NSString stringWithFormat:@"%@<",nameString] sizeWithWidth:300 withFont:20 fontName:FontName];
         UIImageView *sexImageView = [[UIImageView alloc] initWithFrame:CGRectMake(size.width - 5, 8, 10, 14)];
         NSString *sexImgString = [NSString stringWithFormat:@"%@",[model.baby_sex isEqualToString:@"f"]?@"ic_home_profile_female":@"ic_home_profile_male"];
         [sexImageView setImage:[UIImage imageNamed:sexImgString]];
-        // locate the image in director location
+        // 将图片动态置于该位置上。
         [_nameLabel addSubview:sexImageView];
         _nameLabel.attributedText = attributeString;
 </pre>
 
-3、Flip-Rotation Menu Effection :   
+3、按钮飞开旋转动画:
 <pre>
-	Core code
 		[self.subviews enumerateObjectsUsingBlock:^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         if ([obj isKindOfClass:[UIButton class]] && obj.tag >= 100) {
             obj.hidden = NO;
+            [obj addTarget:self action:@selector(clickWithTag:) forControlEvents:UIControlEventTouchUpInside];
             [UIView animateWithDuration:0.3f animations:^{
-                obj.center =  ；// set rotation location
-                obj.transform = // set rotation angle
+                obj.center =  ；//设置旋转角度
+                obj.transform = 设置位置//
             } completion:^(BOOL finished) {
                 [UIView animateWithDuration:0.2f animations:^{
-                    obj.center =  ；// set the last animation start state button location
-                    obj.transform = ;// set the last animation start state button angle
+                    obj.center =  ；//设置第二次动画旋转角度
+                    obj.transform = //设置第二次动画的位置
                 } completion:^(BOOL finished) {
-                    // animation end action  handle 
+                    // 动画结束操作
                 }];
             }];
         }
     }];
 </pre>
 
-4、Communicated Project Detail 。
+4、项目细节讨论。
 
 ### #37  2016-09-24(Fri)
 1. Quick Search Tool [Everything](http://www.voidtools.com/)
