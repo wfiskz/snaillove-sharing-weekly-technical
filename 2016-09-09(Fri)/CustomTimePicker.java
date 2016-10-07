@@ -47,13 +47,13 @@ public class CustomTimePicker extends TimePicker
         try
         {
             Class<?> clazz = Class.forName("com.android.internal.R$id");
-            Field fieldHour = clazz.getField("hour");//用反射获取TimePicker的小时对象
+            Field fieldHour = clazz.getField("hour");//用反射获取TimePicker的小时 对象
             fieldHour.setAccessible(true);
             int hourId = fieldHour.getInt(null);
             NumberPicker hourNumberPicker = (NumberPicker) timePicker.findViewById(hourId);
             setDividerColor(hourNumberPicker);
 
-            Field fieldminute = clazz.getField("minute");
+            Field fieldminute = clazz.getField("minute");//用反射获取TimePicker的分钟 对象
             fieldminute.setAccessible(true);
             int minuteId = fieldminute.getInt(null);
             NumberPicker minuteNumberPicker = (NumberPicker) timePicker.findViewById(minuteId);
