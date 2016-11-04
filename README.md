@@ -19,7 +19,20 @@ Author [phodal](http://github.com/phodal)
 6° [Gitbook](http://www.gitbook.com)
 
 3.Listen English podcast  
-Note:The best way for you to listen the podcast above is 
+Note:The best way for you to listen the podcast above is podcast on iOS，and for Android platform,I recommended you that BeyondPod/DoggCatcher/PocketCast/podcast addict and so on.
+
+for Android Developers  
+1°.[Fragmented](http://fragmentedpodcast.com/)  
+2°.TheContext #androidev  
+
+for iOS Developers  
+1°.[The raywenderlich.com Podcast](https://www.raywenderlich.com/rwpodcast)  
+2°.[iOS Bytes](https://iosbytes.codeschool.com/)
+
+for Designers  
+1°.Design Details
+
+[Some list of podcast](https://www.podcastchart.com/)
 
 ### #37 2016-09-24（Fri）
 
