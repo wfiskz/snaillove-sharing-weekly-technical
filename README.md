@@ -1,6 +1,39 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
 
+### #38 2016-11-04（Fri）
+
+[@ifeegoo](https://github.com/ifeegoo)
+
+1.[How to get a better rest?](https://www.phodal.com/blog/how-to-improve-performance-by-better-rest/)   
+Author [phodal](http://github.com/phodal)   
+[@ThoughtWorks] (https://www.thoughtworks.com/)  
+[Agile Project Management](http://www.ximalaya.com/3743751/album/215052)
+
+2.How to write?  
+1° .txt .doc/.docx  
+2° [Wiz Note](http://www.wiz.cn) [Evernote](http://www.evernote.com) [Youdao Note](http://note.youdao.com)  
+3° [myBase](http://wjjsoft.com/mybase.html)  
+4° [CSDN](http://blog.csdn.net) [Jianshu](http://www.jianshu.com) [Cnblogs](http://www.cnblogs.com)  
+5° [Wordpress](http://www.ifeegoo.com) [Github + Jekyll](http://www.fiskz.com)  
+6° [Gitbook](http://www.gitbook.com)
+
+3.Listen English podcast  
+Note:The best way for you to listen the podcast above is podcast on iOS，and for Android platform,I recommended you that BeyondPod/DoggCatcher/PocketCast/podcast addict and so on.
+
+for Android Developers  
+1°.[Fragmented](http://fragmentedpodcast.com/)  
+2°.TheContext #androidev  
+
+for iOS Developers  
+1°.[The raywenderlich.com Podcast](https://www.raywenderlich.com/rwpodcast)  
+2°.[iOS Bytes](https://iosbytes.codeschool.com/)
+
+for Designers  
+1°.Design Details
+
+[Some list of podcast](https://www.podcastchart.com/)
+
 ### #37 2016-09-24（Fri）
 
 [@ifeegoo](https://github.com/ifeegoo)
