@@ -1,6 +1,11 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
 
+### #39  2016-11-25(Fri)  
+1.Usage of api notification html5.(https://github.com/gristar/technical/tree/master/chat)  
+2.History of JavaScript.(https://github.com/gristar/technical/tree/master/history-of-javascript)  
+3.Usage of nodejs.(https://github.com/gristar/technical/tree/master/node)  
+
 ### #38 2016-11-04（Fri）
 
 [@ifeegoo](https://github.com/ifeegoo)
