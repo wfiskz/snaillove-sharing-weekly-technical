@@ -1,7 +1,14 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
 
-### #40  2016-11-25(Fri)  
+### 41  2016-12-02(Fri) 
+[@arrfu](http://www.arrfu.com)      
+
+免费搭建个人博客的几种高效方案:              
+[链接地址:http://www.arrfu.com/blog-build-jekyll-hexo-wordpress.html](http://www.arrfu.com/blog-build-jekyll-hexo-wordpress.html)
+
+
+### #40  2016-11-25(Fri)  
 1.Usage of api notification html5.(https://github.com/gristar/technical/tree/master/chat)  
 2.History of JavaScript.(https://github.com/gristar/technical/tree/master/history-of-javascript)  
 3.Usage of nodejs.(https://github.com/gristar/technical/tree/master/node)  
