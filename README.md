@@ -1,7 +1,149 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
 
-### #29 2016-08-29（Fri）   
+### #40  2016-11-25(Fri)  
+1.Usage of api notification html5.(https://github.com/gristar/technical/tree/master/chat)  
+2.History of JavaScript.(https://github.com/gristar/technical/tree/master/history-of-javascript)  
+3.Usage of nodejs.(https://github.com/gristar/technical/tree/master/node)  
+
+### #39 2016-11-04（Fri）
+
+[@ifeegoo](https://github.com/ifeegoo)
+
+1.[How to get a better rest?](https://www.phodal.com/blog/how-to-improve-performance-by-better-rest/)   
+Author [phodal](http://github.com/phodal)   
+[@ThoughtWorks] (https://www.thoughtworks.com/)  
+[Agile Project Management](http://www.ximalaya.com/3743751/album/215052)
+
+2.How to write?  
+1° .txt .doc/.docx  
+2° [Wiz Note](http://www.wiz.cn) [Evernote](http://www.evernote.com) [Youdao Note](http://note.youdao.com)  
+3° [myBase](http://wjjsoft.com/mybase.html)  
+4° [CSDN](http://blog.csdn.net) [Jianshu](http://www.jianshu.com) [Cnblogs](http://www.cnblogs.com)  
+5° [Wordpress](http://www.ifeegoo.com) [Github + Jekyll](http://www.fiskz.com)  
+6° [Gitbook](http://www.gitbook.com)
+
+3.Listen English podcast  
+Note:The best way for you to listen the podcast above is podcast on iOS，and for Android platform,I recommended you that BeyondPod/DoggCatcher/PocketCast/podcast addict and so on.
+
+for Android Developers  
+1°.[Fragmented](http://fragmentedpodcast.com/)  
+2°.TheContext #androidev  
+
+for iOS Developers  
+1°.[The raywenderlich.com Podcast](https://www.raywenderlich.com/rwpodcast)  
+2°.[iOS Bytes](https://iosbytes.codeschool.com/)
+
+for Designers  
+1°.Design Details
+
+[Some list of podcast](https://www.podcastchart.com/)
+
+### #38 2016-10-08（Tue）
+[@Lewanny](https://github.com/Lewanny)
+
+1.Carthage is intended to be the simplest way to add frameworks to your Cocoa application.
+
+2.Carthage builds your dependencies and provides you with binary frameworks, but you retain full control over your project structure and setup. Carthage does not automatically modify your project files or your build settings.
+
+[Carthage](https://github.com/Carthage/Carthage)
+
+### #37 2016-09-24（Fri）
+
+[@ifeegoo](https://github.com/ifeegoo)
+
+1.WeChat Web App Analysis
+
+[Part A](http://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652974082&idx=1&sn=47c7f672caf629cd846e315b8df2b1c5&scene=1&srcid=0923RZmIt0rRQkY89m71LTTe#rd)  
+[Part B](http://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652974093&idx=1&sn=0570a243304ea8bb7d1b636624886fb1&scene=1&srcid=0923zLF1ZvHFJSqjypKBDZdL#rd)  
+https://github.com/gavinkwoe/weapp-ide-crack
+
+2.[Cross Platform App Development](http://fex.baidu.com/blog/2015/05/cross-mobile/)
+
+### #37 2016-09-24（Fri）
+1、iOS Slide Menu Widget[MMDrawerController](https://github.com/mutualmobile/MMDrawerController)   
+ 
+2、Multi-modality UILabel Effectuation Accompany with Image:
+<pre>
+      NSMutableString *mString = [[NSMutableString alloc] initWithString:[NSString stringWithFormat:@"%@ <   %@>",model.baby_name,model.age]];
+        NSMutableAttributedString *attributeString = [[NSMutableAttributedString alloc]initWithString:mString];
+        NSString *nameString = [NSString stringWithFormat:@"%@ ",model.baby_name];
+        //  caculate the size of special words
+        [attributeString addAttributes:@{NSFontAttributeName:SysFont(20),NSForegroundColorAttributeName:RGB(53, 98, 159)} range:NSMakeRange(0, nameString.length)];
+        [attributeString addAttributes:@{NSFontAttributeName:SysFont(12),NSForegroundColorAttributeName:RGB(53, 98, 159)} range:NSMakeRange(nameString.length, 1)];
+        NSString *babyBirthString = [NSString stringWithFormat:@" %@>",model.age];
+        [attributeString addAttributes:@{NSFontAttributeName:SysFont(12),NSForegroundColorAttributeName:RGB(53, 98, 159)} range:NSMakeRange(mString.length -babyBirthString.length, babyBirthString.length)];
+        //caculate the image location
+        CGSize size = [[NSString stringWithFormat:@"%@<",nameString] sizeWithWidth:300 withFont:20 fontName:FontName];
+        UIImageView *sexImageView = [[UIImageView alloc] initWithFrame:CGRectMake(size.width - 5, 8, 10, 14)];
+        NSString *sexImgString = [NSString stringWithFormat:@"%@",[model.baby_sex isEqualToString:@"f"]?@"ic_home_profile_female":@"ic_home_profile_male"];
+        [sexImageView setImage:[UIImage imageNamed:sexImgString]];
+        // locate the image in director location。
+        [_nameLabel addSubview:sexImageView];
+        _nameLabel.attributedText = attributeString;
+</pre>
+
+3、Flip-Rotation Menu Effection :   
+<pre>
+		[self.subviews enumerateObjectsUsingBlock:^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        if ([obj isKindOfClass:[UIButton class]] && obj.tag >= 100) {
+            obj.hidden = NO;
+            [obj addTarget:self action:@selector(clickWithTag:) forControlEvents:UIControlEventTouchUpInside];
+            [UIView animateWithDuration:0.3f animations:^{
+                obj.center =  ；//设置旋转角度
+                obj.transform = 设置位置//
+            } completion:^(BOOL finished) {
+                [UIView animateWithDuration:0.2f animations:^{
+                    obj.center =  ；//设置第二次动画旋转角度
+                    obj.transform = //设置第二次动画的位置
+                } completion:^(BOOL finished) {
+                    // 动画结束操作
+                }];
+            }];
+        }
+    }];
+</pre>
+
+4、Communicated Project Detail 。
+### #37  2016-09-24(Fri)
+1. Quick Search Tool [Everything](http://www.voidtools.com/)
+2. pAndroid Studio Color Themes](http://color-themes.com/?view=index)
+	
+Usage: Download, Import(File-->Import Setting-->) ,Select the downloaded jar package,OK,Restart;
+
+### #36  2016-09-12(Mon)
+	
+1.[ReactiveCocoa](https://github.com/luyonghe/2016-5-27/blob/master/README.md)  
+
+### #36  2016-08-29(Mon)
+	
+1.[open-ios-projects](https://github.com/xn4545945/open-ios-projects)  
+2.[ConciseKit](https://github.com/petejkim/ConciseKit)  
+3.[MobileProject](https://github.com/wujunyang/MobileProject)  
+4.[博客总结](http://asteam.cc/index.php/archives/10/)  
+对比各大设计的体验中心。  
+5.[极客周刊](https://github.com/jikexueyuanwiki/geek-weekly-newsletter/blob/master/newsletter-twenty-one.md)      
+6.[Android Studio插件整理](https://ydmmocoo.github.io/2016/06/28/Android-Studio%E6%8F%92%E4%BB%B6%E6%95%B4%E7%90%86/) 
+
+### #35  2016-08-29(Mon)
+Android中子线程真的不能刷新UI吗？
+
+Android 中try cath finally详解
+
+Android中如何去动态截取图片任意位置，使用任意的形状截取？
+关键代码：[RoundImageView](https://github.com/JackWaiting/snaillove-weekly-sharing-technical/blob/jackwaiting/RoundImageView.java)
+
+***
+### #34  2016-08-29(Mon)
+[Android数据库框架GreenDao&Realm实战分析](http://blog.csdn.net/zhanggang740/article/details/52164715)  
+
+***
+### #33 2016-08-20(Sat)
+
+About HUAWEI's agile development document 
+
+***
+### #32 2016-08-29（Fri）   
 翻页效果解析:   
 主要代码：
 
@@ -24,6 +166,12 @@ This is the  sharing weekly technical in the company.
     transform = CATransform3DRotate(transform, angle, 0, 1, 0);
     
 </pre>
+
+### #32 2016-08-22(Mon)   
+
+[@iOnesmile](http://www.iOnesmile.com)    
+
+Java Annotation：[Java Annotation](http://www.ionesmile.com/java/java_annotation "Java Annotation")
 
 ### #31 2016-08-18(Sat)    
 [@Lewanny](https://github.com/Lewanny)    
@@ -145,6 +293,7 @@ Reference:
 [代码地址：https://github.com/JackWaiting/Retrofit-MVP](https://github.com/JackWaiting/Retrofit-MVP)
 
 ### #23 2016-06-20(Mon)
+>>>>>>> main/master
 
 About java multi thread  
 
