@@ -15,6 +15,16 @@ This is the  sharing weekly technical in the company.
 [链接地址:http://www.arrfu.com/blog-build-jekyll-hexo-wordpress.html](http://www.arrfu.com/blog-build-jekyll-hexo-wordpress.html)
 
 
+[@ifeegoo](https://github.com/ifeegoo)
+
+1.[中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)  
+Note:针对中文和英文一起使用的时候，要养成一个良好的排版习惯，尤其是标点符号。  
+1.[Chinese Copywriting Guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines)  
+Note:It's really important for you to get good habit of using Chinese and English together,also the punctuation.
+
+2.[汽车自动驾驶系统](https://github.com/commaai/openpilot)  
+2.[Car Self-Driving System](https://github.com/commaai/openpilot)
+
 ### #40  2016-11-25(Fri)  
 1.Usage of api notification html5.(https://github.com/gristar/technical/tree/master/chat)  
 2.History of JavaScript.(https://github.com/gristar/technical/tree/master/history-of-javascript)  
