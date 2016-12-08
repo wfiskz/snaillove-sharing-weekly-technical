@@ -2,6 +2,13 @@
 This is the  sharing weekly technical in the company.
 
 ### 41  2016-12-02(Fri) 
+
+[@iOnesmile](http://www.iOnesmile.com)   
+
+1.[Android command filter.](http://blog.csdn.net/u010134293/article/details/53482405)      
+2.[Android 6.0 Permissions.](http://blog.csdn.net/u010134293/article/details/53482430)     
+
+
 [@arrfu](http://www.arrfu.com)      
 
 免费搭建个人博客的几种高效方案:              
