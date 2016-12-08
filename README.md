@@ -1,7 +1,26 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
 
-### #38 2016-11-04（Fri）
+### 41  2016-12-02(Fri) 
+
+[@iOnesmile](http://www.iOnesmile.com)   
+
+1.[Android command filter.](http://blog.csdn.net/u010134293/article/details/53482405)      
+2.[Android 6.0 Permissions.](http://blog.csdn.net/u010134293/article/details/53482430)     
+
+
+[@arrfu](http://www.arrfu.com)      
+
+免费搭建个人博客的几种高效方案:              
+[链接地址:http://www.arrfu.com/blog-build-jekyll-hexo-wordpress.html](http://www.arrfu.com/blog-build-jekyll-hexo-wordpress.html)
+
+
+### #40  2016-11-25(Fri)  
+1.Usage of api notification html5.(https://github.com/gristar/technical/tree/master/chat)  
+2.History of JavaScript.(https://github.com/gristar/technical/tree/master/history-of-javascript)  
+3.Usage of nodejs.(https://github.com/gristar/technical/tree/master/node)  
+
+### #39 2016-11-04（Fri）
 
 [@ifeegoo](https://github.com/ifeegoo)
 
@@ -33,6 +52,15 @@ for Designers
 1°.Design Details
 
 [Some list of podcast](https://www.podcastchart.com/)
+
+### #38 2016-10-08（Tue）
+[@Lewanny](https://github.com/Lewanny)
+
+1.Carthage is intended to be the simplest way to add frameworks to your Cocoa application.
+
+2.Carthage builds your dependencies and provides you with binary frameworks, but you retain full control over your project structure and setup. Carthage does not automatically modify your project files or your build settings.
+
+[Carthage](https://github.com/Carthage/Carthage)
 
 ### #37 2016-09-24（Fri）
 
