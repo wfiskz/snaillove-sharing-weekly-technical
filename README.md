@@ -11,8 +11,8 @@ This is the  sharing weekly technical in the company.
 
 [@arrfu](http://www.arrfu.com)      
 
-免费搭建个人博客的几种高效方案:              
-[链接地址:http://www.arrfu.com/blog-build-jekyll-hexo-wordpress.html](http://www.arrfu.com/blog-build-jekyll-hexo-wordpress.html)
+There are several efficient ways to build a personal blog for free(免费搭建个人博客的几种高效方案):               
+link:[http://www.arrfu.com/blog-build-jekyll-hexo-wordpress.html](http://www.arrfu.com/blog-build-jekyll-hexo-wordpress.html)
 
 
 ### #40  2016-11-25(Fri)  
@@ -88,7 +88,7 @@ https://github.com/gavinkwoe/weapp-ide-crack
         NSString *babyBirthString = [NSString stringWithFormat:@" %@>",model.age];
         [attributeString addAttributes:@{NSFontAttributeName:SysFont(12),NSForegroundColorAttributeName:RGB(53, 98, 159)} range:NSMakeRange(mString.length -babyBirthString.length, babyBirthString.length)];
         //caculate the image location
-        CGSize size = [[NSString stringWithFormat:@"%@<",nameString] sizeWithWidth:300 withFont:20 fontName:FontName];
+        CGSize size = [[NSString stringWithFormat:@"%@",nameString] sizeWithWidth:300 withFont:20 fontName:FontName];
         UIImageView *sexImageView = [[UIImageView alloc] initWithFrame:CGRectMake(size.width - 5, 8, 10, 14)];
         NSString *sexImgString = [NSString stringWithFormat:@"%@",[model.baby_sex isEqualToString:@"f"]?@"ic_home_profile_female":@"ic_home_profile_male"];
         [sexImageView setImage:[UIImage imageNamed:sexImgString]];
@@ -140,7 +140,7 @@ Usage: Download, Import(File-->Import Setting-->) ,Select the downloaded jar pac
 6.[Android Studio插件整理](https://ydmmocoo.github.io/2016/06/28/Android-Studio%E6%8F%92%E4%BB%B6%E6%95%B4%E7%90%86/) 
 
 ### #35  2016-08-29(Mon)
-Android中子线程真的不能刷新UI吗？
+Android Android中子线程真的不能刷新UI吗？
 
 Android 中try cath finally详解
 
@@ -158,8 +158,8 @@ About HUAWEI's agile development document
 
 ***
 ### #32 2016-08-29（Fri）   
-翻页效果解析:   
-主要代码：
+
+Primary Code (翻页效果解析主要代码)：
 
 <pre>
     //计算旋转角度angle,设定3D旋转
@@ -212,21 +212,16 @@ As a plug-ins management tools, Alcatraz is also a plug-in, you can install and 
 
 ***
 
-1.[Android优质信息源推荐](https://github.com/misparking/misparking.github.io)    
-
-2.[干货集中营](http://gank.io/)    
-每日分享妹子图 和 技术干货，还有供大家中午休息的休闲视频。
-
-
 ### #30 2016-07-22(Fri)    
 [@misparking](https://github.com/misparking)    
 
-1.[Android优质信息源推荐](https://github.com/misparking/misparking.github.io)    
+1.[Android Recommended quality resources(优质信息源推荐)](https://github.com/misparking/misparking.github.io)    
 
-2.[干货集中营](http://gank.io/)    
+2.[Valuable resources(干货集中营)](http://gank.io/)    
 每日分享妹子图 和 技术干货，还有供大家中午休息的休闲视频。    
 3.        
-[Android开发技术周报](http://www.androidweekly.cn/)        汇集互联网上每周Android开发相关的技术文章、开源项目、开发工具、视频教程、Android设计教程、设计资源等。    
+[Android develop technical weekly(开发技术周报)](http://www.androidweekly.cn/)        
+汇集互联网上每周Android开发相关的技术文章、开源项目、开发工具、视频教程、Android设计教程、设计资源等。    
 [Android Weekly](http://androidweekly.net/)        
 Android Weekly is a free newsletter that helps you to stay cutting-edge with your Android Development.   
 
