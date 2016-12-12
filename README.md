@@ -1,6 +1,14 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
 
+### 42  2016-12-9(Fri)
+
+[@JackWaiting](http://www.jackwaiting.com)   
+
+1.[GalleryFinal图片选择器](https://github.com/pengjianbo/GalleryFinal)      
+2.[picasso图片加载框架](https://github.com/square/picasso)           
+3.[DanmakuFlameMaster-开源弹幕引擎](https://github.com/Bilibili/DanmakuFlameMaster)
+
 ### 41  2016-12-02(Fri) 
 
 [@iOnesmile](http://www.iOnesmile.com)   
