@@ -1,5 +1,12 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
+### 42  2016-12-9(Fri)
+[@misparking](https://github.com/misparking)   
+
+1.[MPermission](https://github.com/misparking/MPermission)    
+兼容 Android 6.0 的权限问题(compatible with Android 6.0 for permission)。
+2.Android 函数库（2016版）/ Android librarys(2016) 
+[Android librarys of 2016](http://www.androidchina.net/5922.html)
 
 ### 42  2016-12-9(Fri)
 
