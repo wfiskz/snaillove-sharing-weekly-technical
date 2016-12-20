@@ -1,5 +1,10 @@
 # snaillove-sharing-weekly-technical
 This is the  sharing weekly technical in the company.
+### 43  2016-12-16(Fri)
+
+[@fiskz](http://www.fiskz.com)   
+         
+1.[iOS弹幕效果](https://github.com/com_danmu)
 
 ### 42  2016-12-9(Fri)
 
