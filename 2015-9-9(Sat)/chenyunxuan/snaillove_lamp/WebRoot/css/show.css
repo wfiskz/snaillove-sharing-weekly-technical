@@ -1,0 +1,76 @@
+
+.banner{
+    left: 10px;
+    position: absolute;
+    top: 40px;
+    border:1px solid #aec4d7;
+    width: 780px;
+    height: 250px;
+}
+.zjbanner{
+    border: 1px solid #aec4d7;
+    width: 777px;
+    height: 250px;
+}
+.pageprev{
+    left: 77px;
+    position: absolute;
+    top: 100px;
+}
+.pagenext{
+
+    left: 585px;
+    position: absolute;
+    top: 100px;
+}
+
+.neirong{
+    left: 10px;
+    position: absolute;
+    top: 330px;
+    border: 1px solid #aec4d7;
+}
+
+.etwupecial{
+    left: 190px;
+    position: absolute; 
+    top: 330px;
+    border: 1px solid #aec4d7;
+    height: 372px;
+    width: 600px;
+}
+.etPh{
+    left: 10px;
+    position: absolute; 
+    top:720px;
+    height: 450px;
+    border: 1px solid #aec4d7;
+}
+.button{
+    width:130px;
+    height:30px;
+    background:url(../images/btn_blue_1.png) no-repeat;
+}
+
+.mixbutton{
+    width:48px;
+    height:30px;
+    background:url(../images/btn_blue.png) no-repeat;
+}
+.btn-img, .mixbutton {
+    border: 0 none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.etliupecial
+{
+    left: 190px;
+    position: absolute;
+    top: 720px;
+    border: 1px solid #aec4d7;
+    height: 450px;
+    width: 600px;
+}

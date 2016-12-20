@@ -1,0 +1,46 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title></title>
+<style id="system" type="text/css">h1,h2,h3,h4,h5,h6,p,blockquote {    margin: 0;    padding: 0;}body {    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;    font-size: 13px;    line-height: 18px;    color: #737373;    margin: 10px 13px 10px 13px;}a {    color: #0069d6;}a:hover {    color: #0050a3;    text-decoration: none;}a img {    border: none;}p {    margin-bottom: 9px;}h1,h2,h3,h4,h5,h6 {    color: #404040;    line-height: 36px;}h1 {    margin-bottom: 18px;    font-size: 30px;}h2 {    font-size: 24px;}h3 {    font-size: 18px;}h4 {    font-size: 16px;}h5 {    font-size: 14px;}h6 {    font-size: 13px;}hr {    margin: 0 0 19px;    border: 0;    border-bottom: 1px solid #ccc;}blockquote {    padding: 13px 13px 21px 15px;    margin-bottom: 18px;    font-family:georgia,serif;    font-style: italic;}blockquote:before {    content:"C";    font-size:40px;    margin-left:-10px;    font-family:georgia,serif;    color:#eee;}blockquote p {    font-size: 14px;    font-weight: 300;    line-height: 18px;    margin-bottom: 0;    font-style: italic;}code, pre {    font-family: Monaco, Andale Mono, Courier New, monospace;}code {    background-color: #fee9cc;    color: rgba(0, 0, 0, 0.75);    padding: 1px 3px;    font-size: 12px;    -webkit-border-radius: 3px;    -moz-border-radius: 3px;    border-radius: 3px;}pre {    display: block;    padding: 14px;    margin: 0 0 18px;    line-height: 16px;    font-size: 11px;    border: 1px solid #d9d9d9;    white-space: pre-wrap;    word-wrap: break-word;}pre code {    background-color: #fff;    color:#737373;    font-size: 11px;    padding: 0;}@media screen and (min-width: 768px) {    body {        width: 748px;        margin:10px auto;    }}</style><style id="custom" type="text/css"></style></head>
+<body><p>1.什么叫数据库锁？
+        当对数据库进行操作时，例如查、改、删，数据库会自动的给表增加一种保护机制，而这层保护机制就叫锁。
+举例：一个工人要去仓库搬东西，不过他想在搬东西的时候不想被别人进仓库打扰，然后就在门口竖了一个牌子说，仓库里面有人了，别进来。
+在这个情景里面
+
+</p>
+<p>共享锁
+当使用select，就是查询时，就是对表共享锁，顾名思义，就是一个线程在查数据时，就是对表加了共享锁，另一个线程也想对这个表查数据，也是共享锁，那大家就可以一起来查数据，不需要谁等谁，上面这个场景就解决。
+
+</p>
+<p>排他锁
+大意：既其他事物不能读，也不能改排他锁锁定的资源。
+场景：A取钱时，就对表加了排他锁，而B只能等A取完，才能取。数据当然就不会出现错误。（第一个例子，同时取钱例子）
+排他锁有一个使用比较不好的地方，必须等表的其他锁释放，才能对这个表加排他锁。和其他锁不共存。
+A在查询，加了共享锁，B想取东西，那他只能等共享锁释放才能对表加排他锁。
+
+</p>
+<p>死锁
+两个事务T1,T2，T1先查询，T2也是先查询，就是对同一个表加了共享锁，两个事物可以一起进行。接着T1事务里还要对表进行更改，那就要升级为排他锁了，T2如果只是查询，当然是没问题的，T2事务完成以后，T2的共享锁释放，T1就可以直接加排他锁。但如果T2也要改数据，也想升级为排他锁，这样就出现了死锁。T1这个事务在等T2事务的共享锁释放，T2也在等T1的共享锁释放。因为他们两者事务没完，锁就不释放。就会无限等待。
+
+</p>
+<p>如何解决死锁？
+这个就要进行判断了，如果T1要对表进行查询，接着更改，那么在查询的时候直接加排他锁
+例如 Select * from table (xlock)
+Xlock就是排他锁。这样的话，别的事务要操作这个表的话，直接看到的就是排他锁，那只能等了。
+当然也不会出现死锁
+
+</p>
+<p>更新锁
+其实上例直接给T1加排他锁有不太好的地方，因为T1开始也是读直接就加排他锁，而别人可能只是想读而已，不想改，那是不是也要等，若T1要读个几秒，而改可能只是几毫秒，那等待的时间就会很多了，影响性能。
+引入更新锁
+Select * from table (updlock) updlock就是更新锁
+大意：我在读数据，但将来可能要改数据，我在读的时候，你也可以来读。
+一个表只能加一个更新锁  更新锁和排他锁不共存，更新锁和共享锁共存
+场景：T1先来读数据，直接加更新锁，T2来了，T2先执行的也是读，看更新锁，T2直接加共享锁进去读。
+如果T1先读完，T1要进行update，要升级为排他锁，T1可以不用等其他锁释放，直接可以升级为排他锁。接着T2读完了，也要update ，但看到有其他排他锁了，（T1已经升级为排他锁），就等待。T1执行完了，T2才执行。
+如果T2先读完，T2要update，想升级为排他锁，但他看到更新锁了，无法升级只能等待。T1执行完读以后，想update，就直接升级为排他锁，T2等T1执行完以后，才接着执行。
+
+
+</p>
+<p>Edit By <a href="http://mahua.jser.me">MaHua</a></p>
+</body></html>

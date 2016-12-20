@@ -1,0 +1,45 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd  
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+	<!--默认数据源 -->
+	<bean id="dataSourceMain" class="org.logicalcobwebs.proxool.ProxoolDataSource">
+		<property name="driver">
+			<value>com.mysql.jdbc.Driver</value>
+		</property>
+		<property name="driverUrl">
+			<value>jdbc:mysql://localhost:3306/snaillovelamp?characterEncoding=utf8</value>
+		</property>
+		<property name="user" value="root" />
+		<!-- <property name="password" value="platomix@rabbit" /> -->
+		<property name="password" value="platomix2014" />
+		<property name="alias" value="rss2data" />
+		<property name="maximumActiveTime" value="900000" />
+		<property name="prototypeCount" value="0" />
+		<property name="maximumConnectionCount" value="100" />
+		<property name="minimumConnectionCount" value="2" />
+		<property name="simultaneousBuildThrottle" value="50" />
+		<property name="houseKeepingTestSql" value="select CURRENT_DATE" />
+	</bean>
+	<!--歌曲数据源 -->
+	<bean id="dataSourceTwo" class="org.logicalcobwebs.proxool.ProxoolDataSource">
+		<property name="driver">
+			<value>com.mysql.jdbc.Driver</value>
+		</property>
+		<property name="driverUrl">
+			<value>jdbc:mysql://localhost:3306/chipsguide?characterEncoding=utf8</value>
+		</property>
+		<property name="user" value="root" />
+		<property name="password" value="platomix2014" />
+		<property name="alias" value="rss2datatwo" />
+		<property name="maximumActiveTime" value="900000" />
+		<property name="prototypeCount" value="0" />
+		<property name="maximumConnectionCount" value="100" />
+		<property name="minimumConnectionCount" value="2" />
+		<property name="simultaneousBuildThrottle" value="50" />
+		<property name="houseKeepingTestSql" value="select CURRENT_DATE" />
+	</bean>
+</beans>

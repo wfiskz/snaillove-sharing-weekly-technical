@@ -1,0 +1,24 @@
+document.writeln("<div id=\"header\">");
+document.writeln("  <div class=\"w\">");
+document.writeln("    <div class=\"logo fl\"><img src=\"/music/images/logo.png\" /></div>");
+document.writeln("    <div class=\"pattern fr\">");
+document.writeln("      <p class=\"userinfo fr\"><img src=\"/music/images/user_ico.png\" />yangliyin<a href=\"#\"><img src=\"/music/images/exit.png\" /></a></p>");
+document.writeln("    </div>");
+document.writeln("  </div>");
+document.writeln("</div>");
+document.writeln("<div id=\"nav\">");
+document.writeln("  <div class=\"nav-wrapper\">");
+document.writeln("    <ul class=\"tabs\">");
+document.writeln("      <li id=\"nav-home\" class=\"tabs-item\"><a href=\"#\" class=\"tabs-btn\" target=\"_parent\">欢&#12288;迎</a></li>");
+document.writeln("      <li id=\"nav-app\" class=\"tabs-item \"><a href=\"#\" onclick=\"businessContent(1)\" class=\"tabs-btn\" target=\"_parent\">领芯音乐</a></li>");
+document.writeln("      <li id=\"nav-app\" class=\"tabs-item \"><a href=\"#\" onclick=\"businessContent(1)\" class=\"tabs-btn\" target=\"_parent\">领芯音乐</a></li>");
+document.writeln("      <li id=\"nav-app\" class=\"tabs-item \"><a href=\"#\" onclick=\"businessContent(1)\" class=\"tabs-btn\" target=\"_parent\">领芯音乐</a></li>");
+document.writeln("      <li id=\"nav-app\" class=\"tabs-item \"><a href=\"#\" onclick=\"businessContent(1)\" class=\"tabs-btn\" target=\"_parent\">领芯音乐</a></li>");
+document.writeln("      <li id=\"nav-app\" class=\"tabs-item \"><a href=\"#\" onclick=\"businessContent(1)\" class=\"tabs-btn\" target=\"_parent\">领芯音乐</a></li>");
+document.writeln("      <li id=\"nav-app\" class=\"tabs-item \"><a href=\"#\" onclick=\"businessContent(1)\" class=\"tabs-btn\" target=\"_parent\">领芯音乐</a></li>");
+document.writeln("      <li id=\"nav-app\" class=\"tabs-item \"><a href=\"#\" onclick=\"businessContent(1)\" class=\"tabs-btn\" target=\"_parent\">领芯音乐</a></li>");
+//document.writeln("      <li id=\"nav-cp\" class=\"tabs-item \"><a href=\"#\" onclick=\"businessContent(1,1)\" class=\"tabs-btn\" target=\"_parent\">喜马拉雅音乐</a></li>");
+document.writeln("    </ul>");
+document.writeln("  </div>");
+document.writeln("</div>");
+ 

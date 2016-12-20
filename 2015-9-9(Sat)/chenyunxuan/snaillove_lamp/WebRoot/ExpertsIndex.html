@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>专家推荐</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+        <link rel="stylesheet" type="text/css" href="/rabbit/css/recommend/base.css"/>
+        <link rel="stylesheet" type="text/css" href="/rabbit/css/recommend/main.css"/>
+        <link rel="stylesheet" type="text/css" href="/rabbit/css/show.css"/>
+        <script type="text/javascript" src="/rabbit/js/jquery-1.4.2.min.js"></script>
+        <script src="/rabbit/js/jquery.cookie.js" type="text/javascript"></script>
+        <script src="/rabbit/js/jquery.treeview.js" type="text/javascript"></script>
+        <script src="/rabbit/js/rabbit.js" type="text/javascript"></script>
+        <script language="javascript" type="text/javascript" src="/rabbit/js/DatePicker/WdatePicker.js"></script>
+           <script language="javascript">
+            $(function() {
+              /*  Basic.cssPath = '___CSS__';
+                Basic.imgPath = '__IMG__';
+                Basic.jsPath = '__JS__';
+                Basic.path = '__PATH__';
+                Basic.uploadPath = '__UPLOAD__';
+                Basic.image = '__IMAGE__';*/
+                pcColumn.bannerSetInterval();
+            });
+        </script>
+    </head>
+    <body>
+        <!--header_start--> 
+        <!--header_end-->
+<div class="w">
+    <div id="warp">
+        <div class="content"> 
+            <!--left_start-->
+          
+            <!--left_end--> 
+            <!--right_start-->
+            <div class="fr">
+                <div class="right-box rounded">
+                <div class="form-row">
+   <span class="location"><a href="__URL__/../PcColumn/index.html">类目管理</a> < <B>专家推荐</B></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
+                 <input type="hidden" value="<{$column_id}>" id="column_id"/>
+                <div class="tb-box">
+                    <table  cellspacing="0" cellpadding="0"  class="zjbanner">
+                         <tr style="background-color:#f2fcff;height: 45px;">
+                            <td align="left" colspan="2"><h1>&#12288;Banner</h1></td>
+									<td align="right"><input id="del" class="mixbutton"
+										type="button" onclick="pcColumn.pcBanner('<{$column_id}>')"
+										value="管理" /></td>
+								</tr>
+                         <tr>
+                            <td  width='100' height="100"  align="right" id="pageprev"></td>
+                            <td align="center" width="580" height="100" id="bannerindex" style="padding-top: 10px;"></td>
+                            <td align="left"  width='100' height="100" id="pagenext" ></td>
+                          </tr>
+                         <tr><td id="total" width="780" align="center" colspan="3" height="40"></td></tr>
+                </table>
+                </div>
+                <div class="tb-box">
+                <table width="600" align="center" border=0 cellpadding="0" cellspacing="0" >
+					 <c:forEach items="${dishlist}" var="dish"  varStatus="stat">
+					   <c:if test="${(stat.index+1) % 4 == 1}">
+					 <tr>
+					   </c:if>
+					     <td align="center" hight="100" valign="middle">&nbsp;<img src="image/${dish.dimage}" width=100></td>
+					   <c:if test="${(stat.index+1) % 4 == 0}">
+					 </tr>
+					   </c:if>
+					</c:forEach>
+			 </table>
+                </div>
+            </div>
+            </div>
+            <!--right_end--> 
+        </div>
+    </div>
+</div>
+        <!--footer_start--> 
+        <include file="Public:foot" />
+        <!--footer_end--> 
+        <!--footer_end--> 
+        <script type="text/javascript">
+	(function(){
+		var object=document.getElementById("nav-app");
+		if(object)object.className+=" curr";//当前导航
+	})();
+</script>
+    </body>
+</html>
