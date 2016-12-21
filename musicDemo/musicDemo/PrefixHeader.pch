@@ -1,0 +1,48 @@
+//
+//  PrefixHeader.pch
+//  colorBluetoothLampV3
+//
+//  Created by lxz on 16/2/24.
+//  Copyright © 2016年 TRP. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+#endif
+
+#define NAVHEIGHT 64
+
+#define screenBound [[UIScreen mainScreen] bounds]
+
+#define kDockHeight 49
+
+#define kScreenWidth [UIScreen mainScreen].applicationFrame.size.width
+#define kScreenHeight [UIScreen mainScreen].applicationFrame.size.height
+#define kIsIpad (kScreenHeight == 460)
+
+#define kNavHeight 64
+
+//4.获取颜色
+#define LXColor(r,g,b) ([UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1])
+
+#define Is4S ([UIScreen mainScreen].bounds.size.height == 480)
+#define IOS10 ([[[UIDevice currentDevice]systemVersion ]floatValue] >= 10.0)
+
+
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_RETINA ([[UIScreen mainScreen] scale] >= 2.0)
+
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+#define SCREEN_MAX_LENGTH (MAX(SCREEN_WIDTH, SCREEN_HEIGHT))
+#define SCREEN_MIN_LENGTH (MIN(SCREEN_WIDTH, SCREEN_HEIGHT))
+
+#define IS_IPHONE_4_OR_LESS (IS_IPHONE && SCREEN_MAX_LENGTH < 568.0)
+#define IS_IPHONE_5 (IS_IPHONE && SCREEN_MAX_LENGTH == 568.0)
+#define IS_IPHONE_6 (IS_IPHONE && SCREEN_MAX_LENGTH == 667.0)
+#define IS_IPHONE_6P (IS_IPHONE && SCREEN_MAX_LENGTH == 736.0)
+
+
