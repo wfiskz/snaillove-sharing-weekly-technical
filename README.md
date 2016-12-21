@@ -12,7 +12,7 @@ Android 函数库（2016版）/ Android librarys(2016)
 
 [@fiskz](https://github.com/wfiskz)   
 
-1.[iOS弹幕效果](https://github.com/misparking/MPermission) 
+1.[iOS弹幕效果](https://github.com/wfiskz/snaillove-sharing-weekly-technical/tree/master/com-danmu) 
 ### 42  2016-12-9(Fri)
 
 [@JackWaiting](http://www.jackwaiting.com)   
